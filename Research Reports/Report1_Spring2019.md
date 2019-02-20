@@ -248,7 +248,7 @@ After fabricating the prototype system, the subteam ran basic tests to determine
 
 Further specifics concerning the work of the Fall 2018 semester are described in the [Fall 2018 Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md).
 
-The subteam looks forward to testing the prototype to confirm it's functionality, optimize its performance, and to eventually develop a practical reactor.
+The subteam looks forward to testing the prototype to confirm its functionality, optimize its performance, and to eventually develop a practical reactor.
 
 ## Bibliography
 
