@@ -1,5 +1,7 @@
 # Pressure within a bubble
 
+**The hypothesis described in this file is better articulated in the Analysis_of_Literature.md file.**
+
 The hypothesis in this file is an in-progress attempt to connect information drawn from the various sources in the Literature folder. Hopefully, the various relationships and equations concerning pressure, surface tension, reactor height, and gas solubility will unify into one cohesive relationship of properties.
 
 For the sake of brevity, all mentioned sources are found in the Literature folder. Sources are cited in the following format: <Page> <Source>, e.g. "Surface Tension Source 2".
@@ -43,4 +45,4 @@ When all of these equations are combined, the following relationship appears:
 
 $$C = k(\frac{4T}{R} + P_{atm} - \rho g \Delta h +  \rho g h_f)$$
 
-Due to the above reasoning concerning assumption of equilibrium, the above equation is a qualitative description of the relationships between different parameters, rather than a quantitative relationship. All variables that are left undefined on this page are defined in their respective pages in the Literature folder. 
+Due to the above reasoning concerning assumption of equilibrium, the above equation is a qualitative description of the relationships between different parameters, rather than a quantitative relationship. All variables that are left undefined on this page are defined in their respective pages in the Literature folder.
