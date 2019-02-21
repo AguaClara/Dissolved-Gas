@@ -9,7 +9,7 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
 
 - [Introduction](#Introduction)
 - [Literature Review](#Literature-Review)
-  - [Fluidized Beds and Bubble Formation](#Fluidized-Beds-&-Bubble-Nucleation)
+  - [Fluidized Beds and Bubble Formation](#Fluidized-Beds-and-Bubble-Nucleation)
   - [Controlling Pressure](#Controlling-Pressure)
   - [Analysis of Literature](#Analysis-of-Literature)
 - [Previous Work](#Previous-Work)
