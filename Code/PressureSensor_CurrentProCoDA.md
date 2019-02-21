@@ -15,14 +15,16 @@ Here, you should describe the function of each state in your method file, both i
 ### Set Points
 
 Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
-
-
 ---
 The following was recorded on February 21, 2019.
 
 ## ProCoDA Method file
 ### States
+We are not using states for our experiments since they will also be short term and handle manually.
 
 ### Set Points
-
-### Variables
+1) ON Setpoint; this is when the system is being used
+2) OFF Setpoint; this is when the system is not being used
+3) Tubing ID Setpoint; this is a constant variable which is the code of the pump tubing we used
+4) Flow Rate Setpoint; this is a constant which is the flow-rate going through the reactor
+5) Tubing Output Setpoint; This is a variable setpoint which incorporates Tubing ID and Flow Rate in order to give fluidization velocity
