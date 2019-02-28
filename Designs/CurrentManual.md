@@ -68,7 +68,7 @@ The subteam cut the pipe to be a particular length prior to taking measurements.
 4. Circular hose clamps
 5. 3/16-inch diameter clear flex tubing
 6. 3/8-inch diameter clear flex tubing
-7. **Edit** 1/8-inch Masterflex tubing (06508-16)
+7. Size 18 Masterflex tubing
 8. 600 RPM Peristaltic pump
 9. Barbed fittings & push-to-connect components
 10. Access to a sink containing a push-to-connect nozzle
@@ -81,23 +81,24 @@ The subteam cut the pipe to be a particular length prior to taking measurements.
 
 Recall **Figure 7** from the Methods section. The above flow connector enables the reactor (pipe) to be connected to clear flex tubing.
 
-13. **_____ pressure sensor**
-14. ProCoDA **_______ (Sensor box?)**
+13. 200 kPa pressure sensor
+14. ProCoDA Box
 15. **_____ hard tubing (for the pressure sensor)**
 16. Teflon tape
-17. Threaded push-to-connect component
+17. 1/4 " Threaded push-to-connect component
+18. 1/4 " 18NPT Pipe Tap
 18. Medium clear PVC cement
 
 **Fabrication**
-1. **Edit** To install the pressure sensor, drill **(insert dimension)** 70 cm from the bottom (influent side) of the reactor. Tap the aperture. Thread a push-to-connect component into the tapped aperture, with the connection made watertight with Teflon tape.
+1. **Edit** To install the pressure sensor, use a 1/4" 18NPT Pipe Tap to tap the pipe 70 cm from its bottom (influent) end. Tap the aperture. Thread a push-to-connect component into the tapped aperture, with the connection made watertight with Teflon tape.
 2. **Edit** Insert **_____** hard tubing into the connector. Insert the negative end of the pressure sensor into the exposed tubing, sealing with medium clear PVC cement.
 3. Cut the wire mesh to obtain a circular mesh whose radius is approximately that of the pipe.
 4. Place the mesh at the bottom of the pipe reactor, at the side designated for influent to enter the pipe. Place this mesh into the flow component that from (12.).
 5. Pour the 70 mL of sand into the pipe, such that it settles on the mesh.
 6. Fasten the second copy of the flow component from (12.) to the effluent (top) end of the reactor.
 7. Mount the pipe on the 80/20 arm using circular clamps, screwed tight around the reactor.
-8. Connect **1/8-inch Masterflex tubing (06508-16)** to the Peristaltic Pump.
+8. Connect Size 18 Masterflex tubing to the Peristaltic Pump.
 9. Connect 3/8-inch diameter clear flex tubing from the sink to the influent end of the Peristaltic Pump.
 10. Connect 3/16-inch diameter clear flex tubing from the effluent end of the peristaltic pump to the influent end of the reactor.
 11. Cut approximately 2.7 m of 3/16-inch diameter clear flex tubing. Connect this to the effluent (upper) end of the reactor, and lead it down into the bucket.
-12. **Edit** Connect the pressure sensor to the ProCoDA box.
+12. Connect the 200 kPa pressure sensor to the ProCoDA box. 
