@@ -91,7 +91,7 @@ This website tabulates the kinematic viscosity of water at various temperatures.
 Denn, M. (1980). Process Fluid Mechanics (pp. 72-73). Upper Saddle River, NJ: Prentice Hall PTR.
 
 #### Useful information
-There is a threshold velocity above which a fluidized bed's constituent particles will begin to flow upwards with the fluidizing agent, rather than remaining in suspended fluidization. The following equation (equation 55 in the textbook) solves for this velocity.
+There is a threshold velocity above which a fluidized bed's constituent particles will begin to flow upwards with the fluidizing agent, rather than remaining in suspended fluidization. The following equation (equation 55 in the textbook) solves for this velocity in the Stokes flow region. The textbook also contains information concerning a more general determination of entrainment velocity, which is equal to the particles' terminal settling velocity. 
 
 $$ v_{max} = \frac{(\rho_{p}-\rho)g D^2_p}{18\eta}$$
 
