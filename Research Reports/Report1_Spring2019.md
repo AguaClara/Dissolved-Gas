@@ -1,9 +1,11 @@
 # Dissolved Gas, Spring 2019 Subteam
 #### Saul Bernaber, Thomas Bradford, Emily Wood
-#### 22 February 2018
+#### 22 February 2018 **[wrong year]**
+
+**[Sidney: Hey team! I will be using bolded square brackets to comment on your manual.]**
 
 ## Abstract
-Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's filters and sedimentation tanks. The Dissolved Gas subteam’s goal is to design a gravity-powered apparatus that extracts this excess gas from influent water prior to entry into the treatment plant. The Fall 2018 subteam gathered literature and designed and fabricated a small-scale prototype and an accompanying system, centered on the use of a fluidized bed reactor. The Spring 2019 subteam will iterate improvements based on experimental data to work toward a prototype that may be scaled up for application in an AguaClara plant.
+Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's filters and sedimentation tanks. The Dissolved Gas subteam’s goal is to design a gravity-powered apparatus that extracts this excess gas from influent water prior to entry into the treatment plant. The Fall 2018 subteam gathered literature and designed and fabricated a small-scale prototype and an accompanying system, centered on the use of a fluidized bed reactor. The Spring 2019 subteam will iterate improvements based on experimental data to work toward a prototype that may be scaled up for application in an AguaClara plant. **[Try to use this space wisely and write less about a previous subteam's work, focusing more on your own subteam's research.]**
 
 ## Table of Contents
 
@@ -16,7 +18,7 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
 
 ## Introduction
 
-Excess dissolved gas in influent water of AguaClara plants at Tamara, Honduras and EL PODA, Nicaragua has significantly reduced the plants' efficiencies. To clarify: “excess dissolved gas” does not entail *bubbles* being present in influent water. The influent water is *supersaturated* with gas: gas molecules are dispersed throughout the water, not congregated in bubbles. This report uses the term “supersaturated water” to denote water containing excess dissolved gas, whether air or otherwise.
+Excess dissolved gas in influent water of AguaClara plants at Tamara, Honduras and EL PODA **[Why is this in all caps?]**, Nicaragua has significantly reduced the plants' efficiencies. To clarify: “excess dissolved gas” does not entail *bubbles* being present in influent water. The influent water is *supersaturated* with gas: gas molecules are dispersed throughout the water, not congregated in bubbles. This report uses the term “supersaturated water” to denote water containing excess dissolved gas, whether air or otherwise.
 
 Due to the presence of this excess gas, bubbles form in the plants' sedimentation tanks. Flocs adhere to these bubbles and rise, causing materials that should settle to float and to continue into the remainder of the plants. Bubbles also form in the plants' sand filters between sand particles, effectively clogging the filters [(Scardina, 2004)](https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1). To remedy these issues, the Dissolved Gas subteam intends to develop a reactor that removes such dissolved gas from influent water prior to entering the plant.
 
@@ -36,7 +38,7 @@ A fluidized bed reactor consists of an enclosed bed of particles, such as sand g
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Fluidized_Bed_Reactor.jpg?raw=true" height=400>
 </p>
 
-**Figure 2**: This diagram depicts (not to scale) the general concept of a fluidized bed reactor using sand particles, as the above paragraph describes.
+**Figure 2**: This diagram depicts (not to scale) the general concept of a fluidized bed reactor using sand particles, as the above paragraph describes.**[I like your use of a figure here!]**
 
 In a fluidized bed reactor, bubbles may immediately travel upward once they form, since their nucleation sites (sand grains) are relatively mobile. Bubbles may depart the fluid at a small diameter, carrying a high internal pressure, being likely to rupture and disperse into solution. Despite these potential issues, the subteam believes the fluidized bed reactor may still be effective, because a large number of sand grains may provide a large surface area for bubbles to nucleate. In future semesters, the subteam may consider an alternative reactor type and weigh the merit of alternative designs.
 
@@ -48,7 +50,7 @@ After gathering and analyzing literature, the Fall 2018 subteam fabricated a pro
 
 </p>
 
-**Figure 3**: The left-hand photograph is of the current prototype apparatus. The right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the reactor as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
+**Figure 3**: The left-hand photograph is of the current prototype apparatus. The right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the reactor as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent. **[Great use of figure here! You made everything very clear with the colored overlay.]**
 
 The Spring 2019 subteam plans to determine qualitatively, likely with the assistance of a camera, if air bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. The subteam expects that the water's dissolved oxygen content is proportional to the water's dissolved air content, since the major source of the dissolved oxygen is air. Therefore, the system's effectiveness in removing dissolved oxygen should be proportional to the system's effectiveness in removing dissolved air. After analysis of concentration data, the subteam will modify the system to optimize the removal of excess dissolved gas.
 
@@ -206,6 +208,7 @@ $$\Delta P_{head loss} = \rho g h_f$$
 The greater the difference in height, the lower the pressure within the reactor. The greater the head loss, the greater the pressure within the reactor. Thus, the pressure within the reactor may be written as follows:
 
 ####Equation 3.1
+**[Why is the numbering convention changing here?]**
 
 $$P_r = P_{atm} + \Delta P_{height} + \Delta P_{head loss} = P_{atm} - \rho g \Delta h + \rho g h_f$$
 
@@ -247,6 +250,8 @@ After fabricating the prototype system, the subteam ran basic tests to determine
 Further specifics concerning the work of the Fall 2018 semester are described in the [Fall 2018 Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md).
 
 The subteam looks forward to testing the prototype to confirm its functionality, optimize its performance, and to eventually develop a practical reactor.
+
+**[Excellent work! I really enjoyed reading your report. I think the only thing to work on for next time would be to address Jonathan's comment about adding a link to the code. Otherwise, you guys have a great report written so far. Excited to read your future work!]**
 
 ## Bibliography
 
