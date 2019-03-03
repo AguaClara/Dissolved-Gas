@@ -7,6 +7,9 @@
 ## Abstract
 Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's filters and sedimentation tanks. The Dissolved Gas subteam’s goal is to design a gravity-powered apparatus that extracts this excess gas from influent water prior to entry into the treatment plant. The Fall 2018 subteam gathered literature and designed and fabricated a small-scale prototype and an accompanying system, centered on the use of a fluidized bed reactor. The Spring 2019 subteam will iterate improvements based on experimental data to work toward a prototype that may be scaled up for application in an AguaClara plant. **[Try to use this space wisely and write less about a previous subteam's work, focusing more on your own subteam's research.]**
 
+**[Overall comment: Please remember to write in past tense throughout the manual as it would be someone in the future~ reading your final manual. Refer to Will's Technical Writing Presentation or our team's Grammar Guidelines on [Confluence](https://confluence.cornell.edu/display/AGUACLARA/Grammar+Guidelines+for+Reports).]**
+
+
 ## Table of Contents
 
 - [Introduction](#Introduction)
