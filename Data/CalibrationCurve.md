@@ -1,4 +1,7 @@
 ### Calibration curve of peristaltic pump
+
+3/2/19 & 3/5/19 
+
 With the given setpoints, ProCoDA suggested an RPM of 40.1 to operate the fluidized bed at 2.54 mL/s. However, when the flow rate was tested, there was a significant difference in the actual flow rate. The subteam plans to address this discrepancy.
 
 To measure flow rate, effluent was directed into a 100 mL volumetric flask. The time it took the water to fill the flask was recorded, and the corresponding flow rate was calculated. Meanwhile, the flow rates corresponding to 30.0 RPM were much closer to the desired flow rate.
