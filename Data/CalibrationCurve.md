@@ -5,6 +5,8 @@ To measure flow rate, effluent was directed into a 100 mL volumetric flask. The 
 
 The bed was observed to fluidize at the 40.1 RPM pump setting.
 
+ **3 March 2019**
+
 | Trial number | RPM   | Volume (mL) | Time (s) | Flow rate (mL /s) |
 |:------------:|:-----:|:-----------:|:--------:|:-----------------:|
 |1             |30.0   |100.00       |40.2      |2.48               |
@@ -15,3 +17,16 @@ The bed was observed to fluidize at the 40.1 RPM pump setting.
 |6             |40.1   |100.00       |29.4      |3.40               |
 |7             |40.1   |100.00       |29.4      |3.40               |
 |8             |40.1   |100.00       |28.9      |3.46               |   
+
+**5 March 2019**
+
+| Trial number | RPM   | Volume (mL) | Time (s) | Flow rate (mL /s) |
+|:------------:|:-----:|:-----------:|:--------:|:-----------------:|
+|1             |30.0   |100.00       |42.71     |2.48               |
+|2             |30.0   |100.00       |42.87     |2.72               |
+|3             |30.0   |100.00       |43.62     |2.55               |
+|4             |30.0   |100.00       |45.05     |2.33               |
+|5             |40.1   |100.00       |33.45     |3.40               |
+|6             |40.1   |100.00       |35.04     |3.40               |
+|7             |40.1   |100.00       |35.88     |3.40               |
+|8             |40.1   |100.00       |37.73     |3.46               |   
