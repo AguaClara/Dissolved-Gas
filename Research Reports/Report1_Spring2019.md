@@ -1,11 +1,9 @@
 # Dissolved Gas, Spring 2019 Subteam
 #### Saul Bernaber, Thomas Bradford, Emily Wood
-#### 22 February 2018 **[wrong year]**
-
-**[Sidney: Hey team! I will be using bolded square brackets to comment on your manual.]**
+#### 22 February 2019
 
 ## Abstract
-Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's filters and sedimentation tanks. The Dissolved Gas subteam’s goal is to design a gravity-powered apparatus that extracts this excess gas from influent water prior to entry into the treatment plant. The Fall 2018 subteam gathered literature and designed and fabricated a small-scale prototype and an accompanying system, centered on the use of a fluidized bed reactor. The Spring 2019 subteam will iterate improvements based on experimental data to work toward a prototype that may be scaled up for application in an AguaClara plant. **[Try to use this space wisely and write less about a previous subteam's work, focusing more on your own subteam's research.]**
+Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's filters and sedimentation tanks. The Dissolved Gas subteam’s goal was to design a gravity-powered apparatus that extracts this excess gas from influent water prior to entry into the treatment plant. The Fall 2018 subteam gathered literature and designed and fabricated a small-scale prototype and an accompanying system, centered on the use of a fluidized bed reactor. The Spring 2019 subteam will iterate improvements based on experimental data to work toward a prototype that may be scaled up for application in an AguaClara plant. **[Try to use this space wisely and write less about a previous subteam's work, focusing more on your own subteam's research.]**
 
 **[Overall comment: Please remember to write in past tense throughout the manual as it would be someone in the future~ reading your final manual. Refer to Will's Technical Writing Presentation or our team's Grammar Guidelines on [Confluence](https://confluence.cornell.edu/display/AGUACLARA/Grammar+Guidelines+for+Reports).]**
 
@@ -21,11 +19,11 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
 
 ## Introduction
 
-Excess dissolved gas in influent water of AguaClara plants at Tamara, Honduras and EL PODA **[Why is this in all caps?]**, Nicaragua has significantly reduced the plants' efficiencies. To clarify: “excess dissolved gas” does not entail *bubbles* being present in influent water. The influent water is *supersaturated* with gas: gas molecules are dispersed throughout the water, not congregated in bubbles. This report uses the term “supersaturated water” to denote water containing excess dissolved gas, whether air or otherwise.
+Excess dissolved gas in influent water of AguaClara plants at Tamara, Honduras and El Poda, Nicaragua has significantly reduced the plants' efficiencies. To clarify: “excess dissolved gas” does not entail *bubbles* being present in influent water. The influent water is *supersaturated* with gas: gas molecules are dispersed throughout the water, not congregated in bubbles. This report uses the term “supersaturated water” to denote water containing excess dissolved gas, whether air or otherwise.
 
 Due to the presence of this excess gas, bubbles form in the plants' sedimentation tanks. Flocs adhere to these bubbles and rise, causing materials that should settle to float and to continue into the remainder of the plants. Bubbles also form in the plants' sand filters between sand particles, effectively clogging the filters [(Scardina, 2004)](https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1). To remedy these issues, the Dissolved Gas subteam intends to develop a reactor that removes such dissolved gas from influent water prior to entering the plant.
 
-The basic concept of the system's design is as follows. Influent water will flow from its source at a high elevation. Once the influent water has descended and is near an AguaClara plant, piping will direct it upwards into a reactor. Atmospheric pressure decreases as elevation increases [(Hodanbosi)](https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html), and in accordance with Henry’s Law, the gas becomes less soluble at lower pressures, making bubble formation more likely [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html). The subteam will research and implement different reactor components to further encourage bubble formation (i.e. nucleation). The water and the gas bubbles that form will then flow upward and out of the reactor. Piping will direct this effluent downward into a liquid-gas separator (e.g. a basin containing a vent) such that the gas bubbles may escape the water. The water, no longer supersaturated, will then flow into the treatment plant. Figure 1 illustrates this general design.
+The basic concept of the system's design was as follows. Influent water will flow from its source at a high elevation. Once the influent water has descended and nears an AguaClara plant, piping will direct it upwards into a reactor. Atmospheric pressure decreases as elevation increases [(Hodanbosi)](https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html), and in accordance with Henry’s Law, the gas becomes less soluble at lower pressures, making bubble formation more likely [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html). The subteam will research and implement different reactor components to further encourage bubble formation (i.e. nucleation). The water and the gas bubbles that form will then flow upward and out of the reactor. Piping will direct this effluent downward into a liquid-gas separator (e.g. a basin containing a vent) such that the gas bubbles may escape the water. The water, no longer supersaturated, will then flow into the treatment plant. Figure 1 illustrates this general design.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure%201_%20GeneralUpdated.png?raw=true" height=450>
@@ -41,7 +39,7 @@ A fluidized bed reactor consists of an enclosed bed of particles, such as sand g
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Fluidized_Bed_Reactor.jpg?raw=true" height=400>
 </p>
 
-**Figure 2**: This diagram depicts (not to scale) the general concept of a fluidized bed reactor using sand particles, as the above paragraph describes.**[I like your use of a figure here!]**
+**Figure 2**: This diagram depicts (not to scale) the general concept of a fluidized bed reactor using sand particles, as the above paragraph describes.
 
 In a fluidized bed reactor, bubbles may immediately travel upward once they form, since their nucleation sites (sand grains) are relatively mobile. Bubbles may depart the fluid at a small diameter, carrying a high internal pressure, being likely to rupture and disperse into solution. Despite these potential issues, the subteam believes the fluidized bed reactor may still be effective, because a large number of sand grains may provide a large surface area for bubbles to nucleate. In future semesters, the subteam may consider an alternative reactor type and weigh the merit of alternative designs.
 
@@ -53,7 +51,7 @@ After gathering and analyzing literature, the Fall 2018 subteam fabricated a pro
 
 </p>
 
-**Figure 3**: The left-hand photograph is of the current prototype apparatus. The right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the reactor as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent. **[Great use of figure here! You made everything very clear with the colored overlay.]**
+**Figure 3**: The left-hand photograph is of the current prototype apparatus. The right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the reactor as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
 
 The Spring 2019 subteam plans to determine qualitatively, likely with the assistance of a camera, if air bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. The subteam expects that the water's dissolved oxygen content is proportional to the water's dissolved air content, since the major source of the dissolved oxygen is air. Therefore, the system's effectiveness in removing dissolved oxygen should be proportional to the system's effectiveness in removing dissolved air. After analysis of concentration data, the subteam will modify the system to optimize the removal of excess dissolved gas.
 
@@ -210,8 +208,7 @@ $$\Delta P_{head loss} = \rho g h_f$$
 
 The greater the difference in height, the lower the pressure within the reactor. The greater the head loss, the greater the pressure within the reactor. Thus, the pressure within the reactor may be written as follows:
 
-####Equation 3.1
-**[Why is the numbering convention changing here?]**
+####Equation 8
 
 $$P_r = P_{atm} + \Delta P_{height} + \Delta P_{head loss} = P_{atm} - \rho g \Delta h + \rho g h_f$$
 
@@ -219,7 +216,7 @@ The second term of this equation was negated to indicate that, while $\Delta h$ 
 
 These equations may be combined and rearranged given their relabeled variables. The following relationship emerges to relate the solubility of the gas in the reactor to a bubble's radius, the height of the reactor, the water's surface tension, the dimensions of the effluent tubing, and the constant relevant to Henry's Law:
 
-#### Equation 8
+#### Equation 9
 
 $$C = k(\frac{4T}{R} + P_{atm} - \rho g \Delta h + \rho g h_f)$$
 
@@ -230,31 +227,29 @@ $\Delta h$ = Height difference between the vent and the reactor (this is a negat
 $h_f$ = Head loss in the outlet tubing, as given in [Equation 5](#Equation-5)
 $k$ = A constant for a given substance at a given temperature, related to Henry’s Law
 $P_{atm}$= Atmospheric air pressure at the level of the vent
-$T$ = Surface tension of the water at a given temperature
 $R$ = Radius of a bubble in the reactor
 $⍴$ = Density of water
+$T$ = Surface tension of the water at a given temperature
 
-[Equation 8](#Equation-8) mathematically summarizes the concepts addressed in the Literature Review section. In order to minimize gas solubility (and therefore, to maximize the amount of gas that is removed from influent water): the radii of bubbles that form must be maximized, the head loss in the exit tubing must be minimized, and the height difference between the reactor and vent must be maximized within reason. Further considerations may arise when [Equation 5](#Equation-5) is substituted for the $h_f$ value.
+[Equation 9](#Equation-9) mathematically summarizes the concepts addressed in the Literature Review section. In order to minimize gas solubility (and therefore, to maximize the amount of gas that is removed from influent water): the radii of bubbles that form must be maximized, the head loss in the exit tubing must be minimized, and the height difference between the reactor and vent must be maximized within reason. Further considerations may arise when [Equation 5](#Equation-5) is substituted for the $h_f$ value.
 
-While [Equation 8](#Equation-8) is powerful in its efficiency, it may only act as an approximation of the solubility of a gas in the fluidized bed reactor. Equations 3-7 assume equilibrium: that the rates of air shifting from liquid to gas phase and vice versa are equal. The system may not be in equilibrium while the reactor is in use. Therefore, [Equation 8](#Equation-8) remains only a qualitative description of the relationships between different system parameters.
+While [Equation 9](#Equation-9) is powerful in its efficiency, it may only act as an approximation of the solubility of a gas in the fluidized bed reactor. Equations 3-7 assume equilibrium: that the rates of air shifting from liquid to gas phase and vice versa are equal. The system may not be in equilibrium while the reactor is in use. Therefore, [Equation 9](#Equation-9) remains only a qualitative description of the relationships between different system parameters.
 
-[Equation 8](#Equation-8), supplemented by [Equation 1](#Equation-1) concerning fluidization velocity, informed the subteam's fabrication of the prototype apparatus. In future semesters, the equation may be used to perform optimizations once the subteam has gathered sufficient experimental data.
+[Equation 9](#Equation-9), supplemented by [Equation 1](#Equation-1) concerning fluidization velocity, informed the subteam's fabrication of the prototype apparatus. In future semesters, the equation may be used to perform optimizations once the subteam has gathered sufficient experimental data.
 
 ## Previous Work
 
 The Fall 2018 subteam's work comprised research, design, fabrication, and basic experimentation to begin development of a reactor to remove excess dissolved gas from influent water in AguaClara plants.
 
-The subteam's research focused on developing a fluidized bed reactor that would encourage bubble formation by providing bubble nucleation sites. The subteam gathered literature on the relevant concepts such as fluidization, bubble nucleation, and gas solubility. As detailed in the Analysis of Literature section, the subteam combined key variables to derive [Equation 8](#Equation-8) for the approximate solubility of a gas in water.
+The subteam's research focused on developing a fluidized bed reactor that would encourage bubble formation by providing bubble nucleation sites. The subteam gathered literature on the relevant concepts such as fluidization, bubble nucleation, and gas solubility. As detailed in the Analysis of Literature section, the subteam combined key variables to derive [Equation 9](#Equation-9) for the approximate solubility of a gas in water.
 
-The subteam then experimentally determined relevant system parameters (eg. sand bed porosity and sand grain diameter), and designed and fabricated a small-scale fluidized bed reactor. Python code was developed to facilitate easy calculation of the fluidization velocity and fluidization flow of the sand bed. Code was also written to calculate the head loss through the reactor's effluent tubing.
+The subteam then experimentally determined relevant system parameters (eg. sand bed porosity and sand grain diameter), and designed and fabricated a small-scale fluidized bed reactor. [Python code](https://github.com/AguaClara/Dissolved-Gas/blob/master/Code/FluidizationVelocity.py) was developed to facilitate easy calculation of the fluidization velocity and fluidization flow of the sand bed. [Python code](https://github.com/AguaClara/Dissolved-Gas/blob/master/Code/HeadLoss.py) was also written to calculate the head loss through the reactor's effluent tubing.
 
 After fabricating the prototype system, the subteam ran basic tests to determine its functionality. The reactor's sand bed failed to consistently fluidize while using a 100 RPM peristaltic pump. However, the Spring 2019 subteam recently acquired a 600 RPM peristaltic pump, pictured in Figure 3, to incorporate into the system.
 
-Further specifics concerning the work of the Fall 2018 semester are described in the [Fall 2018 Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md).
+Further specifics concerning the subteam's work during the Fall 2018 semester are described in the [Fall 2018 Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md).
 
 The subteam looks forward to testing the prototype to confirm its functionality, optimize its performance, and to eventually develop a practical reactor.
-
-**[Excellent work! I really enjoyed reading your report. I think the only thing to work on for next time would be to address Jonathan's comment about adding a link to the code. Otherwise, you guys have a great report written so far. Excited to read your future work!]**
 
 ## Bibliography
 
