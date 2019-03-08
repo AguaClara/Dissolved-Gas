@@ -59,6 +59,7 @@ The subteam cut the pipe to be a particular length prior to taking measurements.
 **Necessary edits**:
 - Installation of the pressure sensor.
 - New tubing size.
+- Installation of the Forked System
 - New peristaltic pump. **Complete**
 
 **Materials required**
@@ -101,4 +102,4 @@ Recall **Figure 7** from the Methods section. The above flow connector enables t
 9. Connect 3/8-inch diameter clear flex tubing from the sink to the influent end of the Peristaltic Pump.
 10. Connect 3/16-inch diameter clear flex tubing from the effluent end of the peristaltic pump to the influent end of the reactor.
 11. Cut approximately 2.7 m of 3/16-inch diameter clear flex tubing. Connect this to the effluent (upper) end of the reactor, and lead it down into the bucket.
-12. Connect the 200 kPa pressure sensor to the ProCoDA box. 
+12. Connect the 200 kPa pressure sensor to the ProCoDA box.
