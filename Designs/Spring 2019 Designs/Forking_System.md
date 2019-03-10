@@ -25,6 +25,11 @@ The second, larger hole was drilled, because the push-to-connect would not fit i
 7. Attach one end of the short clear flex tubing to the peristaltic pump. Attach the other end of the short clear flex tubing to the push-to-connect of the Nalgene bottle
 8. Put the  plug in the upper hole on the Nalgene
 
+The Nalgene apparatus: 
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/FlowAccumulator_Front_20190310.jpg?raw=true" height=400>
+
+
+
 ###Bubbles vs Temperature Observations
 Cold Water (as cold as the sink can go)
 
