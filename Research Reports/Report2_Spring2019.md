@@ -1,29 +1,24 @@
 # Dissolved Gas, Spring 2019 Subteam
 #### Saul Bernaber, Thomas Bradford, Emily Wood
-#### TBD
-
-This report is in progress.
+#### 15 March 2019
 
 ## Abstract
 Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's components. The Dissolved Gas subteam aims to design a gravity-powered apparatus to extract excess gas from influent water prior to entry into a plant. The Fall 2018 subteam fabricated a small-scale prototype incorporating a fluidized bed reactor. The Spring 2019 subteam will experimentally evaluate the prototype: given qualitative success, the subteam will test the prototype's effectiveness by measuring change in dissolved oxygen concentration across the apparatus. The Spring 2019 subteam will iterate improvements to work toward a prototype for application in an AguaClara plant.
 
 ## Table of Contents
 
-- [Introduction](#Introduction)
+- [Introduction](#Introduction) [Update the figure]
 - [Literature Review](#Literature-Review)
   - [Fluidized Beds and Bubble Formation](#Fluidized-Beds-and-Bubble-Nucleation)
   - [Controlling Pressure](#Controlling-Pressure)
   - [Analysis of Literature](#Analysis-of-Literature)
 - [Previous Work](#Previous-Work)
-- [Methods](#Methods)
-  - [Determining Reactor Parameters](#Determining-Reactor-Parameters)
-  - [Fabrication Details](#Fabrication-Details)
-  - [Testing the System](#Testing-the-System)
-- [Results and Analysis](#Results-and-Analysis)
-- [Conclusions](#Conclusions)
-- [Future Work](#Future-Work)
+- [Methods](#Methods) [Emily]
+- [Results and Analysis](#Results-and-Analysis) [Tommy]
+- [Conclusions](#Conclusions) [Tommy]
+- [Future Work](#Future-Work) [Tommy]
 - [Bibliography](#Bibliography)
-- [Manual](#Manual)
+- [Manual](#Manual) [Saul]
   - [Experimental Methods](#Experimental-Methods)
   - [Fabrication Manual](#Fabrication-Manual)
   - [Python Code](#Python-Code)
@@ -263,6 +258,187 @@ After fabricating the prototype system, the subteam ran basic tests to determine
 Further specifics concerning the subteam's work during the Fall 2018 semester are described in the [Fall 2018 Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md).
 
 The subteam looks forward to testing the prototype to confirm its functionality, optimize its performance, and to eventually develop a practical reactor.
+
+## Methods
+**Installing a Pressure Sensor**
+**Creating Forked Flow System**
+**Installing a Pressure Regulator**
+(need to put all of this in paragraph form **ew465**)
+A pressure regulator was installed between the sink and the influent end of the tubing. This was done to maintain consistent water flow into the peristaltic pump.
+
+A piece 26" 3/8 diameter hard plastic tubing was used to connect the reducing valve to the sink. The other side of the reducing valve was connected directly to the influent tubing.
+
+**Reducing Valve**
+B&G V56001 Strainer E79
+Part Number: 110192
+Model Number: FB-38
+Max Press: 125 PSI
+Max Temp: 225°F
+Set At: 12 lbs
+
+![Picture of Reducing Valve](https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Pressure_Regulator.JPG?raw=true)
+
+**Qualitative Temp Experiment**
+
+
+Explain the techniques you have used to acquire additional data and insights. Reserve fine detail for the Manual at the end of the report, but use this section to give an overview with enough detail for the reader to understand your Results and Analysis. Describe your apparatus, and have a justification for every decision you made and every parameter you chose in the design of the apparatus. Be especially careful to detail the conditions your experiments were conducted under, as this information is especially important for interpreting your results
+
+Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
+
+### Experimental Apparatus
+Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
+* Design (calculations, constraints)
+
+  $\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
+* Schematic (label parts)
+
+  <img src="https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/IMG_0009.jpg?raw=true" height=250 width=200>
+
+* Image (from lab; label parts)
+* Materials (dimensions, materials)
+* Complications in construction
+* If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
+
+### Procedure
+Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
+
+## Results and Analysis
+Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.  
+In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
+
+When describing your results, present your data, using the guidelines below:
+* What happened? What did you find?
+* Show your experimental data in a professional way.
+```python
+from aide_design.play import*
+x = np.array([1,2,3,4,5])
+y = np.array([1,2,3,4,5])
+plt.figure('ax',(10,8))
+plt.plot(x,y,'*')
+plt.savefig('/Users/jillianwhiting/github/Jillian-Whiting/Images/linear')
+plt.show()
+```
+![linear](https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/linear.png?raw=true)
+Figure 1: Captions are very important for figures. Captions go below figures.
+
+After describing a particular result, within a paragraph, go on to connect your work to fundamental physics/chemistry/statics/fluid mechanics, or whatever field is appropriate. Analyze your results and compare with theoretical expectations; or, if you have not yet done the experiments, describe your expectations based on established knowledge. Include implications of your results. How will your results influence the design of AguaClara plants? If possible provide clear recommendations for design changes that should be adopted. Show your experimental data in a professional way using the following guidelines:
+* Why did you get those results/data?
+* Did these results line up with expectations?
+* What went wrong?
+* If the data do not support your hypothesis, is there another hypothesis that describes your new data?
+
+## Conclusions
+Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
+
+Make sure that you defend your conclusions with facts and results.
+
+## Future Work
+Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
+
+## Bibliography
+Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
+
+# Manual
+The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
+
+## Fabrication Details
+Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
+
+The prototype was made with simple parts that are easily found around the lab. There is a PVC pipe where our reactor is present
+
+## Special Components
+If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
+
+### Experimental Methods
+
+#### Determining the Porosity of Silica Sand
+
+The porosity of silica sand was needed to calculate the sand bed's fluidization velocity ([Equation 1](#Equation-1)). The following procedure was used to determine the porosity of the silica sand used in the reactor, based on the procedure outlined by [Worth, 2018](https://socratic.org/questions/how-do-scientists-measure-the-porosity-of-soil). The equation for determining porosity may be verified by dimensional analysis in comparison with the equation found in the source: [Department of Chemical Engineering, 2017](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf).
+
+**Set-Up**
+1. Acquire silica sand, water, and two graduated cylinders.
+2. Transfer a portion of the sand to a graduated cylinder and record the sand bed’s volume. This is the “sample volume”, $V_{sample}$.
+3. Pour an excess volume of water into a second graduated cylinder. Record this volume.
+
+**Experiment**
+1. Pour water from its graduated cylinder into the graduated cylinder containing sand until the meniscus’ peak is level with that of the sand bed. This equates to saturating the sand with water.
+2. Record the volume of water remaining in its respective graduated cylinder. Subtract this volume from the initial volume of water present in the graduated cylinder; the difference is the volume of water used to saturate the sand. This quantity is the "pore volume", $V_{pore}$.
+3. Repeat the Set-Up and Experimental Steps 1-2  until three trials’ worth of data has been recorded.
+4. Use [Equation 8](#Equation-8) to calculate the sand’s average porosity ($\phi$).
+
+$$\phi = \frac{V_{pore}}{V_{sample}}$$
+
+#### Determining the Average Diameter of Silica Sand Grains [Complete, no edit necessary]
+
+The average diameter of the silica sand grains was needed to calculate the sand bed’s fluidization velocity ([Equation 1](#Equation-1)). The subteam used the following procedure to approximate the average diameter of the sand grains.
+
+1. Acquire a sample of silica sand and a digital caliper.
+2. Randomly select a number of sand grains, preferably greater than or equal to ten, from the sample.
+3. Using the caliper, measure each sand grain’s diameter three times to account for the grains’ asymmetrical natures. Record these measurements.
+4. Compute the average diameter for all sand grains in the sample.
+
+#### Measuring Pipe Dimensions [Complete, no edit necessary]
+
+The prototype fluidized bed reactor was comprised of a transparent PVC pipe containing a silica sand bed, modified with components specified in the Fabrication Manual.
+
+**Set-Up**
+The subteam cut the pipe to be a particular length prior to taking measurements.
+1. Acquire a transparent PVC pipe of approximately 1” diameter, a Sawzall reciprocating saw, colored tape in two shades, permanent markers, measuring tape, and a caliper.
+2. Use a measuring tape and marker to indicate a length of 0.5 m on the PVC pipe. Cut the PVC pipe using the Sawzall such that it matches this length.
+3. Wrap tape of opposing colors on opposing ends of the pipe, but *leave several inches between the edge of the pipe and the tape itself*. The tape should be several inches from the edge of the pipe. Use this tape to maintain awareness of the pipe's orientation.
+
+**Measurement**
+1. Use a caliper to take the following measurements on both opposite ends of the pipe:
+- Measure the thickness of the pipe’s wall in three locations. Compute the average thickness of the pipe’s wall.
+- Measure the diameter of the pipe (including the wall) in three locations. These measurements are of the pipe’s “outer diameter”. Compute the average outer diameter of the pipe.
+- Subtract twice the wall’s thickness from the outer diameter; the difference is the “inner diameter”. Use this quantity to calculate the cross-sectional area of the pipe.
+2. Compute the average cross-sectional area of the pipe, using the measurements taken at both ends.
+
+### Cleaning Procedure
+Step 1.
+
+## Experimental Checklist
+Another potential section could include a list of things that you need to check before running an experiment.
+
+## ProCoDA Method File
+Use this section to explain your method file. This could be broken up into several components as shown below:
+
+### States
+Here, you should describe the function of each state in your method file, both in terms of its overall purpose and also in terms of the details that make it distinct from other states. For example:
+\begin{itemize}
+\item \underline{OFF} - Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
+\end{itemize}
+
+### Set Points
+Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
+
+## Python Code
+
+### Variables
+$g$: gravity
+$\sigma$: dispersion
+$a$: amplitude
+$h$: water depth
+$H$: distance from wave crest to trough (2$a$)
+$T$: wave period
+$\lambda$: wavelength
+$k$: wavenumber
+$c_p$: celerity (wave phase speed)
+$P$: pressure
+$F$: force
+$u$, $w$: x-velocity, z-velocity components
+
+```python
+# Comment
+```
+
+# Add/Delete/Change this Template as you see Fit
+When using this template keep in mind that this serves three purposes. The first is to provide your team feedback on your progress, assumptions, and conclusions. The second is to keep your team focused on what you are learning and doing for AguaClara. Another is to educate future teams on what you've learned and done. This document should be comprehensive, consistent, and well-written. With that in mind, add, subtract, or move sections. Reach out to the RAs and graders for help with figuring out what should or shouldn't include. Focus on how wonderful a reference you are making through this and work hard on communicating amongst yourselves and with future teammates. (Delete this section before submitting)
+
+```python
+# To convert the document from markdown to pdf
+pandoc Name_of_this_file.md -o TeamName_Research_Report.pdf
+```
 
 ## Bibliography
 
