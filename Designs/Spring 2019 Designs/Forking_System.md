@@ -10,20 +10,20 @@
 
 ### Tools
 - 3/4" hole saw (for bottom hole)
-- __ hole saw (for top hole) **Need to measure size**
-- __ plug (for top hole) **Need to measure size**
+- 1.6" hole saw (for top hole)
+- 1.5" plug (for top hole) (the narrow end is 1.5"; the wide end is 1.7")
 
 
 The second, larger hole was drilled, because the push-to-connect would not fit in the top of the Nalgene
 
 1. Use the 3/4" hole saw to drill a hole near the bottom of the 500 mL nalgene
-2. Use the __ hole saw to drill a hole near the top of the same 500 mL Nalgene
-3. Insert the ____ push-to-connect into the nalgene through the upper hole. Orient the push-to-connect until it is protruding from the 3/4" (lower) hole, with the narrower side facing outwards.
+2. Use the 1.6" hole saw to drill a hole near the top of the same 500 mL Nalgene
+3. Insert the threaded push-to-connect into the Nalgene through the upper hole. Orient the push-to-connect until it is protruding from the 3/4" (lower) hole, with the narrower side facing outwards.
 4. Secure the push-to-connect to the Nalgene with the washer
 5. Connect the 2 pieces of clear flex tubing to either side of the T push-to-connect such that they are oriented 180 degrees from each other.
 6. Connect the influent tube to the third side of the T push-to-connect, such that it is perpendicular to the 2 short pieces of clear flex tubing.
 7. Attach one end of the short clear flex tubing to the peristaltic pump. Attach the other end of the short clear flex tubing to the push-to-connect of the Nalgene bottle
-8. Put the ____ plug in the upper hole on the Nalgene
+8. Put the  plug in the upper hole on the Nalgene
 
 ###Bubbles vs Temperature Observations
 Cold Water (as cold as the sink can go)

@@ -15,6 +15,20 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
   - [Controlling Pressure](#Controlling-Pressure)
   - [Analysis of Literature](#Analysis-of-Literature)
 - [Previous Work](#Previous-Work)
+- [Methods](#Methods)
+  - [Determining Reactor Parameters](#Determining-Reactor-Parameters)
+  - [Fabrication Details](#Fabrication-Details)
+  - [Testing the System](#Testing-the-System)
+- [Results and Analysis](#Results-and-Analysis)
+- [Conclusions](#Conclusions)
+- [Future Work](#Future-Work)
+- [Bibliography](#Bibliography)
+- [Manual](#Manual)
+  - [Experimental Methods](#Experimental-Methods)
+  - [Fabrication Manual](#Fabrication-Manual)
+  - [Python Code](#Python-Code)
+  - [ProCoDa Code](#ProCoDa-Code)
+
 
 ## Introduction
 
