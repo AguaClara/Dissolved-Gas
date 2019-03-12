@@ -306,8 +306,6 @@ Discuss your experimental procedure. How did you run your experiment? What were 
 **Qualitative Temp Experiment**
 
 ## Results and Analysis
-- Present the videos.
-
 Table 1 displays the data collected during the experiments described in the Methods section.
 
 **Table 1**: Displays the data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the interior and exterior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data logs may be found on [this spreadsheet](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
@@ -321,14 +319,15 @@ Table 1 displays the data collected during the experiments described in the Meth
 |        Standard deviation        |  0.42   |  0.33   |  0.19   |  1.65   |  0.36   |  0.50   |
 |    Percent standard deviation    |  1.89   |  1.65   |  1.03   |  4.98   |  1.01   |  1.35   |
 
-In the video of the cold (**insert link**) and hot (**insert link**), there were no discernable differences in bubble formation. All videos may be found at this site (**insert link**).
+In the video of the cold and hot trials, there were no discernable differences in bubble formation. All videos may be found at [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing).
 
-**Video 1**
-**Insert clip from cold trial**
-![Test of gif](https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial1.gif?raw=true)
+**Trial 1**
+![Trial 1](https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial1.gif?raw=true)
+**Figure X**:
 
-**Video 2**
-**Insert clip from hot trial**
+**Trial 4**
+![Trial 4](https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial4.gif?raw=true)
+**Figure X**:
 
 **Edit this**
 Despite the ten degree difference in temperatures between Trials 1-3 and Trials 4-6, there was not a great difference observed in the quantity or size of bubbles generated in the fluidized bed reactor.
