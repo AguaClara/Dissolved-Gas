@@ -7,17 +7,17 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
 
 ## Table of Contents
 
-- [Introduction](#Introduction) [Update the figure]
-- [Literature Review](#Literature-Review)
+- [Introduction](#Introduction) [Update Figure 3]
+- [Literature Review](#Literature-Review) [Consider adding a reference about oxygen solubility vs. temperature]
   - [Fluidized Beds and Bubble Formation](#Fluidized-Beds-and-Bubble-Nucleation)
   - [Controlling Pressure](#Controlling-Pressure)
   - [Analysis of Literature](#Analysis-of-Literature)
 - [Previous Work](#Previous-Work)
-- [Methods](#Methods) [Emily]
+- [Methods](#Methods) [Emily] (including new figures)
 - [Results and Analysis](#Results-and-Analysis) [Tommy]
 - [Conclusions](#Conclusions) [Tommy]
 - [Future Work](#Future-Work) [Tommy]
-- [Bibliography](#Bibliography)
+- [Bibliography](#Bibliography) [Update to make sure all sources are cited]
 - [Manual](#Manual) [Saul]
   - [Experimental Methods](#Experimental-Methods)
   - [Fabrication Manual](#Fabrication-Manual)
@@ -194,6 +194,17 @@ The subteam plans on using the principles of this equation to further decrease t
 
 In the Analysis of Literature section, Equations 3-7 are evaluated and related to one another to form one basis for parameters of the system's design.
 
+**Edit this**
+### Solubility's dependence on temperature
+**Put a description**
+
+<p style="text-align: center;">
+<img src="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/section_17/67558bdc4beb64e06b29db7b4c8d74bb.jpg" height=350>
+
+</p>
+
+**Figure X**: [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
+
 ### Analysis of Literature
 Through conceptual analysis and algebraic manipulation, Equations 3-7 combine to form an estimation of a gas’ solubility in water in an apparatus as illustrated in Figure 1. The following paragraphs describe this process. All relevant variables have been defined in the Literature Review section.
 
@@ -260,27 +271,6 @@ Further specifics concerning the subteam's work during the Fall 2018 semester ar
 The subteam looks forward to testing the prototype to confirm its functionality, optimize its performance, and to eventually develop a practical reactor.
 
 ## Methods
-**Installing a Pressure Sensor**
-**Creating Forked Flow System**
-**Installing a Pressure Regulator**
-(need to put all of this in paragraph form **ew465**)
-A pressure regulator was installed between the sink and the influent end of the tubing. This was done to maintain consistent water flow into the peristaltic pump.
-
-A piece 26" 3/8 diameter hard plastic tubing was used to connect the reducing valve to the sink. The other side of the reducing valve was connected directly to the influent tubing.
-
-**Reducing Valve**
-B&G V56001 Strainer E79
-Part Number: 110192
-Model Number: FB-38
-Max Press: 125 PSI
-Max Temp: 225°F
-Set At: 12 lbs
-
-![Picture of Reducing Valve](https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Pressure_Regulator.JPG?raw=true)
-
-**Qualitative Temp Experiment**
-
-
 Explain the techniques you have used to acquire additional data and insights. Reserve fine detail for the Manual at the end of the report, but use this section to give an overview with enough detail for the reader to understand your Results and Analysis. Describe your apparatus, and have a justification for every decision you made and every parameter you chose in the design of the apparatus. Be especially careful to detail the conditions your experiments were conducted under, as this information is especially important for interpreting your results
 
 Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
@@ -299,55 +289,80 @@ Explain your apparatus setup using enough detail such that future teams can recr
 * Complications in construction
 * If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
 
+**Installing a Pressure Sensor**
+**Creating Forked Flow System**
+
+**Installing a Pressure Regulator**
+
+A pressure regulator was installed between the sink and the persistaltic pump to maintain consistent flow of influent water.
+
+The B&G v56001 **Leave this for the manual? ew465** pressure regulator [**Insert Figure Number**] was oriented such that the direction of water flow matched the arrow on the apparatus. The left side was connected to the sink using a piece of 26" long and 3/8" diameter hard plastic tubing, and the right side was connected to the peristaltic pump using the original piece of clear flex tubing that **"was previously connected to the sink" describe this a little more clearly. can we call it the influent tubing? ew465**. The flow of water was reduced by tightening the screw and nut on the top of the pressure regulator, until the influent rate was low enough that no leakage occured on the top of the pressure regulator was tightened to reduce the flow of water until
+
+![Picture of Reducing Valve](https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Pressure_Regulator.JPG?raw=true)
+
 ### Procedure
 Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
 
+**Qualitative Temp Experiment**
+
 ## Results and Analysis
-Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.  
-In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
+- Present the videos.
 
-When describing your results, present your data, using the guidelines below:
-* What happened? What did you find?
-* Show your experimental data in a professional way.
-```python
-from aide_design.play import*
-x = np.array([1,2,3,4,5])
-y = np.array([1,2,3,4,5])
-plt.figure('ax',(10,8))
-plt.plot(x,y,'*')
-plt.savefig('/Users/jillianwhiting/github/Jillian-Whiting/Images/linear')
-plt.show()
-```
-![linear](https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/linear.png?raw=true)
-Figure 1: Captions are very important for figures. Captions go below figures.
+Table 1 displays the data collected during the experiments described in the Methods section.
 
-After describing a particular result, within a paragraph, go on to connect your work to fundamental physics/chemistry/statics/fluid mechanics, or whatever field is appropriate. Analyze your results and compare with theoretical expectations; or, if you have not yet done the experiments, describe your expectations based on established knowledge. Include implications of your results. How will your results influence the design of AguaClara plants? If possible provide clear recommendations for design changes that should be adopted. Show your experimental data in a professional way using the following guidelines:
-* Why did you get those results/data?
-* Did these results line up with expectations?
-* What went wrong?
-* If the data do not support your hypothesis, is there another hypothesis that describes your new data?
+**Table 1**: Displays the data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the interior and exterior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data logs may be found on [this spreadsheet](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
+|              Trial               |    1    |    2    |    3    |    4    |    5    |    6    |
+|:--------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|     Approximate duration (s)     |   25    |   25    |   25    |   25    |   15    |   15    |
+| Average pressure difference (Pa) | 5971.72 | 5065.84 | 3758.40 | 4134.08 | 3601.98 | 3452.05 |
+|        Standard deviation        |  98.46  | 423.64  | 189.06  | 299.66  |  10.31  |  11.74  |
+| Percent standard deviation| 1.65        | 8.36        |5.03         |7.25  | 0.29   | 0.34        |
+| Average temperature (C)      |  22.05  |  19.91  |  18.63  |  33.03  |  35.79  |  36.85  |
+|        Standard deviation        |  0.42   |  0.33   |  0.19   |  1.65   |  0.36   |  0.50   |
+|    Percent standard deviation    |  1.89   |  1.65   |  1.03   |  4.98   |  1.01   |  1.35   |
+
+In the video of the cold (**insert link**) and hot (**insert link**), there were no discernable differences in bubble formation. All videos may be found at this site (**insert link**).
+
+**Video 1**
+**Insert clip from cold trial**
+
+
+**Video 2**
+**Insert clip from hot trial**
+
+**Edit this**
+Despite the ten degree difference in temperatures between Trials 1-3 and Trials 4-6, there was not a great difference observed in the quantity or size of bubbles generated in the fluidized bed reactor.
+Looking to Figure _____, this may be explained by the following. In the region 20 degrees C to 30 degrees C, the percent difference in solubility of oxygen over a ten degree difference in temperature is relatively small (a ____ difference). Thus, to observe a greater difference, a greater temperature difference may be required.
+
+Another observation is that, generally (with the exception of Trial 6), as the temperature reached extremes relative to the Trials' conditions, the percent standard deviation in temperature decreased. This suggested that the temperature had begun to plateau, but had not yet reached a constant value, as the Trials progressed.
 
 ## Conclusions
-Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
+The current experimental data revealed shortcomings in the experimental setup. There was no visually discernable difference in bubble formation between fluidized beds whose influent was at 10 degree different temperatures.
 
-Make sure that you defend your conclusions with facts and results.
+The subteam will consider measuring the final temperature of the effluent water, to ensure that the water's temperature remains relatively constant as it passes through the reactor. The subteam will also consider reaching more extreme temperatures to test the difference between cool and hot water, to see if there is a difference in bubble formation.
 
 ## Future Work
-Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
+The subteam will progress with experimentation, evaluation, and iteration.
 
-## Bibliography
-Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
+The subteam will test the functionality of the prototype system in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. The subteam will modify the experimental method, considering more extreme temperatures so as to prove the difference in oxygen's solubility. The subteam will also consider making a larger flow accumulator, or otherwise changing the experimental apparatus such that the
+
+After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. The subteam expects that the water's dissolved oxygen content is proportional to the water's dissolved air content since the major source of the dissolved oxygen is air. Therefore, the system's effectiveness in removing dissolved oxygen should be proportional to the system's effectiveness in removing dissolved air. After analysis of concentration data, the subteam will modify the system to optimize the removal of dissolved gas.
+
+In future semesters, the subteam must also consider the end goal of scaling up the prototype. The prototype's method to remove excess dissolved gas from influent water must feasibly apply on a practical scale. As part of this end goal, as pertaining to a fluidized bed reactor, the subteam must evaluate the validity of the calculated fluidization flow of the sand bed. In order to reliably scale up a fluidized bed reactor, the fluidization flow must be reliably calculable.
+
+The subteam looks forward to future semesters' experimentation and iteration to analyze and improve the system, and to eventually develop a practical reactor.
 
 # Manual
 The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
 
-## Fabrication Details
-Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
-
-The prototype was made with simple parts that are easily found around the lab. There is a PVC pipe where our reactor is present
-
 ## Special Components
 If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
+
+A Pressure regulator is a device that manages the pressure. For the purposes of the subteam we use it in order to decrease the pressure coming from the water supply (Sink).
+This allows for the flow rate of the influent water to be stopped when the peristaltic pump is stopped.
+
+The specifications of the Pressure Regulator are as follows:
+**You know what to do here**
 
 ### Experimental Methods
 
@@ -368,7 +383,7 @@ The porosity of silica sand was needed to calculate the sand bed's fluidization 
 
 $$\phi = \frac{V_{pore}}{V_{sample}}$$
 
-#### Determining the Average Diameter of Silica Sand Grains [Complete, no edit necessary]
+#### Determining the Average Diameter of Silica Sand Grains
 
 The average diameter of the silica sand grains was needed to calculate the sand bed’s fluidization velocity ([Equation 1](#Equation-1)). The subteam used the following procedure to approximate the average diameter of the sand grains.
 
@@ -377,7 +392,7 @@ The average diameter of the silica sand grains was needed to calculate the sand 
 3. Using the caliper, measure each sand grain’s diameter three times to account for the grains’ asymmetrical natures. Record these measurements.
 4. Compute the average diameter for all sand grains in the sample.
 
-#### Measuring Pipe Dimensions [Complete, no edit necessary]
+#### Measuring Pipe Dimensions
 
 The prototype fluidized bed reactor was comprised of a transparent PVC pipe containing a silica sand bed, modified with components specified in the Fabrication Manual.
 
@@ -394,25 +409,193 @@ The subteam cut the pipe to be a particular length prior to taking measurements.
 - Subtract twice the wall’s thickness from the outer diameter; the difference is the “inner diameter”. Use this quantity to calculate the cross-sectional area of the pipe.
 2. Compute the average cross-sectional area of the pipe, using the measurements taken at both ends.
 
-### Cleaning Procedure
-Step 1.
+### Fabrication Manual
 
-## Experimental Checklist
-Another potential section could include a list of things that you need to check before running an experiment.
+**Necessary edits**:
+- New tubing size.
+- Installation of the Forked System
+
+**Materials required**
+1. PVC pipe of approximately 0.5 m length and 1 in. diameter, whose ends are labeled with opposing colors of tape, as shown in Figure 8. This is described further in the Measuring Pipe Dimensions section of the Manual.
+2. A fine wire mesh
+3. Approximately 70 mL of silica sand, measured with a graduated cylinder.
+4. Circular hose clamps
+5. 3/16-inch diameter clear flex tubing
+6. 3/8-inch diameter clear flex tubing
+7. Size 18 Masterflex tubing
+8. 600 RPM Peristaltic pump
+9. Barbed fittings & push-to-connect components
+10. Access to a sink containing a push-to-connect nozzle
+11. A plastic bucket
+12. 200 kPa pressure sensor
+13. ProCoDA Box
+14. **_____ hard tubing (for the pressure sensor)**
+15. Teflon tape
+16. 1/4 " Threaded push-to-connect component
+17. 1/4 " 18NPT Pipe Tap
+18. Medium clear PVC cement
+19. 12. Two copies of the following pipe-tubing connector component:
+
+
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/PipeConnector1.jpg?raw=true" height=250
+</p>
+
+Recall **Figure 7** from the Methods section. The above flow connector enables the reactor (pipe) to be connected to clear flex tubing.
+
+**Fabrication**
+1. To install the pressure sensor, use a 1/4" 18NPT Pipe Tap to tap the pipe 70 cm from its bottom (influent) end. Tap the aperture. Thread a push-to-connect component into the tapped aperture, with the connection made watertight with Teflon tape.
+2. **Edit** Insert **_____** hard tubing into the connector. Insert the negative end of the pressure sensor into the exposed tubing, sealing with medium clear PVC cement.
+3. Cut the wire mesh to obtain a circular mesh whose radius is approximately that of the pipe.
+4. Place the mesh at the bottom of the pipe reactor, at the side designated for influent to enter the pipe. Place this mesh into the flow component that from (12.).
+5. Pour the 70 mL of sand into the pipe, such that it settles on the mesh.
+6. Fasten the second copy of the flow component from (12.) to the effluent (top) end of the reactor.
+7. Mount the pipe on the 80/20 arm using circular clamps, screwed tight around the reactor.
+8. Connect Size 18 Masterflex tubing to the Peristaltic Pump.
+9. Connect 3/8-inch diameter clear flex tubing from the sink to the influent end of the Peristaltic Pump.
+10. Connect 3/16-inch diameter clear flex tubing from the effluent end of the peristaltic pump to the influent end of the reactor.
+11. Cut approximately 2.7 m of 3/16-inch diameter clear flex tubing. Connect this to the effluent (upper) end of the reactor, and lead it down into the bucket.
+12. Connect the 200 kPa pressure sensor to the ProCoDA box.
+
+
+### Cleaning Procedure
+The experiments are really low maintenance and easy to wrap up.
+
+1. Turn off the Peristaltic Pump
+2. Close off water supply
+3. Disconnect the flex tubing used for influent water from the water supply
 
 ## ProCoDA Method File
-Use this section to explain your method file. This could be broken up into several components as shown below:
 
-### States
-Here, you should describe the function of each state in your method file, both in terms of its overall purpose and also in terms of the details that make it distinct from other states. For example:
-\begin{itemize}
-\item \underline{OFF} - Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
-\end{itemize}
+###States
+- *OFF*: The peristaltic pump is off.
+- *Running*: The peristaltic pump is running.
 
-### Set Points
-Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
+
+###Set Points
+- *OFF*:This setpoint is used to turns all outputs off.
+- *ON*: This setpoint turns on the peristaltic pump on.
+- *PumpOutput*: This setpoint is used to turn on the peristaltic pump at the correct number of RPMs to achieve the desired flow rate, given the Tubing ID.
+
+
+###Variables
+- *FlowRate*: This variable is the desired flow rate. In the subteam's reactor, this represents the fluidization velocity.
+- *TubingID*: This variable represents the ID associated with tubing being used, based on the diameter of the tubing.
 
 ## Python Code
+
+### Determining the Sand Bed's Fluidization Flow
+
+The subteam used the following code, copied from the file FluidizationVelocity.py found on the subteam's GitHub page, to estimate the fluidization velocity and fluidization flow of the sand bed in the prototype reactor. The code is based on [Equation 1](#Equation-1). The code requests as input: the reactor's cross-sectional area; the kinematic viscosity of water at a particular temperature (e.g. room temperature); the sand's porosity, which the subteam experimentally determined; silica sand's density; the average diameter of the sand grains, which the subteam measured. The code outputs the velocity and flow of water required to fluidize the sand bed.
+
+The following values were used for the subteam to calculate the fluidization flow of 2.54 mL/s:
+
+Cross-sectional area of the reactor: 481.1 mm$^2$
+Porosity of the silica sand: 0.35
+Density of silica sand: 2650 kg/m$^3$ [(Weber-Shirk)](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf)
+Average diameter of the silica sand grains: 0.91 mm
+Kinematic viscosity of water: 0.9344 mm$^2$/s [(Anton Paar)](https://wiki.anton-paar.com/en/water/)
+
+```python
+# This code assumes the user knows the porosity of the sand used in the fluidized bed. This code makes use of aide_design, a package provided by AguaClara Cornell
+
+# Assumptions: All input values are real numbers.
+
+from aguaclara.play import*
+import math
+import numpy as nm
+
+def FluidizationVelocity(area_reactor, porosity, density_sand, diameter, viscosity):
+    """This function also takes in values of the area of the reactor, porosity of sand,
+  density of the sand, diameter of sand grains, and viscosity of water.
+
+  >>> from aguaclara.play import*
+  >>> FluidizationVelocity(5, 5, 5, 5, 5):
+The reactor's fluidization velocity is 8464 millimeter / second.
+The reactor's fluidization flow is 42.32 milliliter / second.
+  """
+    area_reactor = float(input("\nWhat is the cross sectional area of the" + " fluidized bed reactor, in units of millimeters squared?\n"))*u.mm**2
+    porosity = float(input("What is the porosity of the sand bed?\n"))
+    density_sand = float(input("What is the density of the sand, in units of" + "kilograms per cubic meter?\n"))*u.kg/(u.m**3)
+    density_water = 997*u.kg/(u.m**3)
+    diameter = float(input("What is the average diameter of the sand grains," + "in units of millimeters?\n")) * u.mm
+    g = 9.8 * u.m/(u.s**2)
+    kozeny = 5  # This is an approx. value, suggested by Fluidization Source 4
+    viscosity = float(input("What is the kinematic viscosity of water, in" + "units of millimeters squared per second?\n"))*u.mm**2/u.s
+    # The following variable definitions are based off those in the equation in
+    # Fluidization Source 4.
+    fluidization_velocity_FirstTerm = (porosity**3 * g * (diameter)**2)/(36*kozeny*(viscosity)*(1-porosity))
+    fluidization_velocity_SecondTerm = (density_sand/density_water - 1)
+    fluidization_velocity = fluidization_velocity_FirstTerm *fluidization_velocity_SecondTerm * (1000*u.mm)/(1*u.m)
+    fluidization_flow = fluidization_velocity * area_reactor * (0.001*u.mL)/(1*u.mm**3)
+    print("\nThe reactor's fluidization velocity is " + str(fluidization_velocity)+".")
+    print("The reactor's fluidization flow is " + str(fluidization_flow) + ".")
+
+```
+
+### Calculating Averages and Standard Deviations
+
+The following code, copied from the file StandardDeviation.py found on the subteam's GitHub page, outputs the average value and the standard deviation of a group of input values.
+
+```python
+import math
+import numpy as nm
+import aide_design as ad
+from aide_design import utility as ut
+from aide_design.play import*
+
+print("\n"+"Please input only real numbers; make sure the list is at least two items long! If you're done inputting your list, just type 'done'."+"\n")
+values = []
+item = "blank"
+for n in range(100):
+    item = input("What number would you like to add to the list?" +"\n")
+    if item == "done":
+        break
+    else:
+        try:
+            values.append(float(item))
+        except:
+            print("It seems like you didn't input a number. Please try again!")
+
+total=0
+for n in range(len(values)):
+    total += values[n]
+
+average= total / len(values)
+
+numerator = 0
+for n in range(len(values)):
+    numerator += (values[n]-average)**2
+
+standard_deviation = math.sqrt(numerator / (len(values)-1))
+
+print("The list you've entered has an average value of " + str(ut.sig(average, 4)) +", with a standard deviation of "+ str(ut.sig(standard_deviation, 4))+'.')
+```
+
+### Determining Head Loss in the Effluent Tubing
+
+This code follows [Equation 4](#Equation-4), and may be found on the subteam's GitHub page. It outputs the head loss in tubing containing a laminar flow, and requests as input: the absolute viscosity of water; the tubing length, the water's velocity, the and the pipe's diameter.
+
+```python
+
+import math
+import numpy as nm
+import aide_design as ad
+from aide_design import utility as ut
+from aide_design.play import*
+
+viscosity = float(input("What is the dynamic (i.e. absolute) viscosity of water, in units of millipascal seconds?\n"))*(1/1000) * u.kg/u.m/u.s
+effluent_tubing_length = float(input("What is the length of the effluent tubing, in units of meters?\n"))*u.m
+velocity = float(input("What is the velocity of water in the effluent piping, in units of meters per second?\n"))*u.m/u.s
+
+density_water = 997*u.kg/(u.m**3)
+g = 9.8 *u.m/(u.s**2)
+pipe_diameter = float(input("What is the diameter of the effluent piping, in units of meters?\n"))*u.m
+
+Head_Loss = (32 * viscosity * effluent_tubing_length * velocity)/(density_water * g * pipe_diameter**2)
+
+print("The Head Loss due to the effluent tubing is "+ str(ut.sig(Head_Loss,3))+".")
+```
 
 ### Variables
 $g$: gravity
