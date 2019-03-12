@@ -325,7 +325,7 @@ In the video of the cold (**insert link**) and hot (**insert link**), there were
 
 **Video 1**
 **Insert clip from cold trial**
-
+![Test of gif](https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial1.gif?raw=true)
 
 **Video 2**
 **Insert clip from hot trial**
