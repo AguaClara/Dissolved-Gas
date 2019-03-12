@@ -290,15 +290,32 @@ Explain your apparatus setup using enough detail such that future teams can recr
 * If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
 
 **Installing a Pressure Sensor**
-**Creating Forked Flow System**
+
+**Rewrite this in paragraph form ew465**
+1. **Edit** To install the pressure sensor, use a 1/4" 18NPT Pipe Tap to tap the pipe 70 cm from its bottom (influent) end. Tap the aperture. Thread a push-to-connect component into the tapped aperture, with the connection made watertight with Teflon tape.
+2. **Edit** Insert **_____** hard tubing into the connector. Insert the negative end of the pressure sensor into the exposed tubing, sealing with medium clear PVC cement.
 
 **Installing a Pressure Regulator**
 
-A pressure regulator was installed between the sink and the persistaltic pump to maintain consistent flow of influent water.
+A pressure regulator was installed between the sink and the peristaltic pump to maintain consistent flow of influent water.
 
-The B&G v56001 **Leave this for the manual? ew465** pressure regulator [**Insert Figure Number**] was oriented such that the direction of water flow matched the arrow on the apparatus. The left side was connected to the sink using a piece of 26" long and 3/8" diameter hard plastic tubing, and the right side was connected to the peristaltic pump using the original piece of clear flex tubing that **"was previously connected to the sink" describe this a little more clearly. can we call it the influent tubing? ew465**. The flow of water was reduced by tightening the screw and nut on the top of the pressure regulator, until the influent rate was low enough that no leakage occured on the top of the pressure regulator was tightened to reduce the flow of water until
+The pressure regulator [**Insert Figure Number**] was oriented such that the direction of water flow matched the arrow on the apparatus. The left side was connected to the sink using a piece of 26" long and 3/8" diameter hard plastic tubing, and the right side was connected to the peristaltic pump using the original piece of clear flex tubing that was attached to the pump. The flow of water was reduced by tightening the screw and nut on the top of the pressure regulator, until no leakage occurred when peristaltic pump was turned off.  
 
 ![Picture of Reducing Valve](https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Pressure_Regulator.JPG?raw=true)
+**Need to make this smaller ew465**
+
+**Creating a Forked Flow System**
+
+The subteam needed a way to measure the temperature (and eventually the dissolved oxygen content) of the influent water before it entered the reactor. The subteam’s solution was to create a forked flow system in which some of the influent water is diverted to a separate container before reaching the peristaltic pump. The temperature of the diverted water could then be measured in this container. This model was chosen to avoid inadvertently changing any properties of the influent water during measurement. To clarify, a dissolved oxygen probe consumes oxygen in the process of measuring its concentration, and would therefore lead to an overestimate of the actual dissolved oxygen content flowing into the reactor.
+
+To fabricate the forked flow system, a 0.75’’ hole was drilled near the bottom of a 500 mL Nalgene bottle. A slightly larger 1.6” hole was drilled near the top of the Nalgene. This hole was used to insert a tapered push-to-connect into the bottle, since the push-to-connect was too large to fit through the neck of the bottle. The larger 1.6” hole was then plugged to prevent leakage. The push-to-connect was oriented such that its tapered end protruded from the hole near the bottom of the Nalgene, and secured with a washer.
+
+Next, two pieces of clear flex tubing were connected to either side of a T push-to-connect such that they were oriented in a straight line. The pump influent tube was then connected to the T push-to-connect such that it was perpendicular to the two shorter pieces of clear flex tubing. One end of the short clear flex tubing was connected to the peristaltic pump and the other end was attached to the push-to-connect of the Nalgene bottle.  
+
+**Insert more pictures ew465**
+
+The Nalgene apparatus:
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/FlowAccumulator_Front_20190310.jpg?raw=true" height=400>
 
 ### Procedure
 Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
