@@ -194,16 +194,15 @@ The subteam plans on using the principles of this equation to further decrease t
 
 In the Analysis of Literature section, Equations 3-7 are evaluated and related to one another to form one basis for parameters of the system's design.
 
-**Edit this**
 ### Solubility's dependence on temperature
-**Put a description**
+**Summarize the information & why it relates to our experimental apparatus**
 
 <p style="text-align: center;">
 <img src="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/section_17/67558bdc4beb64e06b29db7b4c8d74bb.jpg" height=350>
 
 </p>
 
-**Figure X**: _____ [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
+**Figure X**: The above graph displays the solubility (mg / 100 g water) of five gases as a function of temperature (degrees Celisus) at a partial pressure of 1 atm [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
 
 ### Analysis of Literature
 Through conceptual analysis and algebraic manipulation, Equations 3-7 combine to form an estimation of a gas’ solubility in water in an apparatus as illustrated in Figure 1. The following paragraphs describe this process. All relevant variables have been defined in the Literature Review section.
@@ -357,7 +356,7 @@ Data was collected and numerically analyzed via the experiments described in the
 |        Standard deviation        |  0.42   |  0.33   |  0.19   |  1.65   |  0.36   |  0.50   |
 |    Percent standard deviation    |  1.89   |  1.65   |  1.03   |  4.98   |  1.01   |  1.35   |
 
-Video recordings were also taken of each Trial. Between Trials 1-3 and Trials 4-6, there were no consistent, visually assessable differences in bubble formation. Figures ____ and _____ exemplify this, and all full-length videos can be found at [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing).
+Video recordings were also taken of each Trial. Between Trials 1-3 and Trials 4-6, there were no consistent, visually assessable differences in bubble formation. Figures ____ and _____ exemplify this, and all full-length videos can be found on [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing).
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial1.gif?raw=true" height = 400>
@@ -375,36 +374,31 @@ Video recordings were also taken of each Trial. Between Trials 1-3 and Trials 4-
 **Edit this**
 Despite the approximate ten degree difference in temperatures between Trials 1-3 and Trials 4-6, there was not a significant difference observed in the quantity or size of bubbles generated in the fluidized bed.
 
-This can be explained by a quick analysis of Figure _____.
+This can potentially be explained after a quick analysis of Figure _____.
 
-<p style="text-align: center;">
-<img src="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/section_17/67558bdc4beb64e06b29db7b4c8d74bb.jpg" height=350>
+While Figure ___ assumes a partial pressure of 1 atm of the gas of interest, this analysis considers the principles of the data qualitatively. In Figure ____, in the range of 20 to 30 degrees C (the approximate range of experimental temperatures), the percent difference in solubility of oxygen and nitrogen (the primary components of air) is relatively small. As temperature increases from 20 to 30 degrees C, a 50% increase in temperature, the solubility of oxygen drops from approximately 4.3 to 3.5 mg / 100 $H_2O$, an approximately 18% decrease in solubility. Such a difference in solubility may not have visually assessable consequences for bubble formation.
 
-</p>
+To observe an appreciable difference in bubble formation in the fluidized bed, a greater temperature difference between Trials may be required. For instance, over the range 10 to 40 degrees C, the solubility shifts from approximately 5 to 3 mg / 100 $H_2O$, a percent change of 40%. This percent change is twice that which characterized Trials 1 - 6 on March 10. Such a temperature difference may provide more distinguishable results.
 
-In Figure ____, in the region corresponding to the range of 20 degrees C to 30 degrees C (the approximate range of experimental temperatures), the percent difference in solubility of oxygen and nitrogen is relatively small. As temperature increases from 20 to 30 degrees C, a 50% increase in temperature, the solubility of oxygen drops from approximately 4.1 to 3.9 mg / 100 $H_2O$, approximately a 5% decrease in solubility.
+The subteam also observed that, with the exception of Trial 6, percent standard deviation in temperature decreased as the temperature reached extremes relative to the Trials' conditions. This suggested that the temperature of each Trials' influent water had begun to plateau, but had not yet reached the extreme values of the influent water's capacity, as the Trials progressed.
 
-Thus, to observe a greater difference, a greater temperature difference may be required. For instance, over the range 10 to 40 degrees C, the solubility shifts from approximately 5 to 3 mg / 100 $H_2O$, a percent change of 40%. This percent change is an order of magnitude greater than that the subteam performed an experiment with, and would likely provide more distinguishable, and therefore favorable, results.
-
-**Notice**: The percent change in solubility is approximately ten times less than the percent change in temperature. 
-
-Another observation is that, generally (with the exception of Trial 6), as the temperature reached extremes relative to the Trials' conditions, the percent standard deviation in temperature decreased. This suggested that the temperature had begun to plateau, but had not yet reached a constant value, as the Trials progressed.
+**Good news**: *bubbles did form in the reactor that did not enter through the influent stream.*
 
 ## Conclusions
-The current experimental data revealed shortcomings in the experimental setup. There was no visually discernable difference in bubble formation between fluidized beds whose influent was at 10 degree different temperatures.
+Experimental data revealed shortcomings in the experimental setup. There was no visually discernable difference in bubble formation between fluidized beds whose influent water streams had a temperature difference of approximately ten degrees Celsius.
 
-The subteam will consider measuring the final temperature of the effluent water, to ensure that the water's temperature remains relatively constant as it passes through the reactor. The subteam will also consider reaching more extreme temperatures to test the difference between cool and hot water, to see if there is a difference in bubble formation.
+The subteam considered measuring the temperature of the reactor's effluent, to determine whether the water's temperature remains relatively constant as it passes through the reactor. The subteam also considered conducting experiments at more extreme temperatures, to take advantage of the greater difference in solubility, as discussed in the Results and Analysis section.
 
 ## Future Work
-**Consider: camera set-up?**
-
-The subteam will progress with experimentation, evaluation, and iteration.
+The subteam will progress with experimentation, evaluation, and iteration of the apparatus.
 
 The subteam will test the functionality of the prototype system in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. The subteam will modify the experimental method, considering more extreme temperatures so as to prove the difference in oxygen's solubility. The subteam will also consider making a larger flow accumulator, or otherwise changing the experimental apparatus such that the
 
 After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. The subteam expects that the water's dissolved oxygen content is proportional to the water's dissolved air content since the major source of the dissolved oxygen is air. Therefore, the system's effectiveness in removing dissolved oxygen should be proportional to the system's effectiveness in removing dissolved air. After analysis of concentration data, the subteam will modify the system to optimize the removal of dissolved gas.
 
 In future semesters, the subteam must also consider the end goal of scaling up the prototype. The prototype's method to remove excess dissolved gas from influent water must feasibly apply on a practical scale. As part of this end goal, as pertaining to a fluidized bed reactor, the subteam must evaluate the validity of the calculated fluidization flow of the sand bed. In order to reliably scale up a fluidized bed reactor, the fluidization flow must be reliably calculable.
+
+The subteam also will consider using a camera set-up to have consistent video recordings of experiments, to avoid errors or uncertainty due to avoidable error such as hand movement.  
 
 The subteam looks forward to future semesters' experimentation and iteration to analyze and improve the system, and to eventually develop a practical reactor.
 
@@ -485,7 +479,7 @@ The subteam cut the pipe to be a particular length prior to taking measurements.
 11. A plastic bucket
 12. 200 kPa pressure sensor
 13. ProCoDA Box
-14. **_____ hard tubing (for the pressure sensor)**
+14. **1/4" hard tubing (for the pressure sensor)**
 15. Teflon tape
 16. 1/4 " Threaded push-to-connect component
 17. 1/4 " 18NPT Pipe Tap
@@ -501,7 +495,7 @@ Recall **Figure 7** from the Methods section. The above flow connector enables t
 
 **Fabrication**
 1. To install the pressure sensor, use a 1/4" 18NPT Pipe Tap to tap the pipe 70 cm from its bottom (influent) end. Tap the aperture. Thread a push-to-connect component into the tapped aperture, with the connection made watertight with Teflon tape.
-2. **Edit** Insert **_____** hard tubing into the connector. Insert the negative end of the pressure sensor into the exposed tubing, sealing with medium clear PVC cement.
+2. **Edit** Insert 1/4" hard tubing into the connector. Insert the negative end of the pressure sensor into the exposed tubing, sealing with medium clear PVC cement.
 3. Cut the wire mesh to obtain a circular mesh whose radius is approximately that of the pipe.
 4. Place the mesh at the bottom of the pipe reactor, at the side designated for influent to enter the pipe. Place this mesh into the flow component that from (12.).
 5. Pour the 70 mL of sand into the pipe, such that it settles on the mesh.
