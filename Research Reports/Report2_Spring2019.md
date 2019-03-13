@@ -203,7 +203,7 @@ In the Analysis of Literature section, Equations 3-7 are evaluated and related t
 
 </p>
 
-**Figure X**: [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
+**Figure X**: _____ [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
 
 ### Analysis of Literature
 Through conceptual analysis and algebraic manipulation, Equations 3-7 combine to form an estimation of a gas’ solubility in water in an apparatus as illustrated in Figure 1. The following paragraphs describe this process. All relevant variables have been defined in the Literature Review section.
@@ -344,7 +344,7 @@ Discuss your experimental procedure. How did you run your experiment? What were 
 **Qualitative Temp Experiment**
 
 ## Results and Analysis
-Data was collected and numerically analyzed during the experiments described in the Methods section.
+Data was collected and numerically analyzed via the experiments described in the Methods section.
 
 **Table 1**: Displays the data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the interior and exterior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records can be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
 |              Trial               |    1    |    2    |    3    |    4    |    5    |    6    |
@@ -365,6 +365,7 @@ Video recordings were also taken of each Trial. Between Trials 1-3 and Trials 4-
 
 **Figure X**: The GIF above displays a clip from the recording of Trial 1.
 
+
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial4.gif?raw=true" height = 400>
 </p>
@@ -372,8 +373,18 @@ Video recordings were also taken of each Trial. Between Trials 1-3 and Trials 4-
 **Figure X**: The GIF above displays a clip from the recording of Trial 4.
 
 **Edit this**
-Despite the ten degree difference in temperatures between Trials 1-3 and Trials 4-6, there was not a great difference observed in the quantity or size of bubbles generated in the fluidized bed reactor.
-Looking to Figure _____, this may be explained by the following. In the region 20 degrees C to 30 degrees C, the percent difference in solubility of oxygen over a ten degree difference in temperature is relatively small (a ____ difference). Thus, to observe a greater difference, a greater temperature difference may be required.
+Despite the approximate ten degree difference in temperatures between Trials 1-3 and Trials 4-6, there was not a significant difference observed in the quantity or size of bubbles generated in the fluidized bed.
+
+This can be explained by a quick analysis of Figure _____.
+
+<p style="text-align: center;">
+<img src="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/section_17/67558bdc4beb64e06b29db7b4c8d74bb.jpg" height=350>
+
+</p>
+
+In Figure ____, in the region corresponding to the range of 20 degrees C to 30 degrees C (the approximate range of experimental temperatures), the percent difference in solubility of oxygen and nitrogen is relatively small. As temperature increases from 20 to 30 degrees C, a 50% increase in temperature, the solubility of oxygen drops from approximately 4.1 to 3.9 mg / 100 g H2O (**find out how to format this**), approximately a 5% decrease in solubility.
+
+Thus, to observe a greater difference, a greater temperature difference may be required. For instance, over the range 10 to 40 degrees C, the solubility shifts from approximately 5 to 3, a percent change of 40%. This percent change is an order of magnitude greater than that the subteam performed an experiment with, and would likely provide more distinguishable, and therefore favorable, results. 
 
 Another observation is that, generally (with the exception of Trial 6), as the temperature reached extremes relative to the Trials' conditions, the percent standard deviation in temperature decreased. This suggested that the temperature had begun to plateau, but had not yet reached a constant value, as the Trials progressed.
 
