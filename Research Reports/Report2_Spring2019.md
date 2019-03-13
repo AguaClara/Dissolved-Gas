@@ -304,6 +304,14 @@ The pressure regulator [**Insert Figure Number**] was oriented such that the dir
 ![Picture of Reducing Valve](https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Pressure_Regulator.JPG?raw=true)
 **Need to make this smaller ew465**
 
+**Note: the above format used to insert a photo doesn't allow for dimension alteration, far as I know. To do that, try the following:**
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Pressure_Regulator.JPG?raw=true" height=300>
+
+</p>
+
+**Figure X**:
+
 **Creating a Forked Flow System**
 
 The subteam needed a way to measure the temperature (and eventually the dissolved oxygen content) of the influent water before it entered the reactor. The subteam’s solution was to create a forked flow system in which some of the influent water is diverted to a separate container before reaching the peristaltic pump. The temperature of the diverted water could then be measured in this container. This model was chosen to avoid inadvertently changing any properties of the influent water during measurement. To clarify, a dissolved oxygen probe consumes oxygen in the process of measuring its concentration, and would therefore lead to an overestimate of the actual dissolved oxygen content flowing into the reactor.
@@ -339,11 +347,16 @@ Table 1 displays the data collected during the experiments described in the Meth
 In the video of the cold and hot trials, there were no discernable differences in bubble formation. All videos may be found at [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing).
 
 **Trial 1**
-![Trial 1](https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial1.gif?raw=true)
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial1.gif?raw=true" height = 400>
+</p>
+
 **Figure X**:
 
 **Trial 4**
-![Trial 4](https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial4.gif?raw=true)
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial4.gif?raw=true" height = 400>
+</p>
 **Figure X**:
 
 **Edit this**
