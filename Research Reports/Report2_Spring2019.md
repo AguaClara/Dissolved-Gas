@@ -382,9 +382,11 @@ This can be explained by a quick analysis of Figure _____.
 
 </p>
 
-In Figure ____, in the region corresponding to the range of 20 degrees C to 30 degrees C (the approximate range of experimental temperatures), the percent difference in solubility of oxygen and nitrogen is relatively small. As temperature increases from 20 to 30 degrees C, a 50% increase in temperature, the solubility of oxygen drops from approximately 4.1 to 3.9 mg / 100 g H2O (**find out how to format this**), approximately a 5% decrease in solubility.
+In Figure ____, in the region corresponding to the range of 20 degrees C to 30 degrees C (the approximate range of experimental temperatures), the percent difference in solubility of oxygen and nitrogen is relatively small. As temperature increases from 20 to 30 degrees C, a 50% increase in temperature, the solubility of oxygen drops from approximately 4.1 to 3.9 mg / 100 $H_2O$, approximately a 5% decrease in solubility.
 
-Thus, to observe a greater difference, a greater temperature difference may be required. For instance, over the range 10 to 40 degrees C, the solubility shifts from approximately 5 to 3, a percent change of 40%. This percent change is an order of magnitude greater than that the subteam performed an experiment with, and would likely provide more distinguishable, and therefore favorable, results. 
+Thus, to observe a greater difference, a greater temperature difference may be required. For instance, over the range 10 to 40 degrees C, the solubility shifts from approximately 5 to 3 mg / 100 $H_2O$, a percent change of 40%. This percent change is an order of magnitude greater than that the subteam performed an experiment with, and would likely provide more distinguishable, and therefore favorable, results.
+
+**Notice**: The percent change in solubility is approximately ten times less than the percent change in temperature. 
 
 Another observation is that, generally (with the exception of Trial 6), as the temperature reached extremes relative to the Trials' conditions, the percent standard deviation in temperature decreased. This suggested that the temperature had begun to plateau, but had not yet reached a constant value, as the Trials progressed.
 
