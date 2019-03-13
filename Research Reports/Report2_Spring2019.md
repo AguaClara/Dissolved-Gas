@@ -331,9 +331,9 @@ Discuss your experimental procedure. How did you run your experiment? What were 
 **Qualitative Temp Experiment**
 
 ## Results and Analysis
-Table 1 displays the data collected during the experiments described in the Methods section.
+Table 1 displays a summary of data collected during the experiments described in the Methods section.
 
-**Table 1**: Displays the data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the interior and exterior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data logs may be found on [this spreadsheet](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
+**Table 1**: Displays the data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the interior and exterior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records may be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
 |              Trial               |    1    |    2    |    3    |    4    |    5    |    6    |
 |:--------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |     Approximate duration (s)     |   25    |   25    |   25    |   25    |   15    |   15    |
@@ -536,7 +536,7 @@ import numpy as nm
 
 def FluidizationVelocity(area_reactor, porosity, density_sand, diameter, viscosity):
     """This function also takes in values of the area of the reactor, porosity of sand,
-  density of the sand, diameter of sand grains, and viscosity of water.
+  density of the sand, diameter of sand grains, and kinematic viscosity of water.
 
   >>> from aguaclara.play import*
   >>> FluidizationVelocity(5, 5, 5, 5, 5):
