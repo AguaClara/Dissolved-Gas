@@ -7,7 +7,7 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
 
 ## Table of Contents
 
-- [Introduction](#Introduction) [Update Figure 3]
+- [Introduction](#Introduction) [Update Figure 3; update the introduction to talk about initial evaluation of the experimental apparatus]
 - [Literature Review](#Literature-Review) [Consider adding a reference about oxygen solubility vs. temperature]
   - [Fluidized Beds and Bubble Formation](#Fluidized-Beds-and-Bubble-Nucleation)
   - [Controlling Pressure](#Controlling-Pressure)
@@ -333,7 +333,7 @@ Next, two pieces of clear flex tubing were connected to either side of a T push-
 
 The Nalgene apparatus:
 <p style="text-align: center;">
-<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/FlowAccumulator1_SideBySide.jpg?raw=true" height=400>
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/FlowAccumulator1_SideBySide.jpg?raw=true" height=300>
 
 **Figure X**:
 
