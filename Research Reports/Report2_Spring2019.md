@@ -277,6 +277,16 @@ Below, some example sections are given. Sectioning the report is meant to keep s
 
 ### Experimental Apparatus
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
+
+**Schematic**:
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/Schematic%20of%20apparatus.jpg?raw=true" height = 400>
+
+</p>
+
+**Figure X**
+
+
 * Design (calculations, constraints)
 
   $\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
@@ -306,7 +316,7 @@ The pressure regulator [**Insert Figure Number**] was oriented such that the dir
 
 **Note: the above format used to insert a photo doesn't allow for dimension alteration, far as I know. To do that, try the following:**
 <p style="text-align: center;">
-<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Pressure_Regulator.JPG?raw=true" height=300>
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/PressureRegulator_SideBySide.jpg?raw=true" height = 300>
 
 </p>
 
@@ -323,7 +333,10 @@ Next, two pieces of clear flex tubing were connected to either side of a T push-
 **Insert more pictures ew465**
 
 The Nalgene apparatus:
-<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/FlowAccumulator_Front_20190310.jpg?raw=true" height=400>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/FlowAccumulator1_SideBySide.jpg?raw=true" height=400>
+
+**Figure X**:
 
 ### Procedure
 Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
@@ -331,9 +344,9 @@ Discuss your experimental procedure. How did you run your experiment? What were 
 **Qualitative Temp Experiment**
 
 ## Results and Analysis
-Table 1 displays a summary of data collected during the experiments described in the Methods section.
+Data was collected and numerically analyzed during the experiments described in the Methods section.
 
-**Table 1**: Displays the data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the interior and exterior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records may be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
+**Table 1**: Displays the data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the interior and exterior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records can be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
 |              Trial               |    1    |    2    |    3    |    4    |    5    |    6    |
 |:--------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |     Approximate duration (s)     |   25    |   25    |   25    |   25    |   15    |   15    |
@@ -344,20 +357,19 @@ Table 1 displays a summary of data collected during the experiments described in
 |        Standard deviation        |  0.42   |  0.33   |  0.19   |  1.65   |  0.36   |  0.50   |
 |    Percent standard deviation    |  1.89   |  1.65   |  1.03   |  4.98   |  1.01   |  1.35   |
 
-In the video of the cold and hot trials, there were no discernable differences in bubble formation. All videos may be found at [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing).
+Video recordings were also taken of each Trial. Between Trials 1-3 and Trials 4-6, there were no consistent, visually assessable differences in bubble formation. Figures ____ and _____ exemplify this, and all full-length videos can be found at [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing).
 
-**Trial 1**
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial1.gif?raw=true" height = 400>
 </p>
 
-**Figure X**:
+**Figure X**: The GIF above displays a clip from the recording of Trial 1.
 
-**Trial 4**
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial4.gif?raw=true" height = 400>
 </p>
-**Figure X**:
+
+**Figure X**: The GIF above displays a clip from the recording of Trial 4.
 
 **Edit this**
 Despite the ten degree difference in temperatures between Trials 1-3 and Trials 4-6, there was not a great difference observed in the quantity or size of bubbles generated in the fluidized bed reactor.
@@ -371,6 +383,8 @@ The current experimental data revealed shortcomings in the experimental setup. T
 The subteam will consider measuring the final temperature of the effluent water, to ensure that the water's temperature remains relatively constant as it passes through the reactor. The subteam will also consider reaching more extreme temperatures to test the difference between cool and hot water, to see if there is a difference in bubble formation.
 
 ## Future Work
+**Consider: camera set-up?**
+
 The subteam will progress with experimentation, evaluation, and iteration.
 
 The subteam will test the functionality of the prototype system in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. The subteam will modify the experimental method, considering more extreme temperatures so as to prove the difference in oxygen's solubility. The subteam will also consider making a larger flow accumulator, or otherwise changing the experimental apparatus such that the
