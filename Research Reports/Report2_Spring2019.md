@@ -351,6 +351,7 @@ Discuss your experimental procedure. How did you run your experiment? What were 
 Numerical and video data from the experiments described in the Methods section was analyzed.
 
 **Table 1**: Displays the data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the interior and exterior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records can be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
+
 |              Trial               |    1    |    2    |    3    |    4    |    5    |    6    |
 |:--------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |     Approximate duration (s)     |   25    |   25    |   25    |   25    |   15    |   15    |
