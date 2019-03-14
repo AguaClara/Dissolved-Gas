@@ -11,7 +11,7 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
 - [Literature Review](#Literature-Review) [Consider adding a reference about oxygen solubility vs. temperature]
   - [Fluidized Beds and Bubble Formation](#Fluidized-Beds-and-Bubble-Nucleation)
   - [Controlling Pressure](#Controlling-Pressure)
-  - [Gas Solubility's Dependence on Temperature](Gas-Solubility's-Dependence-on-Temperature)
+  - [Gas Solubility's Dependence on Temperature](#Gas-Solubility's-Dependence-on-Temperature)
   - [Analysis of Literature](#Analysis-of-Literature)
 - [Previous Work](#Previous-Work)
 - [Methods](#Methods) [Emily] (including new figures)
