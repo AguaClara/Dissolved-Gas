@@ -11,6 +11,7 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
 - [Literature Review](#Literature-Review) [Consider adding a reference about oxygen solubility vs. temperature]
   - [Fluidized Beds and Bubble Formation](#Fluidized-Beds-and-Bubble-Nucleation)
   - [Controlling Pressure](#Controlling-Pressure)
+  - [Gas Solubility's Dependence on Temperature](Gas-Solubility's-Dependence-on-Temperature)
   - [Analysis of Literature](#Analysis-of-Literature)
 - [Previous Work](#Previous-Work)
 - [Methods](#Methods) [Emily] (including new figures)
@@ -64,6 +65,7 @@ After gathering and analyzing literature, the Fall 2018 subteam fabricated a pro
 The Spring 2019 subteam plans to determine qualitatively, likely with the assistance of a camera, if air bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. The subteam expects that the water's dissolved oxygen content is proportional to the water's dissolved air content, since the major source of the dissolved oxygen is air. Therefore, the system's effectiveness in removing dissolved oxygen should be proportional to the system's effectiveness in removing dissolved air. After analysis of concentration data, the subteam will modify the system to optimize the removal of excess dissolved gas.
 
 The remainder of this report includes further explanation of concepts such as fluidized beds and considerations of pressure. The Spring 2019 subteam looks forward to pursuing experiments to evaluate the reactor's feasibility as a solution.
+**The subteam built...and tested...and will...**
 
 ## Literature Review
 The subteam concentrated its research on optimizing the system's fluidized bed reactor and manipulating pressure to ensure maximum dissolved gas removal. The subteam’s research can be summarized as follows: gas solubility decreases with decreasing ambient pressure. Therefore, to catalyze bubble growth in a reactor for ease of gas removal, the subteam aimed to design a reactor exerting minimal pressure on gas molecules. Such pressure can be controlled by altering the reactor’s height, by influencing bubble size, and by modifying dimensions of the tubing in the system. Pressure control, combined with providing nucleation sites in a fluidized bed reactor, helps the dissolved gas form stable bubbles that escape from the surrounding water. The subteam hypothesizes that such a reactor design can be developed to alleviate the problems that the plants at El PODA, Nicaragua and Tamara, Honduras are facing.
@@ -194,7 +196,7 @@ The subteam plans on using the principles of this equation to further decrease t
 
 In the Analysis of Literature section, Equations 3-7 are evaluated and related to one another to form one basis for parameters of the system's design.
 
-### Solubility's dependence on temperature
+### Gas Solubility's Dependence on Temperature
 **Summarize the information & why it relates to our experimental apparatus**
 
 <p style="text-align: center;">
@@ -275,11 +277,14 @@ Explain the techniques you have used to acquire additional data and insights. Re
 Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
 
 ### Experimental Apparatus
+
+**NOTE**: Mention RPM as it relates to fluidization velocity?
+
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
 
 **Schematic**:
 <p style="text-align: center;">
-<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/Schematic%20of%20apparatus.jpg?raw=true" height = 400>
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/Schematic%20of%20apparatus.jpg?raw=true" height = 350>
 
 </p>
 
@@ -343,7 +348,7 @@ Discuss your experimental procedure. How did you run your experiment? What were 
 **Qualitative Temp Experiment**
 
 ## Results and Analysis
-Data was collected and numerically analyzed via the experiments described in the Methods section.
+Numerical and video data from the experiments described in the Methods section was analyzed.
 
 **Table 1**: Displays the data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the interior and exterior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records can be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
 |              Trial               |    1    |    2    |    3    |    4    |    5    |    6    |
@@ -356,7 +361,7 @@ Data was collected and numerically analyzed via the experiments described in the
 |        Standard deviation        |  0.42   |  0.33   |  0.19   |  1.65   |  0.36   |  0.50   |
 |    Percent standard deviation    |  1.89   |  1.65   |  1.03   |  4.98   |  1.01   |  1.35   |
 
-Video recordings were also taken of each Trial. Between Trials 1-3 and Trials 4-6, there were no consistent, visually assessable differences in bubble formation. Figures ____ and _____ exemplify this, and all full-length videos can be found on [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing).
+Video recordings were also taken of each Trial. Bubbles were seen to form in the fluidized bed reactor, as shown in Figure X. This demonstrates the basic feasibility of encouraging bubble growth with a fluidized bed. However, between Trials 1-3 and Trials 4-6, there were no consistent, visually assessable differences in bubble formation. Figures ____ and _____ exemplify this, and all full-length videos can be found on [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing). While the effect of temperature on gas solubility was not the focus of the subteam's work, it was an aspect the subteam considered for designing the experimental apparatus, to simulate input of supersaturated water.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial1.gif?raw=true" height = 400>
@@ -376,29 +381,25 @@ Despite the approximate ten degree difference in temperatures between Trials 1-3
 
 This can potentially be explained after a quick analysis of Figure _____.
 
-While Figure ___ assumes a partial pressure of 1 atm of the gas of interest, this analysis considers the principles of the data qualitatively. In Figure ____, in the range of 20 to 30 degrees C (the approximate range of experimental temperatures), the percent difference in solubility of oxygen and nitrogen (the primary components of air) is relatively small. As temperature increases from 20 to 30 degrees C, a 50% increase in temperature, the solubility of oxygen drops from approximately 4.3 to 3.5 mg / 100 $H_2O$, an approximately 18% decrease in solubility. Such a difference in solubility may not have visually assessable consequences for bubble formation.
+While Figure ___ assumes a partial pressure of 1 atm of the gas of interest, this analysis considers the qualitative principles that the Figure illustrates. In Figure ____, in the range of 20 to 30 degrees C (the approximate range of experimental temperatures), the percent difference in solubility of oxygen and nitrogen (the primary components of air) is relatively small. As temperature increases from 20 to 30 degrees C, a 50% increase in temperature, oxygen's solubility drops from approximately 4.3 to 3.5 mg / 100 $H_2O$, only an approximately 18% decrease in solubility. Such a difference in solubility may not have visually assessable consequences for bubble formation.
 
-To observe an appreciable difference in bubble formation in the fluidized bed, a greater temperature difference between Trials may be required. For instance, over the range 10 to 40 degrees C, the solubility shifts from approximately 5 to 3 mg / 100 $H_2O$, a percent change of 40%. This percent change is twice that which characterized Trials 1 - 6 on March 10. Such a temperature difference may provide more distinguishable results.
+To observe an appreciable difference in bubble formation in the fluidized bed, a greater temperature difference between Trials may be required. For instance, over the range 10 to 40 degrees C, oxygen's solubility shifts from approximately 5 to 3 mg / 100 $H_2O$, a percent change of 40%. This percent change is twice that which characterized Trials 1 - 6 on March 10, and such a difference may provide more distinguishable results.
 
-The subteam also observed that, with the exception of Trial 6, percent standard deviation in temperature decreased as the temperature reached extremes relative to the Trials' conditions. This suggested that the temperature of each Trials' influent water had begun to plateau, but had not yet reached the extreme values of the influent water's capacity, as the Trials progressed.
-
-**Good news**: *bubbles did form in the reactor that did not enter through the influent stream.*
+The subteam also observed that, with the exception of Trial 6, percent standard deviation in temperature decreased as the influent water's temperature reached extremes relative to the trials' conditions. This suggested that the temperature of each trial's influent water had begun to plateau, but had not yet reached the extreme values of the influent water's potential temperatures.
 
 ## Conclusions
-Experimental data revealed shortcomings in the experimental setup. There was no visually discernable difference in bubble formation between fluidized beds whose influent water streams had a temperature difference of approximately ten degrees Celsius.
+While some bubbles formed in the fluidized bed reactor, experimental data revealed shortcomings in the experimental setup. There was no visually discernable difference in bubble formation between fluidized beds whose influent water streams had a temperature difference of approximately ten degrees Celsius.
 
 The subteam considered measuring the temperature of the reactor's effluent, to determine whether the water's temperature remains relatively constant as it passes through the reactor. The subteam also considered conducting experiments at more extreme temperatures, to take advantage of the greater difference in solubility, as discussed in the Results and Analysis section.
 
 ## Future Work
 The subteam will progress with experimentation, evaluation, and iteration of the apparatus.
 
-The subteam will test the functionality of the prototype system in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. The subteam will modify the experimental method, considering more extreme temperatures so as to prove the difference in oxygen's solubility. The subteam will also consider making a larger flow accumulator, or otherwise changing the experimental apparatus such that the
+The subteam has qualitatively determined that bubbles do form within the fluidized bed reactor. This suggests that the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is plausible. The subteam will modify the experimental method, considering more extreme temperatures so as to prove the difference in oxygen's solubility and improve the opportunity for observational evaluation. The subteam also will consider using a camera set-up to have consistent video recordings of experiments, to avoid errors or uncertainty due to avoidable error such as hand movement. The subteam will also consider making a larger flow accumulator, or otherwise changing the experimental apparatus such that the duration of experiments increases.
 
-After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. The subteam expects that the water's dissolved oxygen content is proportional to the water's dissolved air content since the major source of the dissolved oxygen is air. Therefore, the system's effectiveness in removing dissolved oxygen should be proportional to the system's effectiveness in removing dissolved air. After analysis of concentration data, the subteam will modify the system to optimize the removal of dissolved gas.
+After system improvements, the subteam will also progress to more thorough, quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. (**The subteam expects that the water's dissolved oxygen content is proportional to the water's dissolved air content since the major source of the dissolved oxygen is air. Therefore, the system's effectiveness in removing dissolved oxygen should be proportional to the system's effectiveness in removing dissolved air.**) After analysis of concentration data, the subteam will modify the system to optimize the removal of dissolved gas.
 
-In future semesters, the subteam must also consider the end goal of scaling up the prototype. The prototype's method to remove excess dissolved gas from influent water must feasibly apply on a practical scale. As part of this end goal, as pertaining to a fluidized bed reactor, the subteam must evaluate the validity of the calculated fluidization flow of the sand bed. In order to reliably scale up a fluidized bed reactor, the fluidization flow must be reliably calculable.
-
-The subteam also will consider using a camera set-up to have consistent video recordings of experiments, to avoid errors or uncertainty due to avoidable error such as hand movement.  
+In future semesters, the subteam must also consider the end goal of scaling up the prototype. The prototype's method to remove excess dissolved gas from influent water must feasibly apply on a practical scale. As part of this end goal, as pertaining to a fluidized bed reactor, the subteam must evaluate the validity of the calculated fluidization flow of the sand bed, and the validity of the calculated entrainment velocity. In order to reliably scale up a fluidized bed reactor, the fluidization flow must be reliably calculable.
 
 The subteam looks forward to future semesters' experimentation and iteration to analyze and improve the system, and to eventually develop a practical reactor.
 
