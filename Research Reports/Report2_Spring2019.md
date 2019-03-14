@@ -356,10 +356,10 @@ Numerical and video data from the experiments described in the Methods section w
 |:--------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |     Approximate duration (s)     |   25    |   25    |   25    |   25    |   15    |   15    |
 | Average pressure difference (Pa) | 5971.72 | 5065.84 | 3758.40 | 4134.08 | 3601.98 | 3452.05 |
-|        Standard deviation        |  98.46  | 423.64  | 189.06  | 299.66  |  10.31  |  11.74  |
+|        Standard deviation (Pa)        |  98.46  | 423.64  | 189.06  | 299.66  |  10.31  |  11.74  |
 | Percent standard deviation| 1.65        | 8.36        |5.03         |7.25  | 0.29   | 0.34        |
 | Average temperature (C)      |  22.05  |  19.91  |  18.63  |  33.03  |  35.79  |  36.85  |
-|        Standard deviation        |  0.42   |  0.33   |  0.19   |  1.65   |  0.36   |  0.50   |
+|        Standard deviation (C)        |  0.42   |  0.33   |  0.19   |  1.65   |  0.36   |  0.50   |
 |    Percent standard deviation    |  1.89   |  1.65   |  1.03   |  4.98   |  1.01   |  1.35   |
 
 Video recordings were also taken of each Trial. Bubbles were seen to form in the fluidized bed reactor, as shown in Figure X. This demonstrates the basic feasibility of encouraging bubble growth with a fluidized bed. However, between Trials 1-3 and Trials 4-6, there were no consistent, visually assessable differences in bubble formation. Figures ____ and _____ exemplify this, and all full-length videos can be found on [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing). While the effect of temperature on gas solubility was not the focus of the subteam's work, it was an aspect the subteam considered for designing the experimental apparatus, to simulate input of supersaturated water.
