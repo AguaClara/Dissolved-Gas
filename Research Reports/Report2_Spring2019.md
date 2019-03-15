@@ -10,9 +10,6 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
 - The experiment (Emily & Tommy & Saul)
   - This also needs to be added to the Manual. Easiest way to do this - write the Methods section, then copy, paste, condense into Manual.
 
-  **'Push-to-Connect' vs. 'Push to Connect' Thoughts? ew465**
-
-
 ## Table of Contents
 
 - [Introduction](#Introduction)
@@ -295,21 +292,18 @@ Below, some example sections are given. Sectioning the report is meant to keep s
 
 ### Experimental Apparatus
 **Discuss editing this heading w/everyone ew465**
+**Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.**
 
-**NOTE**: Mention RPM as it relates to fluidization velocity?
-
-Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
-
-The subteam fabricated a prototype fluidized bed reactor and assembled an accompanying system, as shown in Figure 3. The Methods section explains the subteam's procedures to determine the reactor's parameters and to fabricate the reactor.
+The subteam fabricated a prototype fluidized bed reactor and assembled an accompanying system, as shown in Figure 3. The Methods and Manual sections of this report explain the subteam's procedures to determine the reactor's parameters and to fabricate the reactor.
 
 In order to calculate the fluidization velocity of the sand bed contained by the reactor, the subteam needed to determine the sand bed's porosity, the average diameter of the sand grains, and the average cross-sectional area of the pipe. The importance of these values is illustrated by [Equation 1](#Equation-1).
 
-The prototype reactor design aligns with that illustrated in Figure 6. The Fabrication Details section describes the composition of the reactor, how the subteam constructed the prototype reactor, and how the subteam assembled the system.
+The prototype reactor design aligned with that illustrated in Figure 6. The Fabrication Details section describes the composition of the reactor, how the subteam constructed the prototype reactor, and how the subteam assembled the system.
 
-The prototype system’s design is as follows: from the water source (sink) a pressure regulator decreases the pressure in order to prevent leakage **could be more specific about the leakage ew465**. From there, a clear flex tube goes into a fork system, one side goes into a flow accumulator in order to collect the temperature of the water, the other into the peristaltic pump. Hot water **why is it specifically hot water since we used both hot and cold in the experiment? ew465**  (since water saturated with air, once heated, becomes supersaturated [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html
-)) goes into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe shown in Figure 9, contains a silica sand bed. This is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity **Do we talk more about the specifics of this somewhere else in the report? ie. the ProCoDa calculation vs. experimental results? ew465**. The influent water's velocity is controlled manually via the peristaltic pump. Ideally, as the supersaturated water flows through the reactor, excess air particles in the water accumulate on the sand grains and form bubbles. Such bubbles then depart from their nucleation sites, flow upward out of the reactor (through the effluent tubing), and flow into a bucket. While the bubbles are flowing out of the reactor, the pressure sensor records the pressure difference between the inside and outside. The bucket at the end acts as the open-faced vent (as illustrated in Figure 1) for the air bubbles to escape into the atmosphere.
+The prototype system’s design is as follows: from the water source (sink), water flows into a pressure regulator, which decreases water pressure in order to prevent leakage in the tubing system **could be more specific about the leakage ew465**. Water flows out of the pressure regulator, through clear flex tubing, and is divided into two streams: one goes into a flow accumulator in containing a temperature probe, the other into the peristaltic pump. Hot water **why is it specifically hot water since we used both hot and cold in the experiment? ew465**  (since water saturated with air, once heated, becomes supersaturated [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html
+)) goes into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe shown in **Figure 9**, contains a silica sand bed. This is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity **Do we talk more about the specifics of this somewhere else in the report? ie. the ProCoDa calculation vs. experimental results? ew465**. The influent water's velocity is controlled manually via the peristaltic pump. Ideally, as the supersaturated water flows through the reactor, excess air particles in the water accumulate on the sand grains and form bubbles. Such bubbles then depart from their nucleation sites, flow upward out of the reactor (through the effluent tubing), and flow into a bucket. While the bubbles are flowing out of the reactor, the pressure sensor records the pressure difference between the inside and outside. The bucket at the end acts as the open-faced vent (as illustrated in Figure 1) for the air bubbles to escape into the atmosphere.
 
-One should note that a mesh screen is installed at the bottom of the reactor to prevent any sand from falling down/out of the reactor. **Figure 8, found in the Fabrication Details section, further depicts this.**
+One should note that a mesh screen is installed at the bottom of the reactor to prevent any sand from falling down/out of the reactor. **Figure 8 in the [Fall 2018 Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md) further depicts the mesh.**
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/Schematic%20of%20apparatus.jpg?raw=true" height = 350>
@@ -394,17 +388,15 @@ Numerical and video data from the experiments described in the Methods section w
 
 **Table 1**: Displays data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the exterior and interior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records can be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
 
-**Would it be helpful to specify which Percent Standard Deviation refers to the temperature measurement and which refers to the pressure measurement? I suppose it's pretty logical if you read the table in order. just a thought... ew465**
-
 |              Trial               |    1    |    2    |    3    |    4    |    5    |    6    |
 |:--------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |     Approximate duration (s)     |   25    |   25    |   25    |   25    |   15    |   15    |
 | Average pressure difference (Pa) | 5971.72 | 5065.84 | 3758.40 | 4134.08 | 3601.98 | 3452.05 |
 |        Standard deviation (Pa)        |  98.46  | 423.64  | 189.06  | 299.66  |  10.31  |  11.74  |
-| Percent standard deviation| 1.65        | 8.36        |5.03         |7.25  | 0.29   | 0.34        |
+| Percent standard deviation in pressure| 1.65        | 8.36        |5.03         |7.25  | 0.29   | 0.34        |
 | Average temperature (C)      |  22.05  |  19.91  |  18.63  |  33.03  |  35.79  |  36.85  |
 |        Standard deviation (C)        |  0.42   |  0.33   |  0.19   |  1.65   |  0.36   |  0.50   |
-|    Percent standard deviation    |  1.89   |  1.65   |  1.03   |  4.98   |  1.01   |  1.35   |
+|    Percent standard deviation in temperature    |  1.89   |  1.65   |  1.03   |  4.98   |  1.01   |  1.35   |
 
 **Is there a way to make the transition between hot water measurements and cold water measurements more obvious in the table above? For example, bolding the line between trials 3 and 4 or adding a heading above the trial numbers? ew465**
 
