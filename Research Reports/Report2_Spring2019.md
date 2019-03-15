@@ -9,6 +9,8 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
 - Introduction to the apparatus (Saul)
 - The experiment (Emily & Tommy & Saul)
   - This also needs to be added to the Manual. Easiest way to do this - write the Methods section, then copy, paste, condense into Manual.
+- ProCoDA method file description
+- Links to Fall 2018 Final Report, as necessary
 
 ## Table of Contents
 
@@ -292,16 +294,15 @@ Below, some example sections are given. Sectioning the report is meant to keep s
 
 ### Experimental Apparatus
 **Discuss editing this heading w/everyone ew465**
-**Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.**
 
-The subteam fabricated a prototype fluidized bed reactor and assembled an accompanying system, as shown in Figure 3. The Methods and Manual sections of this report explain the subteam's procedures to determine the reactor's parameters and to fabricate the reactor.
+The Fall 2018 subteam fabricated a prototype fluidized bed reactor and assembled an accompanying system; the Spring 2019 subteam modified this system to its current form, shown in Figure 3. **The Methods section of the Fall 2018 Final Report describes the fabrication of the reactor itself, and procedures to determine the reactor's parameters. This includes calculation of the fluidized bed's fluidization velocity, and corresponding flow rate. The Methods and Manual section of this report describes the details of the accompanying system, and changes made in the Spring 2019 semester**.
 
-In order to calculate the fluidization velocity of the sand bed contained by the reactor, the subteam needed to determine the sand bed's porosity, the average diameter of the sand grains, and the average cross-sectional area of the pipe. The importance of these values is illustrated by [Equation 1](#Equation-1).
+**CONSIDER removing this, since this is work done by the Fall 2018 semester. In order to calculate the fluidization velocity of the sand bed contained by the reactor, the subteam needed to determine the sand bed's porosity, the average diameter of the sand grains, and the average cross-sectional area of the pipe. The importance of these values is illustrated by [Equation 1](#Equation-1).**
 
-The prototype reactor design aligned with that illustrated in Figure 6. The Fabrication Details section describes the composition of the reactor, how the subteam constructed the prototype reactor, and how the subteam assembled the system.
+The prototype system design aligned with that illustrated in **Figure 6**. **The Fabrication Details section *Of the Fall 2018 report* describes the composition of the reactor, how the subteam constructed the prototype reactor, and how the subteam assembled the system.**
 
-The prototype system’s design is as follows: from the water source (sink), water flows into a pressure regulator, which decreases water pressure in order to prevent leakage in the tubing system **could be more specific about the leakage ew465**. Water flows out of the pressure regulator, through clear flex tubing, and is divided into two streams: one goes into a flow accumulator in containing a temperature probe, the other into the peristaltic pump. Hot water **why is it specifically hot water since we used both hot and cold in the experiment? ew465**  (since water saturated with air, once heated, becomes supersaturated [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html
-)) goes into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe shown in **Figure 9**, contains a silica sand bed. This is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity **Do we talk more about the specifics of this somewhere else in the report? ie. the ProCoDa calculation vs. experimental results? ew465**. The influent water's velocity is controlled manually via the peristaltic pump. Ideally, as the supersaturated water flows through the reactor, excess air particles in the water accumulate on the sand grains and form bubbles. Such bubbles then depart from their nucleation sites, flow upward out of the reactor (through the effluent tubing), and flow into a bucket. While the bubbles are flowing out of the reactor, the pressure sensor records the pressure difference between the inside and outside. The bucket at the end acts as the open-faced vent (as illustrated in Figure 1) for the air bubbles to escape into the atmosphere.
+The prototype system’s design is as follows: from the water source (sink), water flows into a pressure regulator, which decreases water pressure in order to prevent leakage in the tubing system. Water flows out of the pressure regulator, through clear flex tubing, and forks into two streams: one goes into a flow accumulator containing a temperature probe, and the other flows into a peristaltic pump. **Rephrase this. As stated in the Literature Review section, the subteam is considering the use of hot influent water to act as supersaturated influent water, since water saturated with air, once heated, becomes supersaturated [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html
+))Hot water goes into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe shown in** **Figure 9**, contains a silica sand bed. This is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity, which corresponds to a flow rate of 2.54 mL / s, as calculated in Fall 2018 using the Python Code. **Do we talk more about the specifics of this somewhere else in the report? ie. the ProCoDa calculation vs. experimental results? ew465 This should be mentioned in the ProCoDA method file section**. The influent water's flow rate is controlled manually via the peristaltic pump. Ideally, as the supersaturated water flows through the reactor, excess air particles in the water accumulate on the sand grains and form bubbles. Such bubbles then depart from their nucleation sites, flow upward out of the reactor (through the effluent tubing), and flow into a bucket. While the bubbles are flowing out of the reactor, the pressure sensor records the pressure difference between the inside of the reactor and outside atmosphere. The bucket at the end acts as the open-faced vent (as illustrated in Figure 1) for the air bubbles to escape into the atmosphere.
 
 One should note that a mesh screen is installed at the bottom of the reactor to prevent any sand from falling down/out of the reactor. **Figure 8 in the [Fall 2018 Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md) further depicts the mesh.**
 
@@ -329,9 +330,9 @@ The pressure regulator, depicted in Figure 9, was oriented such that the directi
 
 The subteam hypothesized that a decrease in pressure inside the reactor would decrease the solubility of the gas and therefore encourage bubble formation. The subteam installed a pressure sensor near the top of the reactor to monitor this pressure difference between the inside of the reactor and atmospheric pressure.
 
-To install the pressure sensor, the reactor was first emptied of sand and water. The pipe **Is it obvious what 'pipe' refers to or should it be specified? ew465** was tapped with a 1/4" 18NPT pipe tap about 70 cm from the influent end of the reactor. A 1/4" push-to-connect was wrapped with Teflon tape and threaded into the tapped aperture to make a water-tight seal.
+To install the pressure sensor, the reactor was first emptied of sand and water. The PVC pipe comprising the reactor was tapped with a 1/4" 18NPT pipe tap about 70 cm from the influent end of the reactor. A 1/4" push-to-connect was wrapped with Teflon tape and threaded into the tapped aperture to form a water-tight seal.
 
-**Describe how we found the negative end of the pressure sensor using ProCoDa ew465**
+**Describe how we found the negative end of the pressure sensor using ProCoDa ew465. Not sure if that is necessary.**
 The negative end of the pressure sensor was inserted into a piece of 1/4" hard tubing. The connection between the hard tubing and the pressure sensor was sealed with medium clear PVC cement. The other end of the hard tubing was inserted into the 1/4" push-to-connect. The pressure sensor was then plugged into the ProCoDA box at the subteam's work station, such that pressure data could be collected via ProCoDA.
 
 <p style="text-align: center;">
@@ -369,19 +370,18 @@ Two pieces of clear flex tubing were then connected to either side of a T push-t
 **Figure 11**: The above is a bird's-eye view of the portion of the apparatus in which flow diverts between the flow accumulator and the peristaltic pump.
 
 ### Procedure
-Synopsis: **are we supposed to have a synopsis or is this just a note? ew465**
-We were testing, qualitatively, the difference between bubble formation in the fluidized bed at different water temperatures.  
+**Remove this at some point**(We were testing, qualitatively, the difference between bubble formation in the fluidized bed at different water temperatures.)  
 
 **Do we need the following paragraph? ew465**
 Before beginning qualitative experiments to determine the feasibility of using a fluidized bed to encourage bubble formation, the subteam sought to determine the minimum fluidization velocity of the system. **idk anything about the ProCoDa calculation. Has this already been talked about in a previous report? Should we link to it @Tommy tsb49 ew465** The subteam attempted to experimentally verify the theoretical minimum fluidization velocity calculated by ProCoDa. Starting at...
 
-The subteam conducted a qualitative experiment to determine if the fluidized bed successfully promotes bubble formation in the reactor. Three trials **6 vs 3 trials?? ew465** were conducted in which the amount of bubble formation in the reactor using hot (supersaturated) water was compared to the amount of bubble formation using cold water. The water temperatures used were defined by the hottest and coldest temperatures that the laboratory sink could produce. The water was run for several minutes at each temperature before data collection to allow fluctuations in influent temperatures to settle and for the temperature in the reactor to equilibrate **edit previous sentence ew465**. Qualitative data of bubble formation was taken in the form of a video of the fluidized bed reactor. The bubble production rate and size of bubbles was analyzed visually from these videos.
+The subteam conducted a qualitative experiment to determine if the fluidized bed successfully promotes bubble formation in the reactor. Six were conducted in which the amount of bubble formation in the reactor using hot (supersaturated) water was compared to the amount of bubble formation using cold water. The water temperatures used were defined by the hottest and coldest temperatures that the laboratory sink could produce. The water was run for several minutes at each temperature before data collection to allow fluctuations in influent temperatures to settle and for the temperature in the reactor to equilibrate **edit previous sentence ew465**. Qualitative data of bubble formation was taken in the form of a video of the fluidized bed reactor. The bubble production rate and size of bubbles was analyzed visually from these videos.
 
 The influent water temperature was monitored over the course of each trial using a temperature probe inserted in the flow accumulator. The data was recorded with ProCoDa and the average, standard deviation, and percent standard deviation for each trial was calculated.
 
 The pressure difference inside and outside of the reactor was also measured with the pressure sensor and recorded with ProCoDa. The average, standard deviation, and percent standard deviation of the data was calculated as well.
 
-The length of each trial was determined by how quickly the flow accumulator filled up with water, with most times around 25 seconds. The peristaltic pump was run at 60 RPM, corresponding to a flow rate well above the minimum fluidization velocity as calculated by ProCoDa and experimentally observed. **Add specific numbers in manual ew465**
+The length of each trial was determined by how quickly the flow accumulator filled up with water, with most times around 25 seconds. The peristaltic pump was run at 60 RPM, corresponding to a flow rate well above the minimum fluidization velocity as calculated by ProCoDa and experimentally observed. **Add specific numbers in manual ew465. Also add the instructions for ProCoDA.**
 
 ## Results and Analysis
 Numerical and video data from the experiments described in the Methods section were analyzed.
@@ -397,8 +397,6 @@ Numerical and video data from the experiments described in the Methods section w
 | Average temperature (C)      |  22.05  |  19.91  |  18.63  |  33.03  |  35.79  |  36.85  |
 |        Standard deviation (C)        |  0.42   |  0.33   |  0.19   |  1.65   |  0.36   |  0.50   |
 |    Percent standard deviation in temperature    |  1.89   |  1.65   |  1.03   |  4.98   |  1.01   |  1.35   |
-
-**Is there a way to make the transition between hot water measurements and cold water measurements more obvious in the table above? For example, bolding the line between trials 3 and 4 or adding a heading above the trial numbers? ew465**
 
 Video recordings were taken of each Trial. As shown in Figure 12, bubbles formed in the fluidized bed reactor. This demonstrated the basic feasibility of encouraging bubble growth with a fluidized bed. However, between Trials 1-3 and Trials 4-6, there were no consistent, visually assessable differences in bubble formation. Figures 12 and 13 exemplify this, and all full-length videos can be found on [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing). While the effect of temperature on gas solubility was not the focus of the subteam's work, it was an aspect the subteam considered for designing the experimental apparatus, to simulate input of supersaturated water.
 
@@ -488,6 +486,12 @@ In order to find more information regarding the set-up and measurements of the p
 
 #### Evaluating Bubble formation
 **Add this**
+Basic bullet points:
+- Set up temperature probe by ___
+- Set up pressure Sensor by ____
+- Set up data collection by _____
+- Input water
+- Press _____ buttons in ProCoDA to collect _____ data, and write ____ comments
 
 ### Fabrication Manual
 
@@ -555,6 +559,8 @@ The experiments are really low maintenance and easy to wrap up.
 3. Disconnect the flex tubing used for influent water from the water supply
 
 ## ProCoDA Method File
+
+This was used to...
 
 ###States
 - *OFF*: The peristaltic pump is off.
