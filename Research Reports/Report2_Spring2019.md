@@ -5,11 +5,10 @@
 ## Abstract
 Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's components. The Dissolved Gas subteam aims to design a gravity-powered apparatus to extract excess gas from influent water prior to entry into a plant. The Fall 2018 subteam fabricated a small-scale prototype incorporating a fluidized bed reactor. The Spring 2019 subteam began to experimentally evaluate the prototype: given qualitative success, the subteam will test the prototype's effectiveness by measuring change in dissolved oxygen concentration across the apparatus. The Spring 2019 subteam will iterate improvements to work toward a prototype for application in an AguaClara plant.
 
-
-**Emily yikes I love chicken. stop laughing**
+**To finish**
 - Introduction to the apparatus (Saul)
-- Renumber the Figures (Tommy) **Done**
-- The experiment (Emily)
+- The experiment (Emily & Tommy & Saul)
+  - This also needs to be added to the Manual. Easiest way to do this - write the Methods section, then copy, paste, condense into Manual. 
 
 
 ## Table of Contents
@@ -307,14 +306,14 @@ The prototype reactor design aligns with that illustrated in Figure 6. The Fabri
 The prototype system’s design is as follows: from the water source (sink) a pressure regulator decreases the pressure in order to prevent leakage. From there, a clear flex tube goes into a fork system, one side goes into a flow accumulator in order to collect the temperature of the water, the other into the peristaltic pump. Hot water (since water saturated with air, once heated, becomes supersaturated [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html
 )) goes into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe shown in Figure 9, contains a silica sand bed. This is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. The influent water's velocity is controlled manually via the peristaltic pump. Ideally, as the supersaturated water flows through the reactor, excess air particles in the water accumulate on the sand grains and form bubbles. Such bubbles then depart from their nucleation sites, flow upward out of the reactor (through the effluent tubing), and flow into a bucket. While the bubbles are flowing out of the reactor, the pressure sensor records the pressure difference between the inside and outside. The bucket at the end acts as the open-faced vent (as illustrated in Figure 1) for the air bubbles to escape into the atmosphere.
 
-One should note that a mesh screen is installed at the bottom of the reactor to prevent any sand from falling down/out of the reactor. Figure 8, found in the Fabrication Details section, further depicts this.
+One should note that a mesh screen is installed at the bottom of the reactor to prevent any sand from falling down/out of the reactor. **Figure 8, found in the Fabrication Details section, further depicts this.**
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/Schematic%20of%20apparatus.jpg?raw=true" height = 350>
 
 </p>
 
-**Figure 6**: The above is diagram is a schematic of the current apparatus, as described in the above paragraphs. Black arrows represent the flow of water. 
+**Figure 6**: The above is diagram is a schematic of the current apparatus, as described in the above paragraphs. Black arrows represent the flow of water.
 
 #### Pressure Sensor Installation
 
@@ -376,8 +375,10 @@ Two pieces of clear flex tubing were then connected to either side of a T push-t
 ### Procedure
 Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
 
+Synopsis:
+We were testing, qualitatively, the difference between bubble formation in the fluidized bed at different water temperatures.  
+
 **Qualitative Temp Experiment**
-**I don't think we need any pictures for this**
 
 Mention RPM used 60.0 RPM
 **ew465**
@@ -443,8 +444,6 @@ The goal of this section is to provide all of the guidance that would be necessa
 
 ## Special Components
 
-If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
-
 ###Pressure Regulator
 
 A Pressure regulator is a device that manages the pressure. For the purposes of the subteam we use it in order to decrease the pressure coming from the water supply (Sink).
@@ -484,6 +483,9 @@ The average diameter of the silica sand grains was needed to calculate the sand 
 The prototype fluidized bed reactor was comprised of a transparent PVC pipe containing a silica sand bed, modified with components specified in the Fabrication Manual.
 
 In order to find more information regarding the set-up and measurements of the pipe dimensions please visit [Fall 2018 Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md).
+
+#### Evaluating Bubble formation
+**Add this**
 
 ### Fabrication Manual
 
