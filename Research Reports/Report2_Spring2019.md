@@ -8,7 +8,9 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
 **To finish**
 - Introduction to the apparatus (Saul)
 - The experiment (Emily & Tommy & Saul)
-  - This also needs to be added to the Manual. Easiest way to do this - write the Methods section, then copy, paste, condense into Manual. 
+  - This also needs to be added to the Manual. Easiest way to do this - write the Methods section, then copy, paste, condense into Manual.
+
+  **'Push-to-Connect' vs. 'Push to Connect' Thoughts? ew465**
 
 
 ## Table of Contents
@@ -20,7 +22,7 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
   - [Gas Solubility versus Temperature](#Gas-Solubility-versus-Temperature)
   - [Analysis of Literature](#Analysis-of-Literature)
 - [Previous Work](#Previous-Work)
-- [Methods](#Methods) [Emily] (including new figures)
+- [Methods](#Methods)
   - [Pressure Regulator Installation](#Pressure-Regulator-Installation)
   - [Pressure Sensor Installation](#Pressure-Sensor-Installation)
   - [Creating a Forked Flow System](#Creating-a-Forked-Flow-System)
@@ -292,6 +294,7 @@ Explain the techniques you have used to acquire additional data and insights. Re
 Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
 
 ### Experimental Apparatus
+**Discuss editing this heading w/everyone ew465**
 
 **NOTE**: Mention RPM as it relates to fluidization velocity?
 
@@ -303,8 +306,8 @@ In order to calculate the fluidization velocity of the sand bed contained by the
 
 The prototype reactor design aligns with that illustrated in Figure 6. The Fabrication Details section describes the composition of the reactor, how the subteam constructed the prototype reactor, and how the subteam assembled the system.
 
-The prototype system’s design is as follows: from the water source (sink) a pressure regulator decreases the pressure in order to prevent leakage. From there, a clear flex tube goes into a fork system, one side goes into a flow accumulator in order to collect the temperature of the water, the other into the peristaltic pump. Hot water (since water saturated with air, once heated, becomes supersaturated [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html
-)) goes into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe shown in Figure 9, contains a silica sand bed. This is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. The influent water's velocity is controlled manually via the peristaltic pump. Ideally, as the supersaturated water flows through the reactor, excess air particles in the water accumulate on the sand grains and form bubbles. Such bubbles then depart from their nucleation sites, flow upward out of the reactor (through the effluent tubing), and flow into a bucket. While the bubbles are flowing out of the reactor, the pressure sensor records the pressure difference between the inside and outside. The bucket at the end acts as the open-faced vent (as illustrated in Figure 1) for the air bubbles to escape into the atmosphere.
+The prototype system’s design is as follows: from the water source (sink) a pressure regulator decreases the pressure in order to prevent leakage **could be more specific about the leakage ew465**. From there, a clear flex tube goes into a fork system, one side goes into a flow accumulator in order to collect the temperature of the water, the other into the peristaltic pump. Hot water **why is it specifically hot water since we used both hot and cold in the experiment? ew465**  (since water saturated with air, once heated, becomes supersaturated [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html
+)) goes into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe shown in Figure 9, contains a silica sand bed. This is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity **Do we talk more about the specifics of this somewhere else in the report? ie. the ProCoDa calculation vs. experimental results? ew465**. The influent water's velocity is controlled manually via the peristaltic pump. Ideally, as the supersaturated water flows through the reactor, excess air particles in the water accumulate on the sand grains and form bubbles. Such bubbles then depart from their nucleation sites, flow upward out of the reactor (through the effluent tubing), and flow into a bucket. While the bubbles are flowing out of the reactor, the pressure sensor records the pressure difference between the inside and outside. The bucket at the end acts as the open-faced vent (as illustrated in Figure 1) for the air bubbles to escape into the atmosphere.
 
 One should note that a mesh screen is installed at the bottom of the reactor to prevent any sand from falling down/out of the reactor. **Figure 8, found in the Fabrication Details section, further depicts this.**
 
@@ -315,15 +318,27 @@ One should note that a mesh screen is installed at the bottom of the reactor to 
 
 **Figure 6**: The above is diagram is a schematic of the current apparatus, as described in the above paragraphs. Black arrows represent the flow of water.
 
+#### Pressure Regulator Installation
+
+A pressure regulator was installed between the sink and the peristaltic pump to maintain consistent flow pressure of influent water.
+
+The pressure regulator, depicted in Figure 9, was oriented such that the direction of water flow matched the arrow on the apparatus. The influent side was connected to the sink using a piece of 3/8" diameter hard plastic tubing. The effluent side was connected to the peristaltic pump using the original piece of clear flex tubing that was attached to the pump. The flow pressure of water was reduced by tightening the screw and nut on the top of the pressure regulator, until no leakage occurred when peristaltic pump was turned off.  
+
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/PressureRegulator_SideBySide.jpg?raw=true" height = 300>
+
+</p>
+
+**Figure 9**: The above photograph depicts the pressure regulator installed prior to the peristaltic pump. Influent water (right hand side) enters the regulator from the sink, and passes through to continue to the peristaltic pump and flow accumulator.
+
 #### Pressure Sensor Installation
 
 The subteam hypothesized that a decrease in pressure inside the reactor would decrease the solubility of the gas and therefore encourage bubble formation. The subteam installed a pressure sensor near the top of the reactor to monitor this pressure difference between the inside of the reactor and atmospheric pressure.
 
-First the reactor was emptied of sand and water. The pipe was tapped with a 1/4" 18NPT pipe tap about 70 cm from the influent end of the reactor. A 1/4" push-to-connect was wrapped with Teflon tape and threaded into the tapped aperture to make a water-tight seal.
+To install the pressure sensor, the reactor was first emptied of sand and water. The pipe **Is it obvious what 'pipe' refers to or should it be specified? ew465** was tapped with a 1/4" 18NPT pipe tap about 70 cm from the influent end of the reactor. A 1/4" push-to-connect was wrapped with Teflon tape and threaded into the tapped aperture to make a water-tight seal.
 
+**Describe how we found the negative end of the pressure sensor using ProCoDa ew465**
 The negative end of the pressure sensor was inserted into a piece of 1/4" hard tubing. The connection between the hard tubing and the pressure sensor was sealed with medium clear PVC cement. The other end of the hard tubing was inserted into the 1/4" push-to-connect. The pressure sensor was then plugged into the ProCoDA box at the subteam's work station, such that pressure data could be collected via ProCoDA.
-
-
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/PressureSensor_Diagram.jpg?raw=true" height = 350>
@@ -341,22 +356,9 @@ The negative end of the pressure sensor was inserted into a piece of 1/4" hard t
 **Figure 8**: The above diagram depicts the ProCoDA box (red rectangle), the pressure sensor cord (orange line), the temperature probe (red line), and the temperature probe box (pink rectangle).
 
 
-#### Pressure Regulator Installation
-
-A pressure regulator was installed between the sink and the peristaltic pump to maintain consistent flow pressure of influent water.
-
-The pressure regulator, depicted in Figure 9, was oriented such that the direction of water flow matched the arrow on the apparatus. The influent side was connected to the sink using a 26" long piece of and 3/8" diameter hard plastic tubing, and the effluent side was connected to the peristaltic pump using the original piece of clear flex tubing that was attached to the pump. The flow pressure of water was reduced by tightening the screw and nut on the top of the pressure regulator, until no leakage occurred when peristaltic pump was turned off.  
-
-<p style="text-align: center;">
-<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/PressureRegulator_SideBySide.jpg?raw=true" height = 300>
-
-</p>
-
-**Figure 9**: The above photograph depicts the pressure regulator installed prior to the peristaltic pump. Influent water (right hand side) enters the regulator from the sink, and passes through to continue to the peristaltic pump and flow accumulator.
-
 #### Creating a Forked Flow System
 
-The subteam needed a way to measure the temperature (and eventually the dissolved oxygen content) of the influent water before it entered the reactor. The subteam installed a forked flow system in which some influent water, incoming from the pressure regulator, was diverted into a separate container before reaching the peristaltic pump. The temperature of the diverted water could be measured in this container. This model was chosen to avoid inadvertently changing any properties of the influent water during measurement. Specifically: a dissolved oxygen probe consumes oxygen in the process of measuring its concentration. If a dissolved oxygen probe were used to measure dissolved oxygen content of influent water that then flowed into a reactor, the dissolved oxygen content actually present in the reactor would be lesser.
+The subteam needed a way to measure the temperature (and eventually the dissolved oxygen content) of the influent water before it entered the reactor. The subteam installed a forked flow system in which some influent water, incoming from the pressure regulator, was diverted into a separate container before reaching the peristaltic pump. The temperature of the diverted water could be measured in this container. This model was chosen to avoid inadvertently changing any properties of the influent water during measurement. Specifically: a dissolved oxygen probe consumes oxygen in the process of measuring its concentration. If a dissolved oxygen probe were used to measure dissolved oxygen content of influent water that then flowed into the reactor, the dissolved oxygen content actually present in the reactor would be lesser.
 
 To fabricate the forked flow system, a 0.75" hole was drilled near the bottom of a 500 mL Nalgene bottle. A slightly larger 1.6” hole was drilled near the top of the bottle. This hole was used to insert a tapered push-to-connect into the bottle, since the push-to-connect was too large to fit through the neck of the bottle. The larger 1.6” hole was then plugged to prevent leakage. The push-to-connect was oriented such that its tapered end protruded from the hole near the bottom of the Nalgene. It was secured with a washer.
 
@@ -373,20 +375,26 @@ Two pieces of clear flex tubing were then connected to either side of a T push-t
 **Figure 11**: The above is a bird's-eye view of the portion of the apparatus in which flow diverts between the flow accumulator and the peristaltic pump.
 
 ### Procedure
-Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
-
-Synopsis:
+Synopsis: **are we supposed to have a synopsis or is this just a note? ew465**
 We were testing, qualitatively, the difference between bubble formation in the fluidized bed at different water temperatures.  
 
-**Qualitative Temp Experiment**
+**Do we need the following paragraph? ew465**
+Before beginning qualitative experiments to determine the feasibility of using a fluidized bed to encourage bubble formation, the subteam sought to determine the minimum fluidization velocity of the system. **idk anything about the ProCoDa calculation. Has this already been talked about in a previous report? Should we link to it @Tommy tsb49 ew465** The subteam attempted to experimentally verify the theoretical minimum fluidization velocity calculated by ProCoDa. Starting at...
 
-Mention RPM used 60.0 RPM
-**ew465**
+The subteam conducted a qualitative experiment to determine if the fluidized bed successfully promotes bubble formation in the reactor. Three trials **6 vs 3 trials?? ew465** were conducted in which the amount of bubble formation in the reactor using hot (supersaturated) water was compared to the amount of bubble formation using cold water. The water temperatures used were defined by the hottest and coldest temperatures that the laboratory sink could produce. The water was run for several minutes at each temperature before data collection to allow fluctuations in influent temperatures to settle and for the temperature in the reactor to equilibrate **edit previous sentence ew465**. Qualitative data of bubble formation was taken in the form of a video of the fluidized bed reactor. The bubble production rate and size of bubbles was analyzed visually from these videos.
+
+The influent water temperature was monitored over the course of each trial using a temperature probe inserted in the flow accumulator. The data was recorded with ProCoDa and the average, standard deviation, and percent standard deviation for each trial was calculated.
+
+The pressure difference inside and outside of the reactor was also measured with the pressure sensor and recorded with ProCoDa. The average, standard deviation, and percent standard deviation of the data was calculated as well.
+
+The length of each trial was determined by how quickly the flow accumulator filled up with water, with most times around 25 seconds. The peristaltic pump was run at 60 RPM, corresponding to a flow rate well above the minimum fluidization velocity as calculated by ProCoDa and experimentally observed. **Add specific numbers in manual ew465**
 
 ## Results and Analysis
 Numerical and video data from the experiments described in the Methods section were analyzed.
 
 **Table 1**: Displays data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the exterior and interior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records can be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
+
+**Would it be helpful to specify which Percent Standard Deviation refers to the temperature measurement and which refers to the pressure measurement? I suppose it's pretty logical if you read the table in order. just a thought... ew465**
 
 |              Trial               |    1    |    2    |    3    |    4    |    5    |    6    |
 |:--------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
@@ -397,6 +405,8 @@ Numerical and video data from the experiments described in the Methods section w
 | Average temperature (C)      |  22.05  |  19.91  |  18.63  |  33.03  |  35.79  |  36.85  |
 |        Standard deviation (C)        |  0.42   |  0.33   |  0.19   |  1.65   |  0.36   |  0.50   |
 |    Percent standard deviation    |  1.89   |  1.65   |  1.03   |  4.98   |  1.01   |  1.35   |
+
+**Is there a way to make the transition between hot water measurements and cold water measurements more obvious in the table above? For example, bolding the line between trials 3 and 4 or adding a heading above the trial numbers? ew465**
 
 Video recordings were taken of each Trial. As shown in Figure 12, bubbles formed in the fluidized bed reactor. This demonstrated the basic feasibility of encouraging bubble growth with a fluidized bed. However, between Trials 1-3 and Trials 4-6, there were no consistent, visually assessable differences in bubble formation. Figures 12 and 13 exemplify this, and all full-length videos can be found on [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing). While the effect of temperature on gas solubility was not the focus of the subteam's work, it was an aspect the subteam considered for designing the experimental apparatus, to simulate input of supersaturated water.
 
@@ -417,9 +427,9 @@ Despite the approximate ten degree temperature difference between Trials 1-3 and
 
 This can potentially be explained after a quick analysis of Figure 5. While Figure 5 assumes a partial pressure of 1 atm of the gas of interest, this analysis considers the qualitative principles that the Figure illustrates.
 
-In Figure 5, in the range of 20 to 30 degrees C (the approximate range of experimental temperatures for Trials 1-6), the percent difference in solubility of oxygen and nitrogen (the primary components of air) is relatively small. As temperature increases from 20 to 30 degrees C, a 50% increase in temperature, oxygen's solubility drops from approximately 4.3 to 3.5 mg / 100 $H_2O$, an approximately 18% decrease in solubility. Such a difference in solubility may not have visually assessable consequences for bubble formation.
+In Figure 5, in the range of 20 to 30 degrees C (the approximate range of experimental temperatures for Trials 1-6), the percent difference in solubility of oxygen and nitrogen (the primary components of air) is relatively small. As temperature increases from 20 to 30 degrees C, a 50% increase in temperature, oxygen's solubility drops from approximately 4.3 to 3.5 mg / 100 g $H_2O$, an approximately 18% decrease in solubility. Such a difference in solubility may not have visually assessable consequences for bubble formation.
 
-To observe an appreciable difference in bubble formation in the fluidized bed, a greater temperature difference between experimental trials may be required. For instance, over the range 10 to 40 degrees C, oxygen's solubility shifts from approximately 5 to 3 mg / 100 $H_2O$, a percent change of 40%. This percent change is twice that which characterized Trials 1-6, and such a difference may provide more distinguishable results.
+To observe an appreciable difference in bubble formation in the fluidized bed, a greater temperature difference between experimental trials may be required. For instance, over the range 10 to 40 degrees C, oxygen's solubility shifts from approximately 5 to 3 mg / 100 g $H_2O$, a percent change of 40%. This percent change is twice that which characterized Trials 1-6, and such a difference may provide more distinguishable results.
 
 The subteam also observed that, with the exception of Trial 6, percent standard deviation in temperature decreased as the influent water's temperature reached extremes relative to the trials' conditions. This suggested that the temperature of each trial's influent water had begun to plateau, but had not yet reached the extreme values of the influent water's potential temperatures.
 
@@ -543,7 +553,7 @@ In order to find more information regarding the set-up and measurements of the p
 19. Attach one end of the short clear flex tubing to the peristaltic pump. Attach the other end of the short clear flex tubing to the push-to-connect of the Nalgene container
 20. Put the  plug in the upper hole of the Nalgene container
 
-Note: The second hole was made in order to insert the push to connect inside the Nalgene Container.
+Note: The second hole was made in order to insert the push-to-connect inside the Nalgene Container.
 
 ### Cleaning Procedure
 The experiments are really low maintenance and easy to wrap up.
