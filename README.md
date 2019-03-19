@@ -12,6 +12,7 @@ Jonathan Harris (jdh345@cornell.edu)
 
 ## Reports and Presentations
 ### Spring 2019
+[Symposium Presentation](https://docs.google.com/presentation/d/1HRn5l7VYAZrXTzVKj2HsHC7Mff4qupUU5NLItj-NNb0/edit#slide=id.g346a079b2f_0_0)
 
 ### Fall 2018 
 [Symposium Presentation](https://docs.google.com/presentation/d/1oqcSOdyO4JxgfkK_X3Jw-1Bu3BXFlAgRmeZfy4X1oRU/edit?usp=sharing)
