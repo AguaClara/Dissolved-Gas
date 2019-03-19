@@ -10,3 +10,6 @@ Goal: To determine the maximum and minimum temperatures that the laboratory sink
 6. Turn off the faucet
 7. repeat steps 4-6 with hot water
 8. Repeat the entire experiment 3 times
+
+Data Files:
+TestingMaximumTemperature<Trial Number>_<yearmonthdate>
