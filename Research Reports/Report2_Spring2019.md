@@ -2,8 +2,16 @@
 #### Saul Bernaber, Thomas Bradford, Emily Wood
 #### 15 March 2019
 
+**[Sidney: Hello friends! i will be commenting throughout your report in these bolded brackets.]**
+
+**[I see that you guys have deleted my comments from your previous submission and created a new file. PLEASE DO NOT DELETE GRADER COMMENTS. We need to be able to refer back to them to see that you have properly addressed them. After we see that you have addressed them, we will delete the comments ourselves. In the future, we would greatly appreciate it if you didn't start a new file but continuously worked on one file.]**
+
+**[Overall: Good job! Your writing is always superb. I would say that you need to improve on using your figures effectively throughout your report. It's hard to follow your report through when I have to jump around to find the correct figure you are referring to. Be consistent in linking (or not linking) sections of your report. Try to go back and add comments to your Python code.]**
+
 ## Abstract
 Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's components. The Dissolved Gas subteam aims to design a gravity-powered apparatus to extract excess gas from influent water prior to entry into a plant. The Fall 2018 subteam fabricated a small-scale prototype incorporating a fluidized bed reactor. The Spring 2019 subteam began to experimentally evaluate the prototype: given qualitative success, the subteam will test the prototype's effectiveness by measuring change in dissolved oxygen concentration across the apparatus. The Spring 2019 subteam will iterate improvements to work toward a prototype for application in an AguaClara plant.
+
+**[Please use past tense to refer to current semester and prior semester work.]**
 
 ## Table of Contents
 
@@ -306,7 +314,7 @@ The system design surrounding the reactor aligned with that illustrated in Figur
 
 As stated in the Literature Review section, the subteam considered using heated water to act as supersaturated influent water, since water that is saturated with air, once heated, becomes supersaturated [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html).
 
-Water then flowed out of the pressure regulator, through clear flex tubing, and forked into two streams: one flowed into a flow accumulator (Figure 11) containing a temperature probe, and the other flowed into a peristaltic pump. Water flowing through the peristaltic pump continued through a tube system and into the fluidized bed reactor. The reactor's sand bed is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. This corresponded to a flow rate of 2.54 mL/s, as calculated in using FluidizationVelocity.py. The influent water's flow rate was controlled manually via the peristaltic pump. As supersaturated water flowed through the reactor, excess air particles in the water would ideally accumulate on the sand grains and form bubbles. Such bubbles then departed from their nucleation sites, flowed upward out of the reactor (through the effluent tubing), and flowed into a bucket. While effluent water flowed out of the reactor, a pressure sensor connected to ProCoDA recorded the pressure difference between the reactor's interior and the outside atmosphere (Figure 9). The bucket into which effluent water empties acts as the open-faced vent (as illustrated in Figure 1) for air bubbles to escape into the atmosphere.
+Water then flowed out of the pressure regulator, through clear flex tubing, and forked into two streams: one flowed into a flow accumulator (Figure 11) containing a temperature probe, and the other flowed into a peristaltic pump. Water flowing through the peristaltic pump continued through a tube system and into the fluidized bed reactor. The reactor's sand bed is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. This corresponded to a flow rate of 2.54 mL/s, as calculated in using FluidizationVelocity.py **[Where did this come from? Could you link or reference? Also, it shows up as a link in the markdown file.]**. The influent water's flow rate was controlled manually via the peristaltic pump. As supersaturated water flowed through the reactor, excess air particles in the water would ideally accumulate on the sand grains and form bubbles. Such bubbles then departed from their nucleation sites, flowed upward out of the reactor (through the effluent tubing), and flowed into a bucket. While effluent water flowed out of the reactor, a pressure sensor connected to ProCoDA recorded the pressure difference between the reactor's interior and the outside atmosphere (Figure 9). The bucket into which effluent water empties acts as the open-faced vent (as illustrated in Figure 1) for air bubbles to escape into the atmosphere.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/Schematic%20of%20apparatus.jpg?raw=true" height = 350>
@@ -326,7 +334,7 @@ The pressure regulator (Figure 8) was oriented such that the direction of water 
 
 </p>
 
-**Figure 8**: The above photograph depicts the pressure regulator installed prior to the peristaltic pump. Influent water (right hand side) enters the regulator from the sink, and passes through to continue to the peristaltic pump and flow accumulator.
+**Figure 8**: The above photograph depicts the pressure regulator installed prior to the peristaltic pump. Influent water (right hand side) **[Is the influent not entering from left to right?]** enters the regulator from the sink, and passes through to continue to the peristaltic pump and flow accumulator.
 
 #### Pressure Sensor Installation
 
@@ -351,7 +359,7 @@ The negative end of the pressure sensor was inserted into a piece of 1/4" hard t
 
 **Figure 10**: The above diagram depicts the ProCoDA box (red rectangle), the pressure sensor cord (orange line), the temperature probe (red line), and the temperature probe box (pink rectangle).
 
-
+**[It's really weird because it seems like you refer to your figures prematurely and then they pop up later in the report and don't refer to them in the text that the figure is actually buried in. If you need those figures earlier, put them earlier. If you want to keep them where they are, could you make them useful where they are put?]**
 #### Forked Flow System Installation
 
 The subteam needed a way to measure the temperature (and eventually the dissolved oxygen content) of the influent water before it entered the reactor. The subteam installed a forked flow system in which some influent water, incoming from the pressure regulator, was diverted into a separate container before reaching the peristaltic pump. The temperature of the diverted water could be measured in this container. This model was chosen to avoid inadvertently changing any properties of the influent water during measurement. Specifically: a dissolved oxygen probe consumes oxygen in the process of measuring its concentration. If a dissolved oxygen probe were used to measure dissolved oxygen content of influent water that then flowed into the reactor, the dissolved oxygen content actually present in the reactor would be lesser.
@@ -370,6 +378,8 @@ Two pieces of clear flex tubing were then connected to either side of a T push-t
 
 **Figure 12**: The above is a bird's-eye view of the portion of the apparatus in which flow diverts between the flow accumulator and the peristaltic pump.
 
+**[Instead of explaining everything first and then plopping some images below the explanation for the reader to figure out, could you weave the image into your explanation to make it more seamless? Use your figures effectively.]**
+
 ### Experimental Procedure
 Using the [ProCoDA method file](#ProCoDa-Method-File) given in the Manual, the subteam determined that an RPM of 41.1 was necessary to fluidize the reactor. To ensure fluidization, the subteam decided to conduct experiments at 60 RPM, a relatively arbitrary flow rate that will be subject to further consideration in the coming weeks.
 
@@ -384,7 +394,7 @@ During each trial, video recordings of the fluidized bed were taken using Smartp
 Once the flow accumulator filled with water, the experimental trial ended, and data collection halted. The following section of the report presents a discussion of the experimental data.
 
 ## Results and Analysis
-Numerical and video data from the experiments described in the Methods section were analyzed.
+Numerical and video data from the experiments described in the Methods section were analyzed. **[You don't need to say this. We know you analyzed stuff. This is the analysis section.]**
 
 **Table 1**: Displays data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the exterior and interior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records can be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
 
@@ -451,6 +461,8 @@ After system improvements, the subteam will progress to more thorough, quantitat
 In future semesters, the subteam must also consider the end goal of scaling up the prototype. The prototype's method to remove excess dissolved gas from influent water must feasibly apply on a practical scale. As part of this end goal, as pertaining to a fluidized bed reactor, the subteam must evaluate the validity of the calculated fluidization flow of the sand bed, and the validity of the calculated entrainment velocity. In order to reliably scale up a fluidized bed reactor, these values must be reliably calculable.
 
 The subteam looks forward to further experimentation and iteration to analyze and improve the system, and to eventually develop a practical reactor.
+
+**[Sometimes when you mention other sections in your report, you link them and other times you don't. Either way, could you keep it consistent?]**
 
 # Manual
 
@@ -597,7 +609,7 @@ Note: The second hole was made in order to insert the push-to-connect inside the
 
 ## ProCoDA Method File
 
-This was used to correlate the RPM of the peristaltic pump to the flow rate in mL/s.
+This was used to correlate the RPM of the peristaltic pump to the flow rate in mL/s. **[Could you upload the method file and actually link it here?]**
 
 ###States
 - *OFF*: The peristaltic pump is off.
@@ -621,7 +633,7 @@ For the experiment described in the Methods section, the following values were u
 
 ### Determining the Sand Bed's Fluidization Flow
 
-The subteam used the following code, copied from the file FluidizationVelocity.py found on the subteam's GitHub page, to estimate the fluidization velocity and fluidization flow of the sand bed in the prototype reactor. The code is based on [Equation 1](#Equation-1). The code requests as input: the reactor's cross-sectional area; the kinematic viscosity of water at a particular temperature (e.g. room temperature); the sand's porosity, which the subteam experimentally determined; silica sand's density; the average diameter of the sand grains, which the subteam measured. The code outputs the velocity and flow of water required to fluidize the sand bed.
+The subteam used the following code, copied from the file FluidizationVelocity.py found on the subteam's GitHub page **[link it]**, to estimate the fluidization velocity and fluidization flow of the sand bed in the prototype reactor. The code is based on [Equation 1](#Equation-1). The code requests as input: the reactor's cross-sectional area; the kinematic viscosity of water at a particular temperature (e.g. room temperature); the sand's porosity, which the subteam experimentally determined; silica sand's density; the average diameter of the sand grains, which the subteam measured. The code outputs the velocity and flow of water required to fluidize the sand bed.
 
 The following values were used for the subteam to calculate the fluidization flow of 2.54 mL/s:
 
@@ -731,6 +743,7 @@ Head_Loss = (32 * viscosity * effluent_tubing_length * velocity)/(density_water 
 
 print("The Head Loss due to the effluent tubing is "+ str(ut.sig(Head_Loss,3))+".")
 ```
+**[Your code could definitely use more comments throughout to clearly explain your steps and methods.]**
 
 ## Bibliography
 
