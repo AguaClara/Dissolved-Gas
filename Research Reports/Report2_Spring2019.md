@@ -4,7 +4,7 @@
 
 **[Sidney: Hello friends! i will be commenting throughout your report in these bolded brackets.]**
 
-**[I see that you guys have deleted my comments from your previous submission and created a new file. PLEASE DO NOT DELETE GRADER COMMENTS. We need to be able to refer back to them to see that you have properly addressed them. After we see that you have addressed them, we will delete the comments ourselves. In the future, we would greatly appreciate it if you didn't start a new file but continuously worked on one file.]**
+**[I see that you guys have created a new file. PLEASE DO NOT DELETE GRADER COMMENTS IN YOUR SUBMISSIONS. We need to be able to refer back to them to see that you have properly addressed them. After we see that you have addressed them, we will delete the comments ourselves. In the future, we would greatly appreciate it if you didn't start a new file but continuously worked on one file.]**
 
 **[Overall: Good job! Your writing is always superb. I would say that you need to improve on using your figures effectively throughout your report. It's hard to follow your report through when I have to jump around to find the correct figure you are referring to. Be consistent in linking (or not linking) sections of your report. Try to go back and add comments to your Python code.]**
 
