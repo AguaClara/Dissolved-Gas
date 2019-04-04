@@ -330,11 +330,11 @@ A pressure regulator was installed between the sink and the peristaltic pump to 
 The pressure regulator (Figure 8) was oriented such that the direction of water flow matched the arrow on the apparatus. The influent side was connected to the sink using a piece of 3/8" diameter hard plastic tubing. The effluent side was connected to the peristaltic pump using the original piece of clear flex tubing that was attached to the pump. The flow pressure of water was reduced by tightening the screw and nut on the top of the pressure regulator, until no leakage occurred when peristaltic pump was turned off.  
 
 <p style="text-align: center;">
-<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/PressureRegulator_SideBySide.jpg?raw=true" height = 300>
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/PressureRegulator_20190404.jpg?raw=true" height = 300>
 
 </p>
 
-**Figure 8**: The above photograph depicts the pressure regulator installed prior to the peristaltic pump. Influent water (right hand side) **[Is the influent not entering from left to right?]** enters the regulator from the sink, and passes through to continue to the peristaltic pump and flow accumulator.
+**Figure 8**: The above photograph depicts the pressure regulator installed prior to the peristaltic pump. Water (purple arrow)**[Is the influent not entering from left to right?]** enters the regulator from the sink, and passes through to continue to the peristaltic pump and flow accumulator.
 
 #### Pressure Sensor Installation
 
