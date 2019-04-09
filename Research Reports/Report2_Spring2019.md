@@ -9,7 +9,7 @@
 **[Overall: Good job! Your writing is always superb. I would say that you need to improve on using your figures effectively throughout your report. It's hard to follow your report through when I have to jump around to find the correct figure you are referring to. Be consistent in linking (or not linking) sections of your report. Try to go back and add comments to your Python code.]**
 
 ## Abstract
-Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's components. The Dissolved Gas subteam aims to design a gravity-powered apparatus to extract excess gas from influent water prior to entry into a plant. The Fall 2018 subteam fabricated a small-scale prototype incorporating a fluidized bed reactor. The Spring 2019 subteam began to experimentally evaluate the prototype: given qualitative success, the subteam will test the prototype's effectiveness by measuring change in dissolved oxygen concentration across the apparatus. The Spring 2019 subteam will iterate improvements to work toward a prototype for application in an AguaClara plant.
+Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's components. The Dissolved Gas subteam aims to design a gravity-powered apparatus to extract excess gas from influent water prior to entry into a plant. The Fall 2018 subteam fabricated a small-scale prototype incorporating a fluidized bed reactor. The Spring 2019 subteam began to experimentally evaluate the prototype: given qualitative success, the subteam planned to test the prototype's effectiveness by measuring change in dissolved oxygen concentration across the apparatus. The Spring 2019 subteam planned to iterate improvements to work toward a prototype for application in an AguaClara plant.
 
 **[Please use past tense to refer to current semester and prior semester work.]**
 
@@ -285,7 +285,7 @@ The Fall 2018 subteam's work comprised research, design, fabrication, and basic 
 
 The subteam's research focused on developing a fluidized bed reactor that would encourage bubble formation by providing bubble nucleation sites. The subteam gathered literature on the relevant concepts such as fluidization, bubble nucleation, and gas solubility. As detailed in the Analysis of Literature section, the subteam combined key variables to derive [Equation 9](#Equation-9) for the approximate solubility of a gas in water.
 
-The subteam then experimentally determined relevant system parameters (eg. sand bed porosity and sand grain diameter), and designed and fabricated a small-scale fluidized bed reactor. [Python code](https://github.com/AguaClara/Dissolved-Gas/blob/master/Code/FluidizationVelocity.py) was developed to facilitate easy calculation of the fluidization velocity and fluidization flow of the sand bed. [Python code](https://github.com/AguaClara/Dissolved-Gas/blob/master/Code/HeadLoss.py) was also written to calculate the head loss through the reactor's effluent tubing. This code is provided in the [Manual](#Python-Code) section.
+The subteam then experimentally determined relevant system parameters (eg. sand bed porosity and sand grain diameter), and designed and fabricated a small-scale fluidized bed reactor. Python code was developed to facilitate easy calculation of the fluidization velocity and fluidization flow of the sand bed. Python code was also written to calculate the head loss through the reactor's effluent tubing. This code is provided in the Manual section.
 
 After fabricating the prototype system, the subteam ran basic tests to determine its functionality. The reactor's sand bed failed to consistently fluidize while using a 100 RPM peristaltic pump. However, the Spring 2019 subteam recently acquired a 600 RPM peristaltic pump, pictured in Figure 3, to incorporate into the system.
 
@@ -314,7 +314,7 @@ The system design surrounding the reactor aligned with that illustrated in Figur
 
 As stated in the Literature Review section, the subteam considered using heated water to act as supersaturated influent water, since water that is saturated with air, once heated, becomes supersaturated [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html).
 
-Water then flowed out of the pressure regulator, through clear flex tubing, and forked into two streams: one flowed into a flow accumulator (Figure 11) containing a temperature probe, and the other flowed into a peristaltic pump. Water flowing through the peristaltic pump continued through a tube system and into the fluidized bed reactor. The reactor's sand bed is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. This corresponded to a flow rate of 2.54 mL/s, as calculated in using FluidizationVelocity.py **[Where did this come from? Could you link or reference? Also, it shows up as a link in the markdown file.]**. The influent water's flow rate was controlled manually via the peristaltic pump. As supersaturated water flowed through the reactor, excess air particles in the water would ideally accumulate on the sand grains and form bubbles. Such bubbles then departed from their nucleation sites, flowed upward out of the reactor (through the effluent tubing), and flowed into a bucket. While effluent water flowed out of the reactor, a pressure sensor connected to ProCoDA recorded the pressure difference between the reactor's interior and the outside atmosphere (Figure 9). The bucket into which effluent water empties acts as the open-faced vent (as illustrated in Figure 1) for air bubbles to escape into the atmosphere.
+Water then flowed out of the pressure regulator, through clear flex tubing, and forked into two streams: one flowed into a flow accumulator (Figure 11) containing a temperature probe, and the other flowed into a peristaltic pump. Water flowing through the peristaltic pump continued through a tube system and into the fluidized bed reactor. The reactor's sand bed is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. This corresponded to a flow rate of 2.54 mL/s, as calculated in using the Python code given in the Manual **[Where did this come from? Could you link or reference? Also, it shows up as a link in the markdown file.]**. The influent water's flow rate was controlled manually via the peristaltic pump. As supersaturated water flowed through the reactor, excess air particles in the water would ideally accumulate on the sand grains and form bubbles. Such bubbles then departed from their nucleation sites, flowed upward out of the reactor (through the effluent tubing), and flowed into a bucket. While effluent water flowed out of the reactor, a pressure sensor connected to ProCoDA recorded the pressure difference between the reactor's interior and the outside atmosphere (Figure 9). The bucket into which effluent water empties acts as the open-faced vent (as illustrated in Figure 1) for air bubbles to escape into the atmosphere.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/Schematic%20of%20apparatus.jpg?raw=true" height = 350>
@@ -394,7 +394,7 @@ During each trial, video recordings of the fluidized bed were taken using Smartp
 Once the flow accumulator filled with water, the experimental trial ended, and data collection halted. The following section of the report presents a discussion of the experimental data.
 
 ## Results and Analysis
-Numerical and video data from the experiments described in the Methods section were analyzed. **[You don't need to say this. We know you analyzed stuff. This is the analysis section.]**
+ **[You don't need to say this. We know you analyzed stuff. This is the analysis section.]**
 
 **Table 1**: Displays data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the exterior and interior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records can be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
 
@@ -468,7 +468,7 @@ The subteam looks forward to further experimentation and iteration to analyze an
 
 ### Special Components
 
-####Pressure Regulator
+#### Pressure Regulator
 
 A pressure regulator is a device that manages the flow pressure of a fluid. The subteam utilized this device to decrease the flow pressure of the water supply (sink). This allowed for the flow rate of the influent water to be stopped when the peristaltic pump is stopped.
 
