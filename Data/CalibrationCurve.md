@@ -36,7 +36,7 @@ The bed was observed to fluidize at the 40.1 RPM pump setting.
 
 **28 March 2019**
 Cold Water
-Note: After the experimental trials 1-10 below, the influent tube of the reactor began leaking and then disconnected from the peristaltic pump. It was replaced with a third zip-tie. 
+Note: After the experimental trials 1-10 below, the influent tube of the reactor began leaking and then disconnected from the peristaltic pump. It was replaced with a third zip-tie.  
 
 | Trial number | RPM   | Volume (mL) | Time (s) | Flow rate (mL /s) |
 |:------------:|:-----:|:-----------:|:--------:|:-----------------:|
