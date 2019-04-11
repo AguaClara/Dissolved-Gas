@@ -2,6 +2,13 @@
 #### Saul Bernaber, Thomas Bradford, Emily Wood
 #### 15 March 2019
 
+**To-Do List**
+- Add comments to the Python code.
+- Make the Python code more efficient by using functions that AguaClara provides
+- **Complete** Fix the placement of Figures
+- Could you upload the method file and actually link it here?
+
+
 **[Sidney: Hello friends! i will be commenting throughout your report in these bolded brackets.]**
 
 **[I see that you guys have created a new file. PLEASE DO NOT DELETE GRADER COMMENTS IN YOUR SUBMISSIONS. We need to be able to refer back to them to see that you have properly addressed them. After we see that you have addressed them, we will delete the comments ourselves. In the future, we would greatly appreciate it if you didn't start a new file but continuously worked on one file.]**
@@ -229,7 +236,7 @@ The subteam considered using, as influent, heated water that already contains di
 As illustrated by Figure 5, oxygen and nitrogen are less soluble in water as temperature increases. As described in the Methods section, the subteam began to evaluate the change in gas solubility at different temperatures, by evaluating differences in bubble formation.
 
 ### Analysis of Literature
-Through conceptual analysis and algebraic manipulation, Equations 3-7 combine to form an estimation of a gas’ solubility in water in an apparatus as illustrated in Figure 1. The following paragraphs describe this process. All relevant variables have been defined in the Literature Review section.
+Through conceptual analysis and algebraic manipulation, Equations 3-7 combine to form an estimation of a gas’ solubility in water in the subteam's prototype apparatus. The following paragraphs describe this process. All relevant variables have been defined in the Literature Review section.
 
 The pressure relevant to Henry's Law (i.e. the pressure of a gas above a liquid, in [Equation 3](#Equation-3)) is the pressure *within* a bubble [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
 $$ C = k P $$
@@ -287,7 +294,7 @@ The subteam's research focused on developing a fluidized bed reactor that would 
 
 The subteam then experimentally determined relevant system parameters (eg. sand bed porosity and sand grain diameter), and designed and fabricated a small-scale fluidized bed reactor. Python code was developed to facilitate easy calculation of the fluidization velocity and fluidization flow of the sand bed. Python code was also written to calculate the head loss through the reactor's effluent tubing. This code is provided in the Manual section.
 
-After fabricating the prototype system, the subteam ran basic tests to determine its functionality. The reactor's sand bed failed to consistently fluidize while using a 100 RPM peristaltic pump. However, the Spring 2019 subteam recently acquired a 600 RPM peristaltic pump, pictured in Figure 3, to incorporate into the system.
+After fabricating the prototype system, the subteam ran basic tests to determine its functionality. The reactor's sand bed failed to consistently fluidize while using a 100 RPM peristaltic pump. However, the Spring 2019 subteam recently acquired a 600 RPM peristaltic pump to incorporate into the system.
 
 Further specifics concerning the subteam's work during the Fall 2018 semester are described in the [Fall 2018 Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md).
 
@@ -310,11 +317,11 @@ Readers should note that a mesh screen is installed at the bottom of the reactor
 
 **Figure 6**: The above photograph shows the Prototype 1 reactor labeled with the Fall 2018 subteam members' names and with the appropriate influent (white) and effluent (red) tape labels. The reactor contained a silica sand bed (green circle).
 
-The system design surrounding the reactor aligned with that illustrated in Figure 7. The design was as follows: from the water source (a sink), water flowed into a pressure regulator (Figure 8), which decreased water pressure in order to prevent leakage in the tubing system.
+The system design surrounding the reactor aligned with that illustrated below in Figure 7. The design was as follows: from the water source (a sink), water flowed into a pressure regulator, which decreased water pressure in order to prevent leakage in the tubing system.
 
 As stated in the Literature Review section, the subteam considered using heated water to act as supersaturated influent water, since water that is saturated with air, once heated, becomes supersaturated [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html).
 
-Water then flowed out of the pressure regulator, through clear flex tubing, and forked into two streams: one flowed into a flow accumulator (Figure 11) containing a temperature probe, and the other flowed into a peristaltic pump. Water flowing through the peristaltic pump continued through a tube system and into the fluidized bed reactor. The reactor's sand bed is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. This corresponded to a flow rate of 2.54 mL/s, as calculated in using the Python code given in the Manual **[Where did this come from? Could you link or reference? Also, it shows up as a link in the markdown file.]**. The influent water's flow rate was controlled manually via the peristaltic pump. As supersaturated water flowed through the reactor, excess air particles in the water would ideally accumulate on the sand grains and form bubbles. Such bubbles then departed from their nucleation sites, flowed upward out of the reactor (through the effluent tubing), and flowed into a bucket. While effluent water flowed out of the reactor, a pressure sensor connected to ProCoDA recorded the pressure difference between the reactor's interior and the outside atmosphere (Figure 9). The bucket into which effluent water empties acts as the open-faced vent (as illustrated in Figure 1) for air bubbles to escape into the atmosphere.
+Water then flowed out of the pressure regulator, through clear flex tubing, and forked into two streams: one flowed into a flow accumulator containing a temperature probe, and the other flowed into a peristaltic pump. Water flowing through the peristaltic pump continued through a tube system and into the fluidized bed reactor. The reactor's sand bed is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. This corresponded to a flow rate of 2.54 mL/s, as calculated in using the [Python code](###Determining-the-Sand-Bed's-Fluidization-Flow) given in the Manual **[Where did this come from? Could you link or reference? Also, it shows up as a link in the markdown file.]**. The influent water's flow rate was controlled manually via the peristaltic pump. As supersaturated water flowed through the reactor, excess air particles in the water would ideally accumulate on the sand grains and form bubbles. Such bubbles then departed from their nucleation sites, flowed upward out of the reactor (through the effluent tubing), and flowed into a bucket. While effluent water flowed out of the reactor, a pressure sensor connected to ProCoDA recorded the pressure difference between the reactor's interior and the outside atmosphere. The bucket into which effluent water empties acts as the open-faced vent for air bubbles to escape into the atmosphere.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/Schematic%20of%20apparatus.jpg?raw=true" height = 350>
@@ -338,11 +345,7 @@ The pressure regulator (Figure 8) was oriented such that the direction of water 
 
 #### Pressure Sensor Installation
 
-The subteam hypothesized that a decrease in pressure inside the reactor would decrease the solubility of the gas and therefore encourage bubble formation. The subteam installed a pressure sensor near the top of the reactor to monitor this pressure difference between the inside of the reactor and atmospheric pressure.
-
-To install the pressure sensor, the reactor was first emptied of sand and water. The PVC pipe comprising the reactor was tapped with a 1/4" 18NPT pipe tap about 70 cm from the influent end of the reactor. A 1/4" push-to-connect was wrapped with Teflon tape and threaded into the tapped aperture to form a water-tight seal.
-
-The negative end of the pressure sensor was inserted into a piece of 1/4" hard tubing. The connection between the hard tubing and the pressure sensor was sealed with medium clear PVC cement. The other end of the hard tubing was inserted into the 1/4" push-to-connect. The pressure sensor was then plugged into the ProCoDA box at the subteam's work station, such that pressure data could be collected via ProCoDA.
+The subteam hypothesized that a decrease in pressure inside the reactor would decrease the solubility of the gas and therefore encourage bubble formation. The subteam installed a pressure sensor near the top of the reactor to monitor this pressure difference between the inside of the reactor and atmospheric pressure. Figure 9 displays this.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/PressureSensor_Diagram.jpg?raw=true" height = 350>
@@ -351,27 +354,30 @@ The negative end of the pressure sensor was inserted into a piece of 1/4" hard t
 
 **Figure 9**: The above diagram depicts the reactor (green rectangle) and the inserted pressure sensor (orange line).
 
+To install the pressure sensor, the reactor was first emptied of sand and water. The PVC pipe comprising the reactor was tapped with a 1/4" 18NPT pipe tap about 70 cm from the influent end of the reactor. A 1/4" push-to-connect was wrapped with Teflon tape and threaded into the tapped aperture to form a water-tight seal.
+
+The negative end of the pressure sensor was inserted into a piece of 1/4" hard tubing. The connection between the hard tubing and the pressure sensor was sealed with medium clear PVC cement. The other end of the hard tubing was inserted into the 1/4" push-to-connect. The pressure sensor was then plugged into the ProCoDA box at the subteam's work station, such that pressure data could be collected via ProCoDA.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/HalfApparatus_Diagram.jpg?raw=true" height = 300>
 
 </p>
 
-**Figure 10**: The above diagram depicts the ProCoDA box (red rectangle), the pressure sensor cord (orange line), the temperature probe (red line), and the temperature probe box (pink rectangle).
+**Figure 10**: The above diagram depicts the ProCoDA box (red rectangle), the pressure sensor cord (orange line), the temperature probe (red line), and the temperature probe box (pink rectangle). **We might not need this figure**
 
 **[It's really weird because it seems like you refer to your figures prematurely and then they pop up later in the report and don't refer to them in the text that the figure is actually buried in. If you need those figures earlier, put them earlier. If you want to keep them where they are, could you make them useful where they are put?]**
 #### Forked Flow System Installation
 
 The subteam needed a way to measure the temperature (and eventually the dissolved oxygen content) of the influent water before it entered the reactor. The subteam installed a forked flow system in which some influent water, incoming from the pressure regulator, was diverted into a separate container before reaching the peristaltic pump. The temperature of the diverted water could be measured in this container. This model was chosen to avoid inadvertently changing any properties of the influent water during measurement. Specifically: a dissolved oxygen probe consumes oxygen in the process of measuring its concentration. If a dissolved oxygen probe were used to measure dissolved oxygen content of influent water that then flowed into the reactor, the dissolved oxygen content actually present in the reactor would be lesser.
 
-To fabricate the forked flow system, a 0.75" hole was drilled near the bottom of a 500 mL Nalgene bottle. A 1.6” hole was drilled near the top of the bottle. This hole was used to insert a tapered push-to-connect into the bottle, since the push-to-connect was too large to fit through the neck of the bottle. The larger 1.6” hole was then plugged to prevent leakage. The push-to-connect was oriented such that its tapered end protruded from the hole near the bottom of the Nalgene. It was secured with a washer.
+To fabricate the forked flow system, a 0.75" hole was drilled near the bottom of a 500 mL Nalgene bottle. A 1.6” hole was drilled near the top of the bottle. This hole was used to insert a tapered push-to-connect into the bottle, since the push-to-connect was too large to fit through the neck of the bottle. The larger 1.6” hole was then plugged to prevent leakage. The push-to-connect was oriented such that its tapered end protruded from the hole near the bottom of the Nalgene. It was secured with a washer. The resulting apparatus, a flow accumulator, is shown in Figure 11.
 
-Two pieces of clear flex tubing were then connected to either side of a T push-to-connect. The peristaltic pump influent tube was then connected to the T push-to-connect such that it was perpendicular to the two shorter pieces of clear flex tubing. One end of the short clear flex tubing was connected to the peristaltic pump and the other end was attached to the push-to-connect of the Nalgene bottle. This set-up is clarified in Figures 10 and 11.
-
- <p style="text-align: center;">
+<p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/FlowAccumulator1_SideBySide.jpg?raw=true" height=300>
 
 **Figure 11**: The above are two photographs of the flow accumulator, as discussed in the above paragraphs.
+
+Two pieces of clear flex tubing were then connected to either side of a T push-to-connect. The peristaltic pump influent tube was then connected to the T push-to-connect such that it was perpendicular to the two shorter pieces of clear flex tubing. One end of the short clear flex tubing was connected to the peristaltic pump and the other end was attached to the push-to-connect of the Nalgene bottle. Figure 12 clarifies this setup.
 
 <p style="text-align: center;">
 <img src="https://raw.githubusercontent.com/AguaClara/Dissolved-Gas/master/Images/Prototype2/FlowFork_Aerial_20190313.jpg" height=300>
@@ -633,7 +639,7 @@ For the experiment described in the Methods section, the following values were u
 
 ### Determining the Sand Bed's Fluidization Flow
 
-The subteam used the following code, copied from the file FluidizationVelocity.py found on the subteam's GitHub page **[link it]**, to estimate the fluidization velocity and fluidization flow of the sand bed in the prototype reactor. The code is based on [Equation 1](#Equation-1). The code requests as input: the reactor's cross-sectional area; the kinematic viscosity of water at a particular temperature (e.g. room temperature); the sand's porosity, which the subteam experimentally determined; silica sand's density; the average diameter of the sand grains, which the subteam measured. The code outputs the velocity and flow of water required to fluidize the sand bed.
+The subteam used the following code, copied from the file FluidizationVelocity.py found on the subteam's [GitHub page](https://github.com/AguaClara/Dissolved-Gas/tree/master/Code)  **[link it]**, to estimate the fluidization velocity and fluidization flow of the sand bed in the prototype reactor. The code is based on [Equation 1](#Equation-1). The code requests as input: the reactor's cross-sectional area; the kinematic viscosity of water at a particular temperature (e.g. room temperature); the sand's porosity, which the subteam experimentally determined; silica sand's density; the average diameter of the sand grains, which the subteam measured. The code outputs the velocity and flow of water required to fluidize the sand bed.
 
 The following values were used for the subteam to calculate the fluidization flow of 2.54 mL/s:
 
