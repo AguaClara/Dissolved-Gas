@@ -6,7 +6,7 @@ DO Probe 1: Influent
 DO Probe 2: Effluent
 
 ## Notes:
-Trial 1: hypothesized water
+Trial 1: hot water
 - The effluent DO is higher than the influent DO
 Trial 2: Cold water
 - The effluent DO is higher than the influent DO, similarly to trial 1
