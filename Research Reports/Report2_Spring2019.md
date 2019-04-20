@@ -525,7 +525,7 @@ This experiment was described in the [Methods section](#Experimental-Procedure).
 **Conducting the Experiment**
 1. Assemble the flow system, as shown in Figure 7 and described in the [Experimental Apparatus](#Experimental-Apparatus) section.
 2. Ensure that the flow accumulator is empty.
-3. Ensure that the fluidized bed reactor has filled with water.
+3. Ensure that the fluidized bed reactor is filled with water.
 4. Set the peristaltic pump to the desired RPM, but ensure that it has not started pumping.   
 5. Turn on the sink to start supplying water to the system.
 6. Making sure that the data is being saved where appropriate. Do this under Data Directory Path.
