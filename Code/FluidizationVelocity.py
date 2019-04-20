@@ -10,9 +10,9 @@
 from aguaclara.play import*
 import math
 import numpy as nm
-# import aide_design as ad
-# from aide_design import utility as ut
-# from aide_design.play import*
+#import aide_design as ad
+#from aide_design import utility as ut
+#from aide_design.play import*
 
 # The following code, determining the bed's minimum flow for fluidization,
 # adheres to the equation in Source 4 in the Fluidization page of the
@@ -31,7 +31,7 @@ The reactor's fluidization velocity is 8464 millimeter / second.
 The reactor's fluidization flow is 42.32 milliliter / second.
   """
     area_reactor = float(input("\nWhat is the cross sectional area of the" + " fluidized bed reactor, in units of millimeters squared?\n"))*u.mm**2
-    porosity = float(input("What is the porosity of the sand bed?\n"))
+porosity = float(input("What is the porosity of the sand bed?\n"))
     density_sand = float(input("What is the density of the sand, in units of" + "kilograms per cubic meter?\n"))*u.kg/(u.m**3)
     density_water = 997*u.kg/(u.m**3)
     diameter = float(input("What is the average diameter of the sand grains," + "in units of millimeters?\n")) * u.mm

@@ -12,15 +12,15 @@ print(data)          # Run this to see the table of data
 print(data.columns)  # Run this to see the column labels
 first_column = pd.to_numeric(data.iloc[:,0])
 print(first_column)
-second_column = pd.to_numeric(data.iloc[:,3])
-print(second_column)
-elapsed_time = (np.array(first_column)-first_column[0])*24
+fourth_column = pd.to_numeric(data.iloc[:,3])
+print(fourth_column)
+elapsed_time = (np.array(first_column)-first_column[0])*24*60*60
 
 plt.xlabel("Time (hours)")
-plt.ylabel("Pressure (kPAs)")
-plt.plot(elapsed_time, second_column, 'o' ,color="blue")
+plt.ylabel("Temperature (C)")
+plt.plot(elapsed_time, fourth_column, 'o' ,color="blue")
 
-plt.savefig("Images/test.png")
+# plt.savefig("Images/test.png")
 
 
 
