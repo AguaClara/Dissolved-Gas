@@ -6,38 +6,4 @@ The immediate goal of the subteam was to determine quantitatively if the fluidiz
 
 The subteam ran an experiment to test if the pressure inside of the reactor was the same on average for hot and cold water respectively. The rpm of the peristaltic pump was held constant at 70.0 rpm. Pressure sensor data was recorded as water was pumped from the reactor for approximately 5 minutes. Two trials were conducted for both hot water and cold water. The data was averaged and ...
 
-The subteam concluded that the pressure sensor could be temporarily excluded from data collection. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12 April 2019
+The subteam concluded that the pressure sensor could be temporarily excluded from data collection.
