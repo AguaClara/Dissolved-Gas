@@ -23,14 +23,6 @@ plt.plot(elapsed_time, fourth_column, 'o' ,color="blue")
 # plt.savefig("Images/test.png")
 
 
-
-
-
-
-
-# Do not use this code.
-
-
 # Read the 0th column (time) and the 4th column (Pressure)
 time, pressure = pp.get_data_by_time(
       path="Data/TestingPressure_20190418.xls", columns=[0, 1], start_date="Test",
