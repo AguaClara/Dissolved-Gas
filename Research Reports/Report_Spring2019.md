@@ -16,7 +16,7 @@
 **[Overall: Good job! Your writing is always superb. I would say that you need to improve on using your figures effectively throughout your report. It's hard to follow your report through when I have to jump around to find the correct figure you are referring to. Be consistent in linking (or not linking) sections of your report. Try to go back and add comments to your Python code.]**
 
 ## Abstract
-Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's components. The Dissolved Gas subteam aims to design a gravity-powered apparatus to extract excess gas from influent water prior to entry into a plant. The Fall 2018 subteam fabricated a small-scale prototype incorporating a fluidized bed reactor. The Spring 2019 subteam began to experimentally evaluate the prototype: given qualitative success, the subteam planned to test the prototype's effectiveness by measuring change in dissolved oxygen concentration across the apparatus. The Spring 2019 subteam planned to iterate improvements to work toward a prototype for application in an AguaClara plant.
+Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's components. The Dissolved Gas subteam continued research to design a gravity-powered apparatus to extract excess gas from influent water prior to entry into a plant. The Fall 2018 subteam fabricated a small-scale prototype incorporating a fluidized bed reactor. The Spring 2019 subteam began to experimentally evaluate the prototype: given qualitative success, the subteam tested the prototype's effectiveness by measuring change in dissolved oxygen concentration across the apparatus. In future semesters, the subteam will continue to troubleshoot currently malfunctional aspects of the prototype, and to iterate improvements to work toward a prototype for application in an AguaClara plant.
 
 **[Please use past tense to refer to current semester and prior semester work.]**
 
@@ -84,7 +84,7 @@ After gathering and analyzing literature, the Fall 2018 subteam fabricated a pro
 
 </p>
 
-**Figure 3**: The left-hand photograph is of the current prototype apparatus. The right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system and is diverted to two paths. One path leads to a flow accumulator (blue rectangle). The second path leads through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the reactor as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
+**Figure 3**: The left-hand photograph is of the current prototype apparatus. The right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system and is diverted to two paths. One path leads to a flow accumulator (blue rectangle). The second path leads through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the reactor as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent. **Update this figure**
 
 To simulate input of supersaturated water, the subteam has considered the use of heated water that already contains dissolved air. Since the solubility of gases decreases as temperature increases, such water should behave as supersaturated [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html). The Spring 2019 subteam began to experimentally evaluate this approach, as described in the Methods section. The subteam intends to progress to quantitative evaluation of the apparatus, and to iterate improvements.
 
@@ -328,7 +328,7 @@ Water then flowed out of the pressure regulator, through clear flex tubing, and 
 
 </p>
 
-**Figure 7**: The above is diagram is a schematic of the current apparatus, as described in the above paragraphs. Black arrows represent the flow of water.
+**Figure 7**: The above is diagram is a schematic of the current apparatus, as described in the above paragraphs. Black arrows represent the flow of water. **Update this figure**
 
 #### Pressure Regulator Installation
 
@@ -363,7 +363,7 @@ The negative end of the pressure sensor was inserted into a piece of 1/4" hard t
 
 </p>
 
-**Figure 10**: The above diagram depicts the ProCoDA box (red rectangle), the pressure sensor cord (orange line), the temperature probe (red line), and the temperature probe box (pink rectangle). **We might not need this figure**
+**Figure 10**: The above diagram depicts the ProCoDA box (red rectangle), the pressure sensor cord (orange line), the temperature probe (red line), and the temperature probe box (pink rectangle). **We might not need this figure** **Update this figure**
 
 **[It's really weird because it seems like you refer to your figures prematurely and then they pop up later in the report and don't refer to them in the text that the figure is actually buried in. If you need those figures earlier, put them earlier. If you want to keep them where they are, could you make them useful where they are put?]**
 #### Forked Flow System Installation
