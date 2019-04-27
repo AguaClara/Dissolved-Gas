@@ -411,7 +411,7 @@ Two dissolved oxygen probes were acquired to measure the dissolved oxygen concen
 
 ### Experimental Procedure
 
-#### Testing Bubble Formation qualitatively
+#### Testing Bubble Formation Qualitatively
 
 Using the [ProCoDA method file](#ProCoDa-Method-File) given in the Manual, the subteam determined that an RPM of 41.1 was necessary to fluidize the reactor. To ensure fluidization, the subteam decided to conduct experiments at 60 RPM, a relatively arbitrary flow rate that will be subject to further consideration in the future.
 
@@ -425,9 +425,22 @@ During each trial, video recordings of the fluidized bed were taken using Smartp
 
 ##### Testing Wider Temperature Ranges
 
+The subteam repeated the experiment from March 10 using a wider temperature range, in order to see a more discernible difference between bubble formation in cold and supersaturated water.
+The subteam achieved a wider temperature range by running the sink with either hot or cold water for several minutes before beginning data collection. Additionally, this allowed water already present in the reactor to equilibrate to the new temperature.
+
+For reference, the subteam determined the hottest and coldest temperatures that the laboratory sink could produce. This was done by recording the temperature of the influent water for several minutes until it approached a constant value. This test was repeated 3 times for both hot and cold water, and the equilibrium temperatures were averaged.
+
 ### Testing Dissolved Oxygen Removal Quantitatively
 
+Having observed the formation of bubbles in the reactor using supersaturated water, the subteam began experiments to quantitatively determine if the fluidized bed successfully removed dissolved oxygen from the influent flow.  
 
+Both temperature probes were connected to the ProCoDa box and placed in the influent and effluent flow accumulators respectively. Cold water was run through the apparatus for several minutes at a rate of 70.0 RPM until the temperature of the influent and effluent water equilibrated. The flow rate of the peristaltic pump was increased from the 60.0 RPM used in the qualitative bubble formation tests to increase the fluidization of the sand bed. The approximate pressure difference between the inside of the reactor and atmospheric pressure was recorded.
+
+Only four probes could be connected to the ProCoDa box simultaneously. The subteam chose to disconnect the pressure sensor and instead connect both dissolved oxygen probes under the assumption that the pressure difference between the interior of the reactor and atmospheric pressure would remain relatively constant for a given RPM.
+
+The subteam recorded the temperature and dissolved oxygen concentration of the influent and effluent water in the flow accumulators for approximately five minutes. This entire process was repeated for hot (supersaturated) water. The data was averaged and standard deviations were calculated.
+**check with Tommy on data analysis ew465**
+**is RPM supposed to be capitalized? ew465**
 
 ## Results and Analysis
  **[You don't need to say this. We know you analyzed stuff. This is the analysis section.]**
