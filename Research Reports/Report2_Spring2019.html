@@ -1,0 +1,1013 @@
+<!DOCTYPE html><html><head>
+      <title>Report2_Spring2019</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///C:\Users\Emily\.atom\packages\markdown-preview-enhanced\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <style> 
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+ 
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview   ">
+      <h1 class="mume-header" id="dissolved-gas-spring-2019-subteam">Dissolved Gas, Spring 2019 Subteam</h1>
+
+<h4 class="mume-header" id="saul-bernaber-thomas-bradford-emily-wood">Saul Bernaber, Thomas Bradford, Emily Wood</h4>
+
+<h4 class="mume-header" id="15-march-2019">15 March 2019</h4>
+
+<p><strong>To-Do List</strong></p>
+<ul>
+<li>Add comments to the Python code.</li>
+<li>Make the Python code more efficient by using functions that AguaClara provides</li>
+<li><strong>Complete</strong> Fix the placement of Figures</li>
+<li>Could you upload the method file and actually link it here?</li>
+</ul>
+<p><strong>[Sidney: Hello friends! i will be commenting throughout your report in these bolded brackets.]</strong></p>
+<p><strong>[I see that you guys have created a new file. PLEASE DO NOT DELETE GRADER COMMENTS IN YOUR SUBMISSIONS. We need to be able to refer back to them to see that you have properly addressed them. After we see that you have addressed them, we will delete the comments ourselves. In the future, we would greatly appreciate it if you didn&apos;t start a new file but continuously worked on one file.]</strong></p>
+<p><strong>[Overall: Good job! Your writing is always superb. I would say that you need to improve on using your figures effectively throughout your report. It&apos;s hard to follow your report through when I have to jump around to find the correct figure you are referring to. Be consistent in linking (or not linking) sections of your report. Try to go back and add comments to your Python code.]</strong></p>
+<h2 class="mume-header" id="abstract">Abstract</h2>
+
+<p>Excess dissolved air in a treatment plant&#x2019;s influent water decreases the functionality of the plant&apos;s components. The Dissolved Gas subteam continued research to design a gravity-powered apparatus to extract excess gas from influent water prior to entry into a plant. The Fall 2018 subteam fabricated a small-scale prototype incorporating a fluidized bed reactor. The Spring 2019 subteam began to experimentally evaluate the prototype: given qualitative success, the subteam tested the prototype&apos;s effectiveness by measuring change in dissolved oxygen concentration across the apparatus. In future semesters, the subteam will continue to troubleshoot currently malfunctional aspects of the prototype, and to iterate improvements to work toward a prototype for application in an AguaClara plant.</p>
+<p><strong>[Please use past tense to refer to current semester and prior semester work.]</strong></p>
+<h2 class="mume-header" id="table-of-contents-emily-please-update-this">Table of Contents [Emily please update this]</h2>
+
+<ul>
+<li><a href="#Introduction">Introduction</a></li>
+<li><a href="#Literature-Review">Literature Review</a>
+<ul>
+<li><a href="#Fluidized-Beds-and-Bubble-Nucleation">Fluidized Beds and Bubble Formation</a></li>
+<li><a href="#Controlling-Pressure">Controlling Pressure</a></li>
+<li><a href="#Gas-Solubility-versus-Temperature">Gas Solubility versus Temperature</a></li>
+<li><a href="#Analysis-of-Literature">Analysis of Literature</a></li>
+</ul>
+</li>
+<li><a href="#Previous-Work">Previous Work</a></li>
+<li><a href="#Methods">Methods</a>
+<ul>
+<li><a href="#Eperimental-Apparatus">Experimental apparatus</a>
+<ul>
+<li><a href="#Pressure-Regulator-Installation">Pressure Regulator Installation</a></li>
+<li><a href="#Pressure-Sensor-Installation">Pressure Sensor Installation</a></li>
+<li><a href="#Forked-Flow-System-Installation">Forked Flow System Installation</a></li>
+</ul>
+</li>
+<li><a href="#Experimental-Procedure">Experimental Procedure</a></li>
+</ul>
+</li>
+<li><a href="#Results-and-Analysis">Results and Analysis</a>
+<ul>
+<li>Initial Tests of Bubble Formation versus Temperature
+<ul>
+<li>Testing Wider Temperature Ranges</li>
+</ul>
+</li>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li><a href="#Conclusions">Conclusions</a></li>
+<li><a href="#Future-Work">Future Work</a></li>
+<li><a href="#Bibliography">Bibliography</a></li>
+<li><a href="#Manual">Manual</a>
+<ul>
+<li><a href="#Experimental-Methods">Experimental Methods</a>
+<ul>
+<li><a href="#Determining-the-Porosity-of-Silica-Sand">Determining the Porosity of Silica Sand</a></li>
+<li><a href="#Determining-the-Average-Diameter-of-Silica-Sand-Grains%5D">Determining the Average Diameter of Silica Sand Grains</a></li>
+<li><a href="#Measuring-Pipe-Dimensions">Measuring Pipe Dimensions</a></li>
+<li><a href="#Evaluating-Bubble-Formation">Evaluating Bubble Formation</a></li>
+</ul>
+</li>
+<li><a href="#Fabrication-Manual">Fabrication Manual</a></li>
+<li><a href="#Python-Code">Python Code</a></li>
+<li><a href="#ProCoDa-Method-File">ProCoDa Code</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="mume-header" id="introduction">Introduction</h2>
+
+<p>Excess dissolved gas in influent water of AguaClara plants at Tamara, Honduras and El Poda, Nicaragua has reduced the plants&apos; efficiencies. To clarify: &#x201C;excess dissolved gas&#x201D; does not entail bubbles being present in influent water. The influent water is supersaturated with gas: gas molecules are dispersed throughout the water, not congregated in bubbles. This report uses the term &#x201C;supersaturated water&#x201D; to denote water containing excess dissolved gas, whether air or otherwise.</p>
+<p>Due to the presence of this excess gas, bubbles form in the plants&apos; sedimentation tanks. Flocs adhere to these bubbles and rise, causing materials that should settle to float and to continue into the remainder of the plants. Bubbles also form in the plants&apos; sand filters between sand particles, effectively clogging the filters <a href="https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1">(Scardina, 2004)</a>. To remedy these issues, the Dissolved Gas subteam intends to develop a reactor that removes such dissolved gas from influent water prior to entering the plant.</p>
+<p>The basic concept of the system&apos;s design was as follows. Influent water will flow from its source at a high elevation. Once the influent water has descended and nears an AguaClara plant, piping will direct it upwards into a reactor. Atmospheric pressure decreases as elevation increases <a href="https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html">(Hodanbosi)</a>, and in accordance with Henry&#x2019;s Law, the gas becomes less soluble at lower pressures, making bubble formation more likely <a href="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html">(Averill &amp; Eldredge)</a>. The subteam will research and implement different reactor components to further encourage bubble formation (i.e. nucleation). The water and the gas bubbles that form will then flow upward and out of the reactor. Piping will direct this effluent downward into a liquid-gas separator (e.g. a basin containing a vent) such that the gas bubbles may escape the water. The water, no longer supersaturated, will then flow into the treatment plant. Figure 1 illustrates this general design.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure%201_%20GeneralUpdated.png?raw=true" height="450">
+</p>
+<p><strong>Figure 1</strong>: This diagram depicts (not to scale) the general design of the system to remove excess dissolved gas from influent water, as the above paragraph describes.</p>
+<p>The subteam has focused its research on the use of a fluidized bed reactor. While technical details are more thoroughly discussed in the Literature Review section, the main attributes of such a reactor are as follows.</p>
+<p>A fluidized bed reactor consists of an enclosed bed of particles, such as sand grains, suspended in a fluid. They are kept in suspension by a particular flow rate directed upwards (i.e. the &quot;fluidization flow&quot; of the sand bed) <a href="http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf">(Department of Chemical Engineering, 2017)</a>. This flow is that of the influent water, entering the reactor from the bottom and flowing upwards toward an exit pipe. The suspended particles provide surfaces on which bubbles can form. The bubbles then rise from the reactor, leaving the sand behind. Figure 2 illustrates this design.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Fluidized_Bed_Reactor.jpg?raw=true" height="400">
+</p>
+<p><strong>Figure 2</strong>: This diagram depicts (not to scale) the general concept of a fluidized bed reactor using sand particles, as the above paragraph describes.</p>
+<p>In a fluidized bed reactor, bubbles may immediately travel upward once they form, since their nucleation sites (sand grains) are relatively mobile. Bubbles may depart the fluid at a relatively small diameter, carrying a high internal pressure, being likely to rupture and disperse into solution. Despite these potential issues, the subteam believes the fluidized bed reactor may still be effective, because a large number of sand grains may provide a large surface area for bubbles to nucleate. In future semesters, the subteam may consider an alternative reactor type and consider any contrasting merits.</p>
+<p>After gathering and analyzing literature, the Fall 2018 subteam fabricated a prototype fluidized bed reactor using a transparent PVC pipe, silica sand, and flow components. The subteam assembled a basic apparatus to resemble the design proposed in Figure 1. Figure 3 presents a photograph of this apparatus. Influent water passes in through a peristaltic pump and through tubing into a vertically oriented fluidized bed reactor, and out into a small bucket. Further details on this apparatus are given in the Methods and Manual sections, and earlier stages are described in the <a href="https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md">Fall 2018 Final Report</a>.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Apparatus_20190427.jpg?raw=true" height="430">
+</p>
+<p><strong>Figure 3</strong>: The left-hand photograph is of the current prototype apparatus. The right-hand photograph contains graphical enhancement to clarify the system&apos;s progression. Influent water (purple arrow) enters the system and is diverted to two paths. One path leads to a flow accumulator (blue rectangle) and then down into a large bucket. The second path leads through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the reactor as effluent water (dotted purple), pours into a small flow accumulator (yellow rectangle) that serves as an open-faced vent, and then down into a second bucket.</p>
+<p>To simulate input of supersaturated water, the subteam has decided to use heated water that already contains dissolved air. Since the solubility of gases decreases as temperature increases, such water should behave as supersaturated <a href="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html">(Averill &amp; Eldredge)</a>. The Spring 2019 experimentally evaluated this approach, as described in the Methods section. The subteam intends to progress to quantitative evaluation of the apparatus, and to iterate improvements.</p>
+<p>The subteam began to use dissolved oxygen probes to measure the difference in concentration of dissolved oxygen between the influent and effluent water. The subteam expected that the water&apos;s dissolved oxygen content is proportional to the water&apos;s dissolved air content, since the major source of the dissolved oxygen is air. Therefore, the system&apos;s effectiveness in removing dissolved oxygen should be proportional to the system&apos;s effectiveness in removing dissolved air. After fixing the current issues with the dissolved oxygen probes, and subsequent analysis of concentration data, the subteam will modify the system to optimize the removal of excess dissolved gas.</p>
+<p>The remainder of this report includes further explanation of concepts such as fluidized beds and considerations of pressure, details of the experimental apparatus, and discussions of the experiments that the Spring 2019 subteam performed .</p>
+<h2 class="mume-header" id="literature-review">Literature Review</h2>
+
+<p>The subteam concentrated its research on optimizing the system&apos;s fluidized bed reactor and manipulating pressure to ensure maximum dissolved gas removal. The subteam&#x2019;s research can be summarized as follows: gas solubility decreases with decreasing ambient pressure. Therefore, to catalyze bubble growth in a reactor for ease of gas removal, the subteam aimed to design a reactor exerting minimal pressure on gas molecules. Such pressure can be controlled by altering the reactor&#x2019;s height, by influencing bubble size, and by modifying dimensions of the tubing in the system. Pressure control, combined with providing nucleation sites in a fluidized bed reactor, helps the dissolved gas form stable bubbles that escape from the surrounding water. The subteam hypothesizes that such a reactor design can be developed to alleviate the problems that the plants at El Poda, Nicaragua and Tamara, Honduras are facing.</p>
+<h3 class="mume-header" id="fluidized-beds-and-bubble-nucleation">Fluidized Beds and Bubble Nucleation</h3>
+
+<p>When a liquid or a gas is pumped through a granular solid at a certain velocity, the material behaves like a fluid. The velocity required to cause this behavior is known as the minimum fluidization velocity. The corresponding flow rate may be denoted as the minimum fluidization flow. The minimum fluidization velocity depends on characteristics of the fluidized bed, including particle density, shape, size, and porosity <a href="http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf">(Department of Chemical Engineering, 2017)</a>. The equation below quantifies this relationship <a href="https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf">(Weber-Shirk)</a>.</p>
+<h4 class="mume-header" id="equation-1">Equation 1</h4>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>m</mi><mi>i</mi><mi>n</mi><mi>f</mi><mi>l</mi></mrow></msub><mo>=</mo><mfrac><mrow><msup><mi>&#x3D5;</mi><mn>3</mn></msup><mi>g</mi><msup><mi>D</mi><mn>2</mn></msup></mrow><mrow><mn>36</mn><mi>k</mi><mi>v</mi><mo>(</mo><mn>1</mn><mo>&#x2212;</mo><mi>&#x3D5;</mi><mo>)</mo></mrow></mfrac><mo>(</mo><mfrac><msub><mi>&#x3C1;</mi><mi>s</mi></msub><msub><mi>&#x3C1;</mi><mi>w</mi></msub></mfrac><mo>&#x2212;</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding="application/x-tex">V_{minfl}= \frac{\phi^3 g D^2}{36kv(1-\phi)}(\frac{\rho_s}{\rho_w}-1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight">n</span><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span><span class="mord mathdefault mtight" style="margin-right:0.01968em;">l</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.427108em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.491108em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span><span class="mord">6</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2212;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">&#x3D5;</span><span class="mclose">)</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">&#x3D5;</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1075599999999999em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">&#x3C1;</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.02691em;">w</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">&#x3C1;</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">s</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2212;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span></span></p>
+<p><strong>Variables</strong><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>D</mi></mrow><annotation encoding="application/x-tex">D</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span></span></span></span> = Diameter of a sand grain<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi></mrow><annotation encoding="application/x-tex">g</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span></span></span></span> = Acceleration due to gravity<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span> = Kozeny constant (approximately equal to 5 for most filtration conditions)<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>&#x3D5;</mi></mrow><annotation encoding="application/x-tex">\phi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">&#x3D5;</span></span></span></span> = Porosity (Approximately 0.4 for uniform size media) (Note: porosity and voidage are equal quantities)<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>&#x3C1;</mi><mi>s</mi></msub></mrow><annotation encoding="application/x-tex">\rho_s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault">&#x3C1;</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">s</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> = Density of sand particles<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>&#x3C1;</mi><mi>w</mi></msub></mrow><annotation encoding="application/x-tex">\rho_w</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault">&#x3C1;</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.02691em;">w</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> = Density of water<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>v</mi></mrow><annotation encoding="application/x-tex">v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span></span></span></span> = Kinematic viscosity of water<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>m</mi><mi>i</mi><mi>n</mi><mi>f</mi><mi>l</mi></mrow></msub></mrow><annotation encoding="application/x-tex">V_{minfl}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight">n</span><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span><span class="mord mathdefault mtight" style="margin-right:0.01968em;">l</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span> = Minimum approach velocity required to fluidize the sand bed</p>
+<p>In the prototype reactor the subteam fabricated, sand serves as the granular solid and water serves as the fluid. Water has a known density and kinematic viscosity, but the material properties of sand vary. The subteam used silica sand to construct the prototype reactor. The subteam experimentally determined the silica sand&apos;s porosity and average grain diameter, as discussed in the Methods section of the <a href="https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md">Fall 2018 Final Report</a>. The subteam found silica sand&apos;s density in a presentation by <a href="https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf">Weber-Shirk</a>.</p>
+<p>Conversely to fluidization velocity: when a liquid or gas flows through a granular solid at a certain threshold velocity known as the fluidized bed&apos;s &quot;entrainment velocity&quot;, the grains no longer fluidize. They flow upward along with the gas or liquid (Denn, 1980). In the case that a fluidized bed reactor is implemented in an AguaClara plant, the reactor must be designed such that the entrainment velocity is never reached by the influent water. Equation 2 quantifies entrainment velocity.</p>
+<h4 class="mume-header" id="equation-2">Equation 2</h4>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>v</mi><mrow><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>=</mo><mfrac><mrow><mo>(</mo><msub><mi>&#x3C1;</mi><mi>p</mi></msub><mo>&#x2212;</mo><mi>&#x3C1;</mi><mo>)</mo><mi>g</mi><msubsup><mi>D</mi><mi>p</mi><mn>2</mn></msubsup></mrow><mrow><mn>18</mn><mi>&#x3B7;</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">v_{max} = \frac{(\rho_{p}-\rho)g D^2_p}{18\eta}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">x</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.4676560000000003em;vertical-align:-0.8804400000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.5872160000000002em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">8</span><span class="mord mathdefault" style="margin-right:0.03588em;">&#x3B7;</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.773108em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">&#x3C1;</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.15139200000000003em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">p</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2212;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">&#x3C1;</span><span class="mclose">)</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4530000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">p</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.383108em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p><strong>Variables</strong><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>D</mi><mi>p</mi></msub></mrow><annotation encoding="application/x-tex">D_p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.15139200000000003em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">p</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span> = Diameter of a sand grain<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>&#x3B7;</mi></mrow><annotation encoding="application/x-tex">\eta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">&#x3B7;</span></span></span></span> = Dynamic viscosity of water<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi></mrow><annotation encoding="application/x-tex">g</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span></span></span></span> = Acceleration due to gravity<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>&#x3C1;</mi><mi>p</mi></msub></mrow><annotation encoding="application/x-tex">\rho_{p}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.716668em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault">&#x3C1;</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.15139200000000003em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">p</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span> = Density of sand particles<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>&#x3C1;</mi></mrow><annotation encoding="application/x-tex">\rho</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">&#x3C1;</span></span></span></span> = Density of the fluidizing agent<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>v</mi><mrow><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub></mrow><annotation encoding="application/x-tex">v_{max}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">x</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> = Entrainment velocity of the fluidized bed</p>
+<p>The subteam will consider the entrainment velocity of the fluidized bed in the event of designing a scaled up reactor.</p>
+<p>Because of the reactor&#x2019;s dependence on bubble formation, the subteam also directed research toward bubble nucleation sites. The subteam found that the solid particles in the fluidized beds would provide nucleation sites for bubble formation.</p>
+<p>Typically, small, solid particles can provide a place for bubbles to grow large enough so they rise to the top of a reactor and escape <a href="https://pubs.geoscienceworld.org/gsa/geology/article/33/6/517/103815/bubble-growth-and-rise-in-soft-sediments">(Boudreau et al., 2005)</a>. Boudreau found that bubbles that form in sand-like sediments are spherical, in contrast to the oblate spheroid-shaped bubbles that form in muddy sediments. His research suggests that the difference in shape is caused by the differences in responses to the stress of the materials. While mud fractures under stress, sand &#x201C;acts fluidly or plastically in response to growth stresses.&#x201D; This informed the subteam as to what type of materials to use in the reactor because the subteam needed the particles to have fluid-like behavior.</p>
+<p>Bubble formation and size in gas-solid fluidized beds is fairly predictable at low gas velocities <a href="https://www.nature.com/articles/190433a0">(Harrison and Leung, 1961)</a>. However, Schulz states that this is not the case for liquid-solid fluidized beds: &#x201C;In most liquid-fluidized beds, &#x2026; although instability is present and can be seen in the form of wavy structures this does not lead rapidly to bubble formation&#x201D; <a href="https://www.opuscula.agh.edu.pl/vol24/1/art/opuscula_math_2412.pdf">(Schulz, 2004)</a>. This instability could cause problems for the subteam, but there are solutions to commonly reported issues.</p>
+<p>If bubble formation is slow or inconsistent, it may be due to the ratio between the density of the particles and the density of water. Schulz found that bubble formation was present in fluidized beds with high ratios, so the subteam may want to consider using denser particles if problems arise.</p>
+<p>The subteam aims to remove the most gas from the influent water as possible by generating bubbles. As previously stated, bubble formation can be encouraged by providing nucleation sites on sand grains. It can also be encouraged by decreasing gas solubility through manipulation of pressure.</p>
+<h3 class="mume-header" id="controlling-pressure">Controlling Pressure</h3>
+
+<p>The solubility of a gas in a solution is directly proportional to its partial pressure above said solution. It is also dependent on a particular constant, determined by the composition of the gas and the solution, and the temperature of both <a href="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html">(Averill &amp; Eldredge)</a>.</p>
+<p>Henry&apos;s Law quantifies this relationship, represented by the following equation.</p>
+<h4 class="mume-header" id="equation-3">Equation 3</h4>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>C</mi><mo>=</mo><mi>k</mi><mi>P</mi></mrow><annotation encoding="application/x-tex">C=k P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span></span></p>
+<p><strong>Variables</strong><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span></span> = Dissolved gas&#x2019;s concentration in a solvent at equilibrium<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span> = Henry&#x2019;s Law constant, which is determined experimentally for each combination of gas, solvent, and temperature. In this case, the interface may be considered as the border between the bubble and the surrounding water.<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>P</mi></mrow><annotation encoding="application/x-tex">P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span> = Dissolved gas&#x2019;s partial pressure at the interface of liquid and gas</p>
+<p>Therefore, in order to decrease gas&apos;s solubility inside of the reactor, the subteam must find a way to decrease the pressure. This pressure can be minimized through control of two components.</p>
+<p>The first component is the water pressure at the site of bubble formation. As the height difference between the fluidized bed and the vent changes, the water pressure changes, given by the following equation <a href="https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html">(Hodanbosi)</a>.</p>
+<h4 class="mume-header" id="equation-4">Equation 4</h4>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&#x394;</mi><mi>P</mi><mo>=</mo><mi>&#x3C1;</mi><mi>g</mi><mi mathvariant="normal">&#x394;</mi><mi>h</mi></mrow><annotation encoding="application/x-tex">\Delta P = \rho g \Delta h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">&#x394;</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">&#x3C1;</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">&#x394;</span><span class="mord mathdefault">h</span></span></span></span></span></p>
+<p><strong>Variables</strong><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi></mrow><annotation encoding="application/x-tex">g</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span></span></span></span> = Acceleration due to gravity<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&#x394;</mi><mi>h</mi></mrow><annotation encoding="application/x-tex">\Delta h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">&#x394;</span><span class="mord mathdefault">h</span></span></span></span> = Change in depth<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&#x394;</mi><mi>P</mi></mrow><annotation encoding="application/x-tex">\Delta P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">&#x394;</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span> = Change in pressure<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>&#x3C1;</mi></mrow><annotation encoding="application/x-tex">\rho</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">&#x3C1;</span></span></span></span> = Density of the material</p>
+<p>Because water pressure decreases at lesser depths, building a reactor at a greater height in the water column will minimize pressure inside the reactor, and as a result, minimize gas solubility.</p>
+<p>Another factor that influences the pressure difference between the reactor and the vent is that of <em>head loss</em>. Head loss corresponds to energy lost due to friction, which in turn depends on material properties of the piping <a href="http://www.codecogs.com/library/engineering/fluid_mechanics/pipes/head_loss/pipe-head-loss.php">(CodeCogs, 2012)</a>. In this case, the relevant piping is the effluent pipe through which water exits the reactor and passes into the vent. Head loss is dependent on tubing parameters according to the following equation <a href="https://bae.okstate.edu/faculty-sites/Darcy/DarcyWeisbach/Darcy-WeisbachEq.htm">(Brown, 2000)</a>.</p>
+<h4 class="mume-header" id="equation-5">Equation 5</h4>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>h</mi><mi>f</mi></msub><mo>=</mo><mfrac><mrow><mn>32</mn><mi>&#x3BC;</mi><mi>L</mi><mi>V</mi></mrow><mrow><mi>&#x3C1;</mi><mi>g</mi><msup><mi>D</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding="application/x-tex">h_f = \frac{32\mu L V}{\rho g D^2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.24077em;vertical-align:-0.8804400000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603299999999998em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">&#x3C1;</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.740108em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span><span class="mord">2</span><span class="mord mathdefault">&#x3BC;</span><span class="mord mathdefault">L</span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p><strong>Variables</strong><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>D</mi></mrow><annotation encoding="application/x-tex">D</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span></span></span></span> = Diameter of the pipe in question<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi></mrow><annotation encoding="application/x-tex">g</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span></span></span></span> = Acceleration due to gravity<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>h</mi><mi>f</mi></msub></mrow><annotation encoding="application/x-tex">h_f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span> = Head loss<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>L</mi></mrow><annotation encoding="application/x-tex">L</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">L</span></span></span></span> = Length of the pipe in question<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>&#x3BC;</mi></mrow><annotation encoding="application/x-tex">\mu</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">&#x3BC;</span></span></span></span> = Absolute viscosity of water<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>&#x3C1;</mi></mrow><annotation encoding="application/x-tex">\rho</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">&#x3C1;</span></span></span></span> = Density of water<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>V</mi></mrow><annotation encoding="application/x-tex">V</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span></span></span></span> = Velocity of water in the pipe</p>
+<p>Building off of <a href="#Equation-5">Equation 5</a>, the pressure difference between two ends of a pipe due to head loss is given by the following equation <a href="https://bae.okstate.edu/faculty-sites/Darcy/DarcyWeisbach/Darcy-WeisbachEq.htm">(Brown, 2000)</a>.</p>
+<h4 class="mume-header" id="equation-6">Equation 6</h4>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&#x394;</mi><mi>P</mi><mo>=</mo><mi>&#x3C1;</mi><mi>g</mi><msub><mi>h</mi><mi>f</mi></msub></mrow><annotation encoding="application/x-tex">\Delta P = \rho g h_f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">&#x394;</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord mathdefault">&#x3C1;</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p><strong>Variables</strong><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi></mrow><annotation encoding="application/x-tex">g</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span></span></span></span> = Acceleration due to gravity<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>h</mi><mi>f</mi></msub></mrow><annotation encoding="application/x-tex">h_f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span> = Head loss in a pipe, as given in <a href="#Equation-5">Equation 5</a><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&#x394;</mi><mi>P</mi></mrow><annotation encoding="application/x-tex">\Delta P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">&#x394;</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span> = Change in pressure across the pipe<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>&#x3C1;</mi></mrow><annotation encoding="application/x-tex">\rho</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">&#x3C1;</span></span></span></span> = Density of water</p>
+<p>Second, a bubble&#x2019;s internal pressure can be expressed as a function of its radius <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html">(Hyperphysics)</a>. As internal pressure increases, bubble size decreases. However, once the pressure exceeds 3.5 atmospheres, the bubbles will stop decreasing in size <a href="https://doi.org/10.2166/ws.2002.0148">(Han, M., 2002)</a>. The relationship between pressure, surface tension, and bubble radius is shown by the following equation.</p>
+<h4 class="mume-header" id="equation-7">Equation 7</h4>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>i</mi></msub><mo>=</mo><msub><mi>P</mi><mi>o</mi></msub><mo>+</mo><mn>4</mn><mfrac><mi>T</mi><mi>R</mi></mfrac></mrow><annotation encoding="application/x-tex">P_i = P_o + 4 \frac{T}{R}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">o</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.04633em;vertical-align:-0.686em;"></span><span class="mord">4</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.36033em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p><strong>Variables</strong><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">P_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> = Pressure inside the bubble<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>o</mi></msub></mrow><annotation encoding="application/x-tex">P_o</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">o</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> = Pressure outside the bubble<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>R</mi></mrow><annotation encoding="application/x-tex">R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span></span> = Bubble radius<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span> = Surface tension</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Bubble_Surface_Tension.jpg?raw=true" height="350">
+</p>
+<p><strong>Figure 4</strong>: This diagram illustrates the above descriptions of surface tension, pressure inside the bubble, and pressure outside the bubble as given in <a href="#Equation-7">Equation 7</a> <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html">(Hyperphysics)</a>.</p>
+<p>The subteam plans on using the principles of this equation to further decrease the pressure inside the bubble. Because it is known that an increase in radius will result in a decrease in pressure, the subteam must find a way to increase bubble radius. One way to increase radius may be to prevent the bubbles in the reactor from quickly escaping. If a bubble stays inside the reactor for a relatively longer period of time, it will have a longer time to expand.</p>
+<p>In the Analysis of Literature section, Equations 3-7 are evaluated and related to one another to form one basis for parameters of the system&apos;s design.</p>
+<h3 class="mume-header" id="gas-solubility-versus-temperature">Gas Solubility versus Temperature</h3>
+
+<p>The subteam plans to evaluate the apparatus&apos;s effectiveness by measuring the difference in dissolved oxygen content between the influent and effluent water. As stated in the Introduction, the subteam expects that the water&apos;s dissolved oxygen content is proportional to the water&apos;s dissolved air content, since the major source of the dissolved oxygen in influent water is air.  To encourage bubbles to form in the reactor and to simulate the behavior of supersaturated influent water, the subteam plans to utilize the relationship between gas solubility and temperature.</p>
+<p>The subteam considered using, as influent, heated water that already contains dissolved air. Since the solubility of gases decreases as temperature increases, such water should behave as supersaturated <a href="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html">(Averill &amp; Eldredge)</a>.</p>
+<p style="text-align: center;">
+<img src="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/section_17/67558bdc4beb64e06b29db7b4c8d74bb.jpg" height="350">
+</p>
+<p><strong>Figure 5</strong>: The above graph displays the solubility (mg / 100 g water) of five gases as a function of temperature (degrees Celsius) at a partial pressure of 1 atm <a href="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html">(Averill &amp; Eldredge)</a>.</p>
+<p>As illustrated by Figure 5, oxygen and nitrogen are less soluble in water as temperature increases. As described in the Methods section, the subteam began to evaluate the change in gas solubility at different temperatures, by evaluating differences in bubble formation.</p>
+<h3 class="mume-header" id="analysis-of-literature">Analysis of Literature</h3>
+
+<p>Through conceptual analysis and algebraic manipulation, Equations 3-7 combine to form an estimation of a gas&#x2019; solubility in water in the subteam&apos;s prototype apparatus. The following paragraphs describe this process. All relevant variables have been defined in the Literature Review section.</p>
+<p>The pressure relevant to Henry&apos;s Law (i.e. the pressure of a gas above a liquid, in <a href="#Equation-3">Equation 3</a>) is the pressure <em>within</em> a bubble <a href="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html">(Averill &amp; Eldredge)</a>.<br>
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>C</mi><mo>=</mo><mi>k</mi><mi>P</mi></mrow><annotation encoding="application/x-tex">C = k P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span></span></p>
+<p>Since <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>P</mi></mrow><annotation encoding="application/x-tex">P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span> equates to the gas&apos;s pressure within a bubble, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>P</mi></mrow><annotation encoding="application/x-tex">P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span> is relabeled as <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>b</mi></msub></mrow><annotation encoding="application/x-tex">P_b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>.</p>
+<p>As shown in <a href="#Equation-7">Equation 7</a>, the pressure within a bubble is directly related to the bubble&apos;s radius, the liquid&apos;s surface tension, and the pressure outside the bubble <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html">(Hyperphysics)</a>.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>i</mi></msub><mo>=</mo><msub><mi>P</mi><mi>o</mi></msub><mo>+</mo><mn>4</mn><mfrac><mi>T</mi><mi>R</mi></mfrac></mrow><annotation encoding="application/x-tex">P_i = P_o + 4 \frac{T}{R}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">o</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.04633em;vertical-align:-0.686em;"></span><span class="mord">4</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.36033em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">P_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> denotes the pressure within a bubble and therefore is relabeled as <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>b</mi></msub></mrow><annotation encoding="application/x-tex">P_b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>. <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>o</mi></msub></mrow><annotation encoding="application/x-tex">P_o</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">o</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> denotes the pressure outside of the bubble and is relabeled <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>r</mi></msub></mrow><annotation encoding="application/x-tex">P_r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">r</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> (i.e. pressure in the liquid within the reactor).</p>
+<p>The pressure outside of the bubble can be equated to atmospheric pressure, plus a change in pressure due to the height difference between the reactor and the vent (<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&#x394;</mi><msub><mi>P</mi><mrow><mi>h</mi><mi>e</mi><mi>i</mi><mi>g</mi><mi>h</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\Delta P_{height}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord">&#x394;</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">h</span><span class="mord mathdefault mtight">e</span><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight" style="margin-right:0.03588em;">g</span><span class="mord mathdefault mtight">h</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>) <a href="#Equation-4">(Equation 4)</a>, plus a change in pressure due to head loss in the tubing connecting the reactor and the vent (<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&#x394;</mi><msub><mi>P</mi><mrow><mi>h</mi><mi>e</mi><mi>a</mi><mi>d</mi><mi>l</mi><mi>o</mi><mi>s</mi><mi>s</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\Delta P_{head loss}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord">&#x394;</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">h</span><span class="mord mathdefault mtight">e</span><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">d</span><span class="mord mathdefault mtight" style="margin-right:0.01968em;">l</span><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">s</span><span class="mord mathdefault mtight">s</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>) <a href="#Equation-6">(Equation 6)</a>.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&#x394;</mi><msub><mi>P</mi><mrow><mi>h</mi><mi>e</mi><mi>i</mi><mi>g</mi><mi>h</mi><mi>t</mi></mrow></msub><mo>=</mo><mi>&#x3C1;</mi><mi>g</mi><mi mathvariant="normal">&#x394;</mi><mi>h</mi></mrow><annotation encoding="application/x-tex">\Delta P_{height} = \rho g \Delta h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord">&#x394;</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">h</span><span class="mord mathdefault mtight">e</span><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight" style="margin-right:0.03588em;">g</span><span class="mord mathdefault mtight">h</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">&#x3C1;</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">&#x394;</span><span class="mord mathdefault">h</span></span></span></span></span></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&#x394;</mi><msub><mi>P</mi><mrow><mi>h</mi><mi>e</mi><mi>a</mi><mi>d</mi><mi>l</mi><mi>o</mi><mi>s</mi><mi>s</mi></mrow></msub><mo>=</mo><mi>&#x3C1;</mi><mi>g</mi><msub><mi>h</mi><mi>f</mi></msub></mrow><annotation encoding="application/x-tex">\Delta P_{head loss} = \rho g h_f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord">&#x394;</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">h</span><span class="mord mathdefault mtight">e</span><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">d</span><span class="mord mathdefault mtight" style="margin-right:0.01968em;">l</span><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">s</span><span class="mord mathdefault mtight">s</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord mathdefault">&#x3C1;</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p>The greater the difference in height, the lower the pressure within the reactor. The greater the head loss, the greater the pressure within the reactor. Thus, the pressure within the reactor may be written as follows:</p>
+<h4 class="mume-header" id="equation-8">Equation 8</h4>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>r</mi></msub><mo>=</mo><msub><mi>P</mi><mrow><mi>a</mi><mi>t</mi><mi>m</mi></mrow></msub><mo>+</mo><mi mathvariant="normal">&#x394;</mi><msub><mi>P</mi><mrow><mi>h</mi><mi>e</mi><mi>i</mi><mi>g</mi><mi>h</mi><mi>t</mi></mrow></msub><mo>+</mo><mi mathvariant="normal">&#x394;</mi><msub><mi>P</mi><mrow><mi>h</mi><mi>e</mi><mi>a</mi><mi>d</mi><mi>l</mi><mi>o</mi><mi>s</mi><mi>s</mi></mrow></msub><mo>=</mo><msub><mi>P</mi><mrow><mi>a</mi><mi>t</mi><mi>m</mi></mrow></msub><mo>&#x2212;</mo><mi>&#x3C1;</mi><mi>g</mi><mi mathvariant="normal">&#x394;</mi><mi>h</mi><mo>+</mo><mi>&#x3C1;</mi><mi>g</mi><msub><mi>h</mi><mi>f</mi></msub></mrow><annotation encoding="application/x-tex">P_r = P_{atm} + \Delta P_{height} + \Delta P_{head loss} = P_{atm} - \rho g \Delta h + \rho g h_f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">r</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">t</span><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord">&#x394;</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">h</span><span class="mord mathdefault mtight">e</span><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight" style="margin-right:0.03588em;">g</span><span class="mord mathdefault mtight">h</span><span class="mord mathdefault mtight">t</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord">&#x394;</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">h</span><span class="mord mathdefault mtight">e</span><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">d</span><span class="mord mathdefault mtight" style="margin-right:0.01968em;">l</span><span class="mord mathdefault mtight">o</span><span class="mord mathdefault mtight">s</span><span class="mord mathdefault mtight">s</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">t</span><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2212;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">&#x3C1;</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">&#x394;</span><span class="mord mathdefault">h</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord mathdefault">&#x3C1;</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p>The second term of this equation was negated to indicate that, while <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&#x394;</mi><mi>h</mi></mrow><annotation encoding="application/x-tex">\Delta h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">&#x394;</span><span class="mord mathdefault">h</span></span></span></span> increases in magnitude, the pressure in the reactor decreases.</p>
+<p>These equations may be combined and rearranged given their relabeled variables. The following relationship emerges to relate the solubility of the gas in the reactor to a bubble&apos;s radius, the height of the reactor, the water&apos;s surface tension, the dimensions of the effluent tubing, and the constant relevant to Henry&apos;s Law:</p>
+<h4 class="mume-header" id="equation-9">Equation 9</h4>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>C</mi><mo>=</mo><mi>k</mi><mo>(</mo><mfrac><mrow><mn>4</mn><mi>T</mi></mrow><mi>R</mi></mfrac><mo>+</mo><msub><mi>P</mi><mrow><mi>a</mi><mi>t</mi><mi>m</mi></mrow></msub><mo>&#x2212;</mo><mi>&#x3C1;</mi><mi>g</mi><mi mathvariant="normal">&#x394;</mi><mi>h</mi><mo>+</mo><mi>&#x3C1;</mi><mi>g</mi><msub><mi>h</mi><mi>f</mi></msub><mo>)</mo></mrow><annotation encoding="application/x-tex">C = k(\frac{4T}{R} + P_{atm} - \rho g \Delta h + \rho g h_f)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.04633em;vertical-align:-0.686em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.36033em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">4</span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">t</span><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2212;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">&#x3C1;</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">&#x394;</span><span class="mord mathdefault">h</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.036108em;vertical-align:-0.286108em;"></span><span class="mord mathdefault">&#x3C1;</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span></p>
+<p><strong>Variables</strong><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span></span> = Solubility of a gas in the water<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi></mrow><annotation encoding="application/x-tex">g</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span></span></span></span> = Acceleration due to gravity<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&#x394;</mi><mi>h</mi></mrow><annotation encoding="application/x-tex">\Delta h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">&#x394;</span><span class="mord mathdefault">h</span></span></span></span> = Height difference between the vent and the reactor (this is a negative quantity)<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>h</mi><mi>f</mi></msub></mrow><annotation encoding="application/x-tex">h_f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span> = Head loss in the outlet tubing, as given in <a href="#Equation-5">Equation 5</a><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span> = A constant for a given substance at a given temperature, related to Henry&#x2019;s Law<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mrow><mi>a</mi><mi>t</mi><mi>m</mi></mrow></msub></mrow><annotation encoding="application/x-tex">P_{atm}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2805559999999999em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">t</span><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>= Atmospheric air pressure at the level of the vent<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>R</mi></mrow><annotation encoding="application/x-tex">R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span></span> = Radius of a bubble in the reactor<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&#x2374;</mi></mrow><annotation encoding="application/x-tex">&#x2374;</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord">&#x2374;</span></span></span></span> = Density of water<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span> = Surface tension of the water at a given temperature</p>
+<p><a href="#Equation-9">Equation 9</a> mathematically summarizes the concepts addressed in the Literature Review section. In order to minimize gas solubility (and therefore, to maximize the amount of gas that is removed from influent water): the radii of bubbles that form must be maximized, the head loss in the exit tubing must be minimized, and the height difference between the reactor and vent must be maximized within reason. Further considerations may arise when <a href="#Equation-5">Equation 5</a> is substituted for the <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>h</mi><mi>f</mi></msub></mrow><annotation encoding="application/x-tex">h_f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span> value.</p>
+<p>While <a href="#Equation-9">Equation 9</a> is powerful in its efficiency, it may only act as an approximation of the solubility of a gas in the fluidized bed reactor. Equations 3-7 assume equilibrium: that the rates of air shifting from liquid to gas phase and vice versa are equal. The system may not be in equilibrium while the reactor is in use. Therefore, <a href="#Equation-9">Equation 9</a> remains only a qualitative description of the relationships between different system parameters.</p>
+<p><a href="#Equation-9">Equation 9</a>, supplemented by <a href="#Equation-1">Equation 1</a> concerning fluidization velocity, informed the subteam&apos;s fabrication of the prototype apparatus. In the subteam&apos;s work, the equation may be used to perform optimizations once the subteam has gathered sufficient experimental data.</p>
+<h2 class="mume-header" id="previous-work">Previous Work</h2>
+
+<p>The Fall 2018 subteam&apos;s work comprised research, design, fabrication, and basic experimentation to begin development of a reactor to remove excess dissolved gas from influent water in AguaClara plants.</p>
+<p>The subteam&apos;s research focused on developing a fluidized bed reactor that would encourage bubble formation by providing bubble nucleation sites. The subteam gathered literature on the relevant concepts such as fluidization, bubble nucleation, and gas solubility. As detailed in the Analysis of Literature section, the subteam combined key variables to derive <a href="#Equation-9">Equation 9</a> for the approximate solubility of a gas in water.</p>
+<p>The subteam then experimentally determined relevant system parameters (eg. sand bed porosity and sand grain diameter), and designed and fabricated a small-scale fluidized bed reactor. Python code was developed to facilitate easy calculation of the fluidization velocity and fluidization flow of the sand bed. Python code was also written to calculate the head loss through the reactor&apos;s effluent tubing. This code is provided in the Manual section.</p>
+<p>After fabricating the prototype system, the subteam ran basic tests to determine its functionality. The reactor&apos;s sand bed failed to consistently fluidize while using a 100 RPM peristaltic pump. However, the Spring 2019 subteam recently acquired a 600 RPM peristaltic pump to incorporate into the system.</p>
+<p>Further specifics concerning the subteam&apos;s work during the Fall 2018 semester are described in the <a href="https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md">Fall 2018 Final Report</a>.</p>
+<p>The subteam looks forward to testing the prototype to confirm its functionality, optimize its performance, and to eventually develop a practical reactor.</p>
+<h2 class="mume-header" id="methods">Methods</h2>
+
+<h3 class="mume-header" id="experimental-apparatus">Experimental Apparatus</h3>
+
+<p>The Fall 2018 subteam fabricated a prototype fluidized bed reactor and assembled an accompanying system. The Spring 2019 subteam modified this system to its current form, as shown in Figure 3. The Methods section of the <a href="https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md">Fall 2018 Final Report</a> details the fabrication of the reactor itself, and describes procedures to determine the reactor&apos;s parameters. This included calculation of the fluidized bed&apos;s fluidization velocity, and the corresponding flow rate of influent water. The Methods and Manual sections of this report detail the accompanying system and changes made in the Spring 2019 semester.</p>
+<p>In summary: the reactor is a 0.5 m transparent PVC pipe, capped with components that allow influent and effluent connections with clear flex tubing. The reactor contains a 70 mL bed of Silica sand. Figure 6 depicts the reactor separately from the system, prior to installation of a pressure sensor.</p>
+<p>Readers should note that a mesh screen is installed at the bottom of the reactor to prevent any sand from falling down/out of the reactor. Figure 8 in the <a href="https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md">Fall 2018 Final Report</a> further depicts the mesh.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Prototype1_Sand.jpg?raw=true" height="450">
+</p>
+<p><strong>Figure 6</strong>: The above photograph shows the Prototype 1 reactor labeled with the Fall 2018 subteam members&apos; names and with the appropriate influent (white) and effluent (red) tape labels. The reactor contained a silica sand bed (green circle).</p>
+<p>The system design surrounding the reactor aligned with that illustrated below in Figure 7. The design was as follows: from the water source (a sink), water flowed into a pressure regulator, which decreased water pressure in order to prevent leakage in the tubing system.</p>
+<p>As stated in the Literature Review section, the subteam considered using heated water to act as supersaturated influent water, since water that is saturated with air, once heated, becomes supersaturated <a href="https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html">(Florida State University)</a>.</p>
+<p>Water then flowed out of the pressure regulator, through clear flex tubing, and forked into two streams: one flowed into a flow accumulator containing a temperature probe, and the other flowed into a peristaltic pump. Water flowing through the peristaltic pump continued through a tube system and into the fluidized bed reactor. The reactor&apos;s sand bed is fluidized by the influent water, which travels at no slower than the sand&#x2019;s fluidization velocity. This corresponded to a flow rate of 2.54 mL/s, as calculated using the <a href="###Determining-the-Sand-Bed&apos;s-Fluidization-Flow">Python code</a> given in the Manual <strong>[Where did this come from? Could you link or reference? Also, it shows up as a link in the markdown file.]</strong>. The influent water&apos;s flow rate was controlled manually via the peristaltic pump. As supersaturated water flowed through the reactor, excess air particles in the water would ideally accumulate on the sand grains and form bubbles. Such bubbles then departed from their nucleation sites, flowed upward out of the reactor (through the effluent tubing), and flowed into a bucket. While effluent water flowed out of the reactor, a pressure sensor connected to ProCoDA recorded the pressure difference between the reactor&apos;s interior and the outside atmosphere. The bucket into which effluent water empties acts as the open-faced vent for air bubbles to escape into the atmosphere.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Schematic_20190427.jpg?raw=true" height="450">
+</p>
+<p><strong>Figure 7</strong>: The above is diagram is a schematic of the current apparatus, as described in the above paragraphs. Black arrows represent the flow of water.</p>
+<h4 class="mume-header" id="pressure-regulator-installation">Pressure Regulator Installation</h4>
+
+<p>A pressure regulator was installed between the sink and the peristaltic pump to maintain consistent flow pressure of influent water.</p>
+<p>The pressure regulator (Figure 8) was oriented such that the direction of water flow matched the arrow on the apparatus. The influent side was connected to the sink using a piece of 3/8&quot; diameter hard plastic tubing. The effluent side was connected to the peristaltic pump using the piece of clear flex tubing that was attached to the pump. The flow pressure of water was reduced by tightening the screw and nut on the top of the pressure regulator, until no leakage occurred when peristaltic pump was turned off.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/PressureRegulator_20190404.jpg?raw=true" height="300">
+</p>
+<p><strong>Figure 8</strong>: The above photograph depicts the pressure regulator installed prior to the peristaltic pump. Water (purple arrow)<strong>[Is the influent not entering from left to right?]</strong> enters the regulator from the sink, and passes through to continue to the peristaltic pump and flow accumulator.</p>
+<h4 class="mume-header" id="forked-flow-system-and-flow-accumulator-installation">Forked Flow System and Flow Accumulator Installation</h4>
+
+<p>The subteam needed a way to measure the temperature (and eventually the dissolved oxygen content) of the influent water before it entered the reactor. The subteam installed a forked flow system in which some influent water, incoming from the pressure regulator, was diverted into a separate container before reaching the peristaltic pump. The temperature of the diverted water could be measured in this container. This model was chosen to avoid inadvertently changing any properties of the influent water during measurement. Specifically: a dissolved oxygen probe consumes oxygen in the process of measuring its concentration. If a dissolved oxygen probe were used to measure dissolved oxygen content of influent water that then flowed into the reactor, the dissolved oxygen content actually present in the reactor would be lesser.</p>
+<p>To fabricate the forked flow system, a 0.75&quot; hole was drilled near the bottom of a 500 mL Nalgene bottle. A 1.6&#x201D; hole was drilled near the top of the bottle. This hole was used to insert a tapered push-to-connect into the bottle, since the push-to-connect was too large to fit through the neck of the bottle. The larger 1.6&#x201D; hole was then plugged to prevent leakage. The push-to-connect was oriented such that its tapered end protruded from the hole near the bottom of the Nalgene. It was secured with a washer. The resulting apparatus, a flow accumulator, is shown in Figure 11.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/FlowAccumulator1_SideBySide.jpg?raw=true" height="300">
+</p><p><strong>Figure 11</strong>: The above are two photographs of the flow accumulator, as discussed in the above paragraphs.</p>
+<p>Two pieces of clear flex tubing were then connected to either side of a T push-to-connect. The peristaltic pump influent tube was then connected to the T push-to-connect such that it was perpendicular to the two shorter pieces of clear flex tubing. One end of the short clear flex tubing was connected to the peristaltic pump and the other end was attached to the push-to-connect of the Nalgene bottle. Figure 12 clarifies this setup.</p>
+<p style="text-align: center;">
+<img src="https://raw.githubusercontent.com/AguaClara/Dissolved-Gas/master/Images/Prototype2/FlowFork_Aerial_20190313.jpg" height="300">
+</p><p><strong>Figure 12</strong>: The above is a bird&apos;s-eye view of the portion of the apparatus in which flow diverts between the flow accumulator and the peristaltic pump.</p>
+<p><strong>[Instead of explaining everything first and then plopping some images below the explanation for the reader to figure out, could you weave the image into your explanation to make it more seamless? Use your figures effectively.]</strong></p>
+<h4>Modifying the Flow Accumulators</h4>
+<p><strong>MISSING: Flow accumulator installation - specifically effluent ew465</strong></p>
+<p>The subteam realized that there was a difference in depth between the water in both flow accumulators at equilibrium, an experimental oversight that decreased the precision of the dissolved oxygen probes measurements. The subteam decided to modify the flow accumulators to eliminate this variable.</p>
+<p>The depth of water at equilibrium in the influent flow accumulator was approximately 15.75 cm, measured from the bottom of the 500 mL nalgene bottle to the surface of the water when the pump was running. The subteam acquired a new 500 mL nalgene for the effluent flow accumulator and drilled a hole the same height (15.75 cm) from the bottom of the nalgene. The original effluent flow accumulator was discarded and the new one was connected in its place, obtaining the setup seen in <strong>Figure X ew465</strong>. The effluent tube of each flow accumulator was guided into a large bucket on the floor for collection and disposal.</p>
+<p>Additionally, the subteam realized that it would need a way to visually verify that the membrane of the dissolved oxygen probes were free of bubbles before beginning experiments. The subteam used a bandsaw to remove the top of  each flow accumulator, such that the dissolved oxygen probe membrane could be viewed clearly.<br>
+<strong>the DO probe installation section comes after this. Is it weird to mention the probe membrane now? ew465</strong></p>
+<h4>Temperature Probe Installation</h4>
+<p>The subteam needed to monitor the temperature of the influent and effluent flow for two main reasons. First, the subteam&#x2019;s hypothesis relied on the idea that supersaturated water could be obtained by increasing its temperature. Therefore, measuring the temperature of the influent flow was integral to determining if supersaturation had been achieved. Secondly, the subteam needed to confirm that the temperature remained the same on average throughout the experiment. In other words, a change in temperature between when the water entered the system and when the water exited the system would create uncertainty in the results. This is because any observed change in dissolved oxygen content could then be attributed to either a change in temperature or to bubble formation by the fluidized bed.  <strong>Is it okay to use the phrase &#x2018;this is because&#x2019;? ew465</strong></p>
+<p>Two temperature probes were obtained and connected to the ProCoDa box. One temperature probe was labeled &#x2018;influent&#x2019; and the other &#x2018;effluent&#x2019; before being placed in their respective flow accumulators, as seen in <strong>figure X  ew465</strong> <strong>Also caution against just plopping a figure down per grader&apos;s advice</strong></p>
+<h4>Pressure Sensor Installation</h4>
+<p>The subteam hypothesized that a decrease in pressure inside the reactor would decrease the solubility of the gas and therefore encourage bubble formation. The subteam installed a pressure sensor near the top of the reactor to monitor this pressure difference between the inside of the reactor and atmospheric pressure. Figure 9 displays this.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/PressureSensor_Diagram.jpg?raw=true" height="350">
+</p>
+<p><strong>Figure 9</strong>: The above diagram depicts the reactor (green rectangle) and the inserted pressure sensor (orange line).</p>
+<p>To install the pressure sensor, the reactor was first emptied of sand and water. The PVC pipe comprising the reactor was tapped with a 1/4&quot; 18NPT pipe tap about 70 cm from the influent end of the reactor. A 1/4&quot; push-to-connect was wrapped with Teflon tape and threaded into the tapped aperture to form a water-tight seal.</p>
+<p>The negative end of the pressure sensor was inserted into a piece of 1/4&quot; hard tubing. The connection between the hard tubing and the pressure sensor was sealed with medium clear PVC cement. The other end of the hard tubing was inserted into the 1/4&quot; push-to-connect. The pressure sensor was then plugged into the ProCoDA box at the subteam&apos;s work station, such that pressure data could be collected via ProCoDA.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/HalfApparatus_Diagram.jpg?raw=true" height="300">
+</p>
+<p><strong>Figure 10</strong>: The above diagram depicts the ProCoDA box (red rectangle), the pressure sensor cord (orange line), the temperature probe (red line), and the temperature probe box (pink rectangle). <strong>We might not need this figure</strong></p>
+<p><strong>[It&apos;s really weird because it seems like you refer to your figures prematurely and then they pop up later in the report and don&apos;t refer to them in the text that the figure is actually buried in. If you need those figures earlier, put them earlier. If you want to keep them where they are, could you make them useful where they are put?]</strong></p>
+<h4 class="mume-header" id="dissolved-oxygen-probe-installation">Dissolved Oxygen Probe Installation</h4>
+
+<p>Two dissolved oxygen probes were acquired to measure the dissolved oxygen concentration of both the influent and effluent water. A membrane cap was installed on each probe and each probe was calibrated according to standard procedures described by the <a href="https://monroews.github.io/EnvEngLabTextbook/Gas_Transfer/Gas_Transfer.html">Environmental Engineering Laboratory Research Textbook</a>, under &apos;Install the Membrane Cap on the Dissolved Oxygen Probe&apos; and &apos;Calibrate the Dissolved Oxygen Probe,&apos; respectively. Care was taken such that no bubbles were trapped inside of the membrane, as this would prohibit the probes from giving accurate readings. The probes were numbered 1 and 2 and connected to the ProCoDa box. Probe 1 was assigned to the influent flow accumulator and Probe 2 was assigned to the effluent flow accumulator as seen in <strong>Figure X ew465</strong>.</p>
+<h3 class="mume-header" id="experimental-procedure">Experimental Procedure</h3>
+
+<h4 class="mume-header" id="testing-bubble-formation-qualitatively">Testing Bubble Formation Qualitatively</h4>
+
+<p>Using the <a href="#ProCoDa-Method-File">ProCoDA method file</a> given in the Manual, the subteam determined that an RPM of 41.1 was necessary to fluidize the reactor. To ensure fluidization, the subteam decided to conduct experiments at 60 RPM, a relatively arbitrary flow rate that will be subject to further consideration in the future.</p>
+<p>On March 10, the subteam conducted brief, qualitative experiments to determine if the fluidized bed successfully promoted bubble formation. The subteam also structured the tests to qualitatively show differences between bubble formation at different temperatures of influent water.</p>
+<p>Six experimental trials were conducted. Each trial began with the flow accumulator being empty. Influent water was introduced to the system and pumped through the reactor at 60 RPM. The influent water&apos;s temperature was monitored during each trial using a temperature probe inserted in the flow accumulator. The pressure difference between the interior and exterior of the reactor was measured with the pressure sensor installed in the reactor. Temperature and pressure data was recorded with ProCoDA and the average, standard deviation, and percent standard deviation for each trial was calculated.</p>
+<p>The subteam intended to test bubble formation at two relatively extreme temperatures: the warmest and the coolest temperatures provided by the laboratory sink serving as the water source. To this end, the subteam ran three trials while the sink supplied warm water, and three trials while the sink supplied cool water.</p>
+<p>During each trial, video recordings of the fluidized bed were taken using Smartphone cameras. Bubble formation was visually analyzed from these videos, which are provided in the Results and Analysis section. <strong>We decided that we were not going to link to any of the sections that were reference, correct?? ew465</strong> Once the flow accumulator filled with water, the experimental trial ended, and data collection halted.<strong>move next sentence to end of methods section ew465</strong> The following section of the report presents a discussion of the experimental data.</p>
+<h5 class="mume-header" id="testing-wider-temperature-ranges">Testing Wider Temperature Ranges</h5>
+
+<p>The subteam repeated the experiment from March 10 using a wider temperature range, in order to see a more discernible difference between bubble formation in cold and supersaturated water.<br>
+The subteam achieved a wider temperature range by running the sink with either hot or cold water for several minutes before beginning data collection. Additionally, this allowed water already present in the reactor to equilibrate to the new temperature.</p>
+<p>For reference, the subteam determined the hottest and coldest temperatures that the laboratory sink could produce. This was done by recording the temperature of the influent water for several minutes until it approached a constant value. This test was repeated 3 times for both hot and cold water, and the equilibrium temperatures were averaged.</p>
+<h3 class="mume-header" id="testing-dissolved-oxygen-removal-quantitatively">Testing Dissolved Oxygen Removal Quantitatively</h3>
+
+<p>Having observed the formation of bubbles in the reactor using supersaturated water, the subteam began experiments to quantitatively determine if the fluidized bed successfully removed dissolved oxygen from the influent flow.</p>
+<p>Both temperature probes were connected to the ProCoDa box and placed in the influent and effluent flow accumulators respectively. Cold water was run through the apparatus for several minutes at a rate of 70.0 RPM until the temperature of the influent and effluent water equilibrated. The flow rate of the peristaltic pump was increased from the 60.0 RPM used in the qualitative bubble formation tests to increase the fluidization of the sand bed. The approximate pressure difference between the inside of the reactor and atmospheric pressure was recorded.</p>
+<p>Only four probes could be connected to the ProCoDa box simultaneously. The subteam chose to disconnect the pressure sensor and instead connect both dissolved oxygen probes under the assumption that the pressure difference between the interior of the reactor and atmospheric pressure would remain relatively constant for a given RPM.</p>
+<p>The subteam recorded the temperature and dissolved oxygen concentration of the influent and effluent water in the flow accumulators for approximately five minutes. This entire process was repeated for hot (supersaturated) water.</p>
+<h3 class="mume-header" id="testing-dissolved-oxygen-probe-functionality">Testing Dissolved Oxygen Probe Functionality</h3>
+
+<p>Initial quantitative experiments testing the removal of dissolved oxygen by the fluidized bed reactor showed that the dissolved oxygen concentration of the effluent water was higher than the dissolved oxygen concentration of the influent water. The subteam suspected that a faulty dissolved oxygen probe or incorrect probe calibration was the source of these results.</p>
+<p>The subteam tested the functionality of the dissolved oxygen probes by taking a reading while holding them in air. A correctly functioning probe would record a voltage of -0.17 V (the voltage is negative due to backwards wiring in the probe itself). Otherwise the probe is broken and must be replaced. <strong>get rid of present tense here? ew465</strong> As an additional test, the subteam used the same probe to measure the dissolved oxygen concentration in both the influent and effluent flow accumulators while the peristaltic pump was running at 70.0 RPM. The subteam compared these dissolved oxygen concentration readings to see if the effluent concentration was still higher than the influent concentration, as observed previously.</p>
+<h3 class="mume-header" id="testing-pressure-difference-vs-flow-rate">Testing Pressure Difference vs. Flow Rate</h3>
+
+<p>The subteam observed that the pressure difference between the interior of the reactor and atmospheric pressure fluctuated when the flow rate was changed. The subteam ran a brief experiment to explore this relationship. Starting at 30.0 RPM, the subteam recorded the pressure difference between the interior of the reactor and atmospheric pressure as flow rate was increased. The RPM of the peristaltic pump was increased by 5.0 RPM approximately every 30 seconds, to a maximum of 100.0 RPM. This gradual increase in RPM gave the pressure sensor reading enough time to settle.</p>
+<h2 class="mume-header" id="results-and-analysis">Results and Analysis</h2>
+
+<h3 class="mume-header" id="testing-bubble-formation-qualitatively-1">Testing Bubble Formation Qualitatively</h3>
+
+<p><strong>[You don&apos;t need to say this. We know you analyzed stuff. This is the analysis section.]</strong></p>
+<p><strong>Table 1</strong>: Displays data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the exterior and interior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records can be found on <a href="https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing">this site</a>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Trial</th>
+<th style="text-align:center">1</th>
+<th style="text-align:center">2</th>
+<th style="text-align:center">3</th>
+<th style="text-align:center">4</th>
+<th style="text-align:center">5</th>
+<th style="text-align:center">6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Approximate duration (s)</td>
+<td style="text-align:center">25</td>
+<td style="text-align:center">25</td>
+<td style="text-align:center">25</td>
+<td style="text-align:center">25</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">15</td>
+</tr>
+<tr>
+<td style="text-align:center">Average pressure difference (Pa)</td>
+<td style="text-align:center">5971.72</td>
+<td style="text-align:center">5065.84</td>
+<td style="text-align:center">3758.40</td>
+<td style="text-align:center">4134.08</td>
+<td style="text-align:center">3601.98</td>
+<td style="text-align:center">3452.05</td>
+</tr>
+<tr>
+<td style="text-align:center">Standard deviation (Pa)</td>
+<td style="text-align:center">98.46</td>
+<td style="text-align:center">423.64</td>
+<td style="text-align:center">189.06</td>
+<td style="text-align:center">299.66</td>
+<td style="text-align:center">10.31</td>
+<td style="text-align:center">11.74</td>
+</tr>
+<tr>
+<td style="text-align:center">Percent standard deviation in pressure</td>
+<td style="text-align:center">1.65</td>
+<td style="text-align:center">8.36</td>
+<td style="text-align:center">5.03</td>
+<td style="text-align:center">7.25</td>
+<td style="text-align:center">0.29</td>
+<td style="text-align:center">0.34</td>
+</tr>
+<tr>
+<td style="text-align:center">Average temperature (C)</td>
+<td style="text-align:center">22.05</td>
+<td style="text-align:center">19.91</td>
+<td style="text-align:center">18.63</td>
+<td style="text-align:center">33.03</td>
+<td style="text-align:center">35.79</td>
+<td style="text-align:center">36.85</td>
+</tr>
+<tr>
+<td style="text-align:center">Standard deviation (C)</td>
+<td style="text-align:center">0.42</td>
+<td style="text-align:center">0.33</td>
+<td style="text-align:center">0.19</td>
+<td style="text-align:center">1.65</td>
+<td style="text-align:center">0.36</td>
+<td style="text-align:center">0.50</td>
+</tr>
+<tr>
+<td style="text-align:center">Percent standard deviation in temperature</td>
+<td style="text-align:center">1.89</td>
+<td style="text-align:center">1.65</td>
+<td style="text-align:center">1.03</td>
+<td style="text-align:center">4.98</td>
+<td style="text-align:center">1.01</td>
+<td style="text-align:center">1.35</td>
+</tr>
+</tbody>
+</table>
+<p>As shown in Figure 13, bubbles formed in the fluidized bed reactor. This demonstrated the basic feasibility of encouraging bubble growth with a fluidized bed. However, between Trials 1-3 and Trials 4-6, there were no consistent, visually assessable differences in bubble formation. Figures 12 and 13 exemplify this, and all full-length videos can be found on <a href="https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing">this site</a>. While the effect of temperature on gas solubility was not the focus of the subteam&apos;s work, it was an aspect the subteam considered for designing the experimental apparatus, to simulate input of supersaturated water.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial1.gif?raw=true" height="300">
+</p>
+<p><strong>Figure 13</strong>: The GIF above displays a clip from the recording of Trial 1.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial4.gif?raw=true" height="300">
+</p>
+<p><strong>Figure 14</strong>: The GIF above displays a clip from the recording of Trial 4.</p>
+<p>Despite the approximate ten degree temperature difference between Trials 1-3 and Trials 4-6, there was no significant difference observed in the quantity or the size of bubbles generated in the fluidized bed.</p>
+<p>This can potentially be explained after a quick analysis of Figure 5.</p>
+<p style="text-align: center;">
+<img src="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/section_17/67558bdc4beb64e06b29db7b4c8d74bb.jpg" height="350">
+</p>
+<p>Recall <strong>Figure 5</strong> from the Literature Review section.</p>
+<p>While Figure 5 assumes a partial pressure of 1 atm of the gas of interest, this analysis considers the qualitative principles that the Figure illustrates.</p>
+<p>In Figure 5, in the range of 20 to 30 degrees C (the approximate range of experimental temperatures for Trials 1-6), the percent difference in solubility of oxygen and nitrogen (the primary components of air) is relatively small. As temperature increases from 20 to 30 degrees C, a 50% increase in temperature, oxygen&apos;s solubility drops from approximately 4.3 to 3.5 mg / 100 g <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>H</mi><mn>2</mn></msub><mi>O</mi></mrow><annotation encoding="application/x-tex">H_2O</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.08125em;">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.08125em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span></span></span></span>, an approximately 18% decrease in solubility. Such a difference in solubility may not have visually assessable consequences for bubble formation.</p>
+<p>To observe an appreciable difference in bubble formation in the fluidized bed, a greater temperature difference between experimental trials may be required. For instance, over the range 10 to 40 degrees C, oxygen&apos;s solubility shifts from approximately 5 to 3 mg / 100 g <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>H</mi><mn>2</mn></msub><mi>O</mi></mrow><annotation encoding="application/x-tex">H_2O</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.08125em;">H</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.08125em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span></span></span></span>, a percent change of 40%. This percent change is twice that which characterized Trials 1-6, and such a difference may provide more distinguishable results.</p>
+<p>An alternative explanation is the following experimental oversight: the lack of recording the temperature of the reactor&apos;s effluent water. The temperature of water measured at the flow accumulator was irrelevant if this temperature was not approximately that of the water which passed through the reactor.</p>
+<p>The subteam also observed that, with the exception of Trial 6, percent standard deviation in temperature decreased as the influent water&apos;s temperature reached extremes relative to the trials&apos; conditions. This suggested that the temperature of each trial&apos;s influent water had begun to plateau, but had not yet reached extreme values of the laboratory sink&apos;s potential temperatures.</p>
+<h4 class="mume-header" id="testing-wider-temperature-ranges-1">Testing Wider Temperature Ranges</h4>
+
+<p>The temperature of the influent versus effluent water was measured to be relatively consistent across the system, during trials using both warm and cool water. For instance, as shown in Figure ____, after an adjustment period at the start of the experiment, influent and effluent temperatures reached relatively stable levels of 43oC and 41oC, respectively.</p>
+<p>(Graph: <em>Insert graph</em> One graph of temperature vs. time, preferably measuring the temperature of hot water, that shows the close temperature of the influent and effluent temperatures.)</p>
+<p><strong>Figure ___</strong>:<br>
+Data: <a href="https://github.com/AguaClara/Dissolved-Gas/blob/master/Data/TestingTemperatureDifference_Trial03_20190319.xls">https://github.com/AguaClara/Dissolved-Gas/blob/master/Data/TestingTemperatureDifference_Trial03_20190319.xls</a> (Lines 15-170)</p>
+<p>These results gave the subteam confidence that the temperature of water passing through the fluidized bed reactor was changing appreciably and between trials.</p>
+<p>In the video recordings of these new trials, there was a marked difference in bubble formation between warm and cool water. Figure ___ shows bubble formation while cool water, at approximately 15oC, was pumped through the reactor. Figure ___ shows bubble formation while warm water, at approximately 35oC, was pumped through the reactor.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/Cold_Water_20190326.gif?raw=true" height="300">
+</p>
+<p><strong>Figure ___</strong>: The GIF above displays a clip from a recording of cool water (at approximately 15 degrees C) flowing through the reactor on March 26.</p>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/Hot_Water_20190326.gif?raw=true" height="300">
+</p>
+<p><strong>Figure ___</strong>: The GIF above displays a clip from a recording of warm water (at approximately 35 degrees C) flowing through the reactor on March 26.</p>
+<p>There was noticeably more bubble formation while warm water flowed through the reactor. These results justified the subteam&#x2019;s experimental procedure: pumping heated water through the reactor would help encourage bubble formation, mimicking the behavior of supersaturated influent water.</p>
+<h3 class="mume-header" id="testing-dissolved-oxygen-removal-quantitatively-1">Testing Dissolved Oxygen Removal Quantitatively</h3>
+
+<p>When the subteam tested influent versus effluent concentration of dissolved oxygen, the dissolved oxygen probes measured seemingly impossible results. The effluent DO content was measured to be higher than the influent DO content. Figure ___ displays the results of one experimental trial.</p>
+<p>(Graph of dissolved oxygen content in influent and effluent vs time flow accumulators)<br>
+<strong>Figure ___</strong>:<br>
+Data: <a href="https://github.com/AguaClara/Dissolved-Gas/blob/master/Data/TestingDO_ColdWater_Trial01_20190412.xls">https://github.com/AguaClara/Dissolved-Gas/blob/master/Data/TestingDO_ColdWater_Trial01_20190412.xls</a> (All data)</p>
+<p>Barring the possibility of a leak, this result would should have been impossible, since no dissolved oxygen should have entered the system between the inlet and outlet. However, it was then considered that oxygen bubbles may have formed on the membranes of the DO probes, and thus skewed the measurement results. As shown in Figure ____, bubbles were found on the membranes.</p>
+<p>Bubbles present on the probe membranes must have skewed experimental results, since the dissolved oxygen probes would interpret the bubbles as being areas of high concentration of oxygen. To avoid problems due to bubble accumulation on the probe membranes, the subteam decided to open the tops of the flow accumulators, such that the membranes would be visible and the subteam could manually keep them clear of air bubbles.</p>
+<h3 class="mume-header" id="testing-dissolved-oxygen-probe-functionality-1">Testing Dissolved Oxygen Probe Functionality</h3>
+
+<p>After measuring seemingly impossible results, the subteam checked the voltage output of each DO probe while exposed only to air. One probe output -0.17 V, while the other output -0.05 V. According to specifications provided by Dr. Weber-Shirk, this indicated that the second probe was malfunctioning, as it should have output -0.17 V while exposed only to air. This apparent malfunctioning of one of the dissolved oxygen probes provided another possible contributing factor to the strange experimental results.</p>
+<h3 class="mume-header" id="testing-dissolved-oxygen-content-with-only-one-probe">Testing Dissolved Oxygen Content with Only One Probe</h3>
+
+<p>When the subteam used the remaining functional probe to test influent versus effluent dissolved oxygen content, the impossible results persisted, though to a smaller degree. Figure ___ displays these results.</p>
+<p>(Graph of DO content versus time)<br>
+<strong>Figure ___</strong>:<br>
+(Data: <a href="https://github.com/AguaClara/Dissolved-Gas/blob/master/Data/TestingDOContent_20190423.xls">https://github.com/AguaClara/Dissolved-Gas/blob/master/Data/TestingDOContent_20190423.xls</a>, line 1013 to 1115, line 1117 to 1407)</p>
+<p>The subteam hypothesized that the persisting issues may have arisen from the issues concerning the pressure within the reactor, which the next section of the report discusses.</p>
+<h3 class="mume-header" id="testing-pressure-sensor-consistency">Testing Pressure Sensor Consistency</h3>
+
+<p>The pressure difference between the interior and exterior of the reactor was not measured to be a consistent value. The subteam expected that the pressure difference between the interior and exterior of the reactor would be positive; as in, the interior of the reactor would be at a lower pressure than the atmospheric pressure, so as to encourage bubble growth, as discussed in the Analysis of Literature section. However, the subteam found that with increasing flow rates, the pressure difference would decrease and even become negative. Figure ___ displays this trend.</p>
+<p>(One graph of pressure difference vs. flow rate)<br>
+<strong>Figure ___</strong>:<br>
+Data: <a href="https://github.com/AguaClara/Dissolved-Gas/blob/master/Data/TestingPressure_vs_FlowRate_20190423.xls">https://github.com/AguaClara/Dissolved-Gas/blob/master/Data/TestingPressure_vs_FlowRate_20190423.xls</a> (Lines 122-881)</p>
+<p>The subteam hypothesized that the negation of the pressure difference was due to increasing head loss in the effluent tubing as flow rate increased. As shown in <a href="#Equation-5">Equation 5</a>, head loss increases with flow rate. The subteam did not consider the effect of the flow rate on the head loss, and thus on the pressure within the reactor. This was an experimental oversight.</p>
+<h2 class="mume-header" id="conclusions">Conclusions</h2>
+
+<p>The experimental procedure of using water was demonstrated to be valid. Hotter water seemed to encourage more bubble growth than cold water, and thus seemed an adequate experimental substitute for room-temperature supersaturated water. Videos demonstrated that the reactor encouraged bubble growth, and that temperature remained relatively consistent across the apparatus. Together, these aspects built a strong case for continuing experiments with this reactor prototype.</p>
+<p>After the subteam measured higher effluent dissolved oxygen content than influent dissolved content, and performed troubleshooting analysis, the subteam determined that the pressure difference across the reactor boundary was heavily dependent on the flow rate through the reactor. The subteam decided that a new effluent tube would be necessary:  in order to minimize effluent head loss (c.f. <a href="#Equation-4">Equation 4</a>) using a wider effluent tube from the reactor would result in a lower effluent water velocity, and help to minimize head loss, and hopefully reduce the dependency of the pressure difference on the flow rate through the reactor.</p>
+<p>The subteam also concluded that one of the dissolved oxygen probes used in the experimental apparatus was malfunctioning.</p>
+<p>However, given further results, there was another, yet unknown factor that is skewing the results; it may be a system failure, such as an unseen leak.</p>
+<h2 class="mume-header" id="future-work">Future Work</h2>
+
+<p>The subteam will need to obtain a new, working dissolved oxygen probe, and to replace the effluent tubing of the reactor so as to minimize the dependency of the pressure gradient on head loss. The subteam will also continue to troubleshoot to determine the issue with the DO probe measurements.</p>
+<p>In upcoming semesters, the subteam will continue to run tests to pinpoint areas in which the reactor can improve.</p>
+<p>First, the subteam will consider running a pure control test: measuring the dissolved oxygen in influent versus effluent water when the reactor contains no sand. Hypothetically, the difference would be negligible, and this could serve as a satisfying benchmark for demonstrating the fluidized bed&#x2019;s effectiveness in removing dissolved oxygen.</p>
+<p>The subteam has qualitatively demonstrated that bubbles do form within the fluidized bed reactor. This suggests that the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is plausible.</p>
+<p>The subteam also will consider using a camera set-up to obtain consistent video recordings of experiments, to avoid error and uncertainty due to variables such as hand movement.</p>
+<p>As mentioned in the Methods section, the experimental setting of 60 RPM for the peristaltic pump was relatively arbitrary, albeit being sufficiently above the fluidized bed&apos;s fluidization velocity. The subteam will consider optimizing flow rate, and will consider the entrainment velocity of the fluidized bed, so as to clearly delineate the minimum and maximum flow rates acceptable for experimental trials.</p>
+<p>After system improvements, the subteam will progress to more thorough, quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. After analysis of concentration data, the subteam will modify the system to optimize the removal of dissolved gas. The subteam will experimentally determine what ways the reactor can be modified to increase removal of DO, whether it is exploring different substances, or trying an alternative reactor structure to encourage bubble formation. Research the effect of varying velocities on effectiveness of the apparatus; research ways to encourage larger bubble size; research ideal dimensions of the reactor; research the effect on the apparatus of non-gaseous contaminant on the effectiveness of the reactor.</p>
+<p>In future semesters, the subteam must also consider the end goal of scaling up the prototype. The prototype&apos;s method to remove excess dissolved gas from influent water must feasibly apply on a practical scale. As part of this end goal, as pertaining to a fluidized bed reactor, the subteam must evaluate the validity of the calculated fluidization flow of the sand bed, and the validity of the calculated entrainment velocity. In order to reliably scale up a fluidized bed reactor, these values must be reliably calculable.</p>
+<p>The subteam looks forward to further experimentation and iteration to analyze and improve the system, and to eventually develop a practical reactor.</p>
+<p>Maybe talk about Monroe&#x2019;s idea of putting a flow accumulator directly after the peristaltic pump in order to dampen oscillations such that the water flow going into the reactor is smooth and constant. Also, we have to switch out the temperature probe for the new one. And after fixing the apparatus to get a positive pressure for higher rpm, a quick test to confirm that the pressure is constant for a given rpm.</p>
+<p><strong>[Sometimes when you mention other sections in your report, you link them and other times you don&apos;t. Either way, could you keep it consistent?]</strong></p>
+<h1 class="mume-header" id="manual">Manual</h1>
+
+<h3 class="mume-header" id="special-components">Special Components</h3>
+
+<h4 class="mume-header" id="pressure-regulator-done">Pressure Regulator <strong>[Done]</strong></h4>
+
+<p>A pressure regulator is a device that manages the flow pressure of a fluid. The subteam utilized this device to decrease the flow pressure of the water supply (sink). This allowed for the flow rate of the influent water to be stopped when the peristaltic pump is stopped.</p>
+<p>The specifications of the Pressure Regulator are as follows:</p>
+<p>Company: B&amp;G<br>
+Part Number: 110192<br>
+Model Number: FB-38<br>
+Max Press: 125 PSI<br>
+Max Temp: 225&#xB0;F<br>
+Set At: 12 lbs</p>
+<p>A 26&quot; piece of hard plastic tubing with 3/8&quot; diameter was used to connect the reducing valve to the sink. The other side of the pressure regulator was connected directly to the influent tubing.</p>
+<h3 class="mume-header" id="experimental-methods-done">Experimental Methods <strong>[Done]</strong></h3>
+
+<h4 class="mume-header" id="determining-the-porosity-of-silica-sand">Determining the Porosity of Silica Sand</h4>
+
+<p>The porosity of silica sand was needed to calculate the sand bed&apos;s fluidization velocity (<a href="#Equation-1">Equation 1</a>). The procedure used to determine the porosity of the silica sand used in the reactor is based on the procedure outlined by <a href="https://socratic.org/questions/how-do-scientists-measure-the-porosity-of-soil">Worth, 2018</a>. The equation for determining porosity may be verified by dimensional analysis in comparison with the equation found in the source: <a href="http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf">Department of Chemical Engineering, 2017</a>.</p>
+<p>To see this procedure in more depth visit <a href="https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md">Fall 2018 Final Report</a>.</p>
+<h4 class="mume-header" id="determining-the-average-diameter-of-silica-sand-grains">Determining the Average Diameter of Silica Sand Grains</h4>
+
+<p>The average diameter of the silica sand grains was needed to calculate the sand bed&#x2019;s fluidization velocity (<a href="#Equation-1">Equation 1</a>). The subteam used the following procedure to approximate the average diameter of the sand grains.</p>
+<ol>
+<li>Acquire a sample of silica sand and a digital caliper.</li>
+<li>Randomly select a number of sand grains, preferably greater than or equal to ten, from the sample.</li>
+<li>Using the caliper, measure each sand grain&#x2019;s diameter three times to account for the grains&#x2019; asymmetrical natures. Record these measurements.</li>
+<li>Compute the average diameter for all sand grains in the sample.</li>
+</ol>
+<h4 class="mume-header" id="measuring-pipe-dimensions">Measuring Pipe Dimensions</h4>
+
+<p>The prototype fluidized bed reactor was comprised of a transparent PVC pipe containing a silica sand bed, modified with components specified in the Fabrication Manual.</p>
+<p>In order to find more information regarding the set-up and measurements of the pipe dimensions please visit <a href="https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md">Fall 2018 Final Report</a>.</p>
+<h4 class="mume-header" id="evaluating-bubble-formation">Evaluating Bubble formation</h4>
+
+<p>This experiment was described in the <a href="#Experimental-Procedure">Methods section</a>.</p>
+<p><strong>Setting up the Temperature Probe and Pressure Sensor</strong></p>
+<ol>
+<li>Configure the temperature probe and pressure sensor as directed by the procedure laid out in the <a href="https://aguaclara.github.io/aguaclara_tutorial/research/procoda.html">AguaClara Tutorial Wiki</a>, beginning with the line &quot;Connect a sensor&quot;.</li>
+</ol>
+<p><strong>Setting up the Dissolved Oxygen Probes</strong> <strong>[Done]</strong></p>
+<ol>
+<li>Configure the Dissolved Oxygen probe as directed by the procedure laid out in the <a href="https://monroews.github.io/EnvEngLabTextbook/ProCoDA/ProCoDA.html#heading-procoda-dissolved-oxygen">Enviromental Engineering Lab Textbook</a>, under ProCodA, DIssolved Oxygen, beginning with the line &quot;Dissolved oxygen diffuses&quot;.</li>
+</ol>
+<p>Note: Make sure that there are no bubbles present in the membrane of the DO Probe as this will affect the DO readings.</p>
+<p><strong>Optional Precaution</strong></p>
+<ol>
+<li>Obtain a hammer. If the fluidized bed does not fluidize, but instead begins to travel up the reactor as a single unit, use the hammer to tap against the PVC pipe and disperse the sand bed as necessary.</li>
+</ol>
+<p><strong>Conducting the Experiment</strong></p>
+<ol>
+<li>Assemble the flow system, as shown in Figure 7 and described in the <a href="#Experimental-Apparatus">Experimental Apparatus</a> section.</li>
+<li>Ensure that the flow accumulator is empty.</li>
+<li>Ensure that the fluidized bed reactor is filled with water.</li>
+<li>Set the peristaltic pump to the desired RPM, but ensure that it has not started pumping.</li>
+<li>Turn on the sink to start supplying water to the system.</li>
+<li>Making sure that the data is being saved where appropriate. Do this under Data Directory Path.</li>
+<li>Press data-log button on ProCoDA to begin recording pressure, temperature data, and Dissolved Oxygen. If done correctly, a green light will appear.</li>
+<li>Turn on the peristaltic pump, such that water begins to be pumped through the reactor.</li>
+<li>Press comment button on ProCoDA, and write &quot;start Trial X&quot; to denote that experimental trial X has begun. In this case, &quot;X&quot; is some arbitrary label for the trial.</li>
+<li>Begin to record a video of the fluidized bed, using a Smartphone.</li>
+<li>When the flow accumulator is full of water, press data-log button on ProCoDA to stop recording data.</li>
+<li>Write &quot;stop Trial X&quot; to denote that experimental trial X has ended.</li>
+<li>Stop taking the video of the fluidized bed.</li>
+<li>Turn off the peristaltic pump.</li>
+<li>Empty the flow accumulator.</li>
+<li>If no more experimental trials are to be conducted, turn off the sink.</li>
+</ol>
+<p><strong>Cleaning Procedure</strong><br>
+The experiments are really low maintenance and easy to wrap up.</p>
+<ol>
+<li>Turn off the peristaltic pump.</li>
+<li>Close off water supply.</li>
+<li>Disconnect the flex tubing used for influent water from the water supply.</li>
+</ol>
+<h3 class="mume-header" id="fabrication-manual-done">Fabrication Manual <strong>[Done]</strong></h3>
+
+<h4 class="mume-header" id="materials-required">Materials required</h4>
+
+<ol>
+<li>PVC pipe of approximately 0.5 m length and 1 in. diameter, whose ends are labeled with opposing colors of tape, as shown in Figure 6. This is described further in the Measuring Pipe Dimensions section of the Manual.</li>
+<li>A fine wire mesh</li>
+<li>Approximately 70 mL of silica sand, measured with a graduated cylinder.</li>
+<li>Circular hose clamps</li>
+<li>3/16-inch diameter clear flex tubing</li>
+<li>3/8-inch diameter clear flex tubing</li>
+<li>Size 18 Masterflex tubing</li>
+<li>600 RPM peristaltic pump</li>
+<li>Barbed fittings &amp; push-to-connect components</li>
+<li>Access to a sink containing a push-to-connect nozzle</li>
+<li>A plastic bucket</li>
+<li>200 kPa pressure sensor</li>
+<li>ProCoDA Box</li>
+<li>1/4&quot; hard tubing (for the pressure sensor)</li>
+<li>Teflon tape</li>
+<li>1/4 &quot; Threaded push-to-connect component</li>
+<li>1/4 &quot; 18NPT Pipe Tap</li>
+<li>Medium clear PVC cement</li>
+<li>500 mL Nalgene container</li>
+<li>1 &apos;T&apos; push-to-connect 3/8&quot; SK266-001 with O-ring and Washer</li>
+<li>1 Tapered Threaded push-to-connects 3/8&quot; NSF-51 45 SK266-001</li>
+<li>2 pieces clear flex tubing (0.76 outer diameter, 0.70 inner diameter) approximately 7 inches long</li>
+<li>Two copies of the following pipe-tubing connector component:</li>
+<li>Two Large containers</li>
+<li>Two Long clear flex tubing</li>
+</ol>
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/PipeConnector1.jpg?raw=true" height="250" < p>
+</p><p><strong>Figure 15</strong>: The above flow connector enables the reactor (pipe) to be connected to clear flex tubing.</p>
+<h4 class="mume-header" id="fabrication">Fabrication</h4>
+
+<p>Fabrication instructions for the fluidized bed reactor are provided in the <a href="https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md">Fall 2018 Final Report</a>.</p>
+<h5 class="mume-header" id="installing-the-pressure-sensor">Installing the pressure sensor</h5>
+
+<ol>
+<li>Empty the reactor of sand. Ensure that the wire mesh remains at the bottom of the reactor.</li>
+<li>Use a 1/4&quot; 18NPT Pipe Tap to tap the pipe 70 cm from its bottom (influent) end. Tap the aperture. Thread a push-to-connect component into the tapped aperture, with the connection made watertight with Teflon tape.</li>
+<li>Insert 1/4&quot; hard tubing into the connector. Insert the negative end of the pressure sensor into the exposed tubing, sealing with medium clear PVC cement.</li>
+<li>Pour the 70 mL of sand into the pipe, such that it settles on the mesh.</li>
+<li>Fasten the second copy of the flow component (Figure 15) to the effluent (top) end of the reactor.</li>
+<li>Mount the pipe on the 80/20 arm using circular clamps, screwed tight around the reactor.</li>
+<li>Connect the 200 kPa pressure sensor to the ProCoDA box.</li>
+</ol>
+<h5 class="mume-header" id="fabricating-the-flow-accumulator">Fabricating the Flow Accumulator</h5>
+
+<ol>
+<li>Using a 3/4&quot; hole saw, drill a hole near the bottom of the 500 mL Nalgene container.</li>
+<li>Use a 1.6&quot; hole saw to drill a hole near the top of the same 500 mL Nalgene.</li>
+<li>Insert threaded push-to-connect into the upper hole of Nalgene container.</li>
+<li>Orient the push-to-connect until it is protruding from the 3/4&quot; (lower) hole, with the narrower side facing outwards.</li>
+<li>Secure the push-to-connect to the Nalgene container with the washer.</li>
+<li>Put the  plug in the upper hole of the Nalgene container.</li>
+<li>Use a Bandsaw to cut off the top of the Nalgene container</li>
+</ol>
+<p>Note: The second hole was made in order to insert the push-to-connect inside the Nalgene container (i.e. flow accumulator). The Bandsaw was used in order to have more space to place the different probes (Temperature and Do probes).</p>
+<h5 class="mume-header" id="assembling-the-flow-system">Assembling the flow system</h5>
+
+<ol>
+<li>Connect Size 18 Masterflex tubing to the Peristaltic Pump.</li>
+<li>Connect 3/8-inch diameter clear flex tubing from the sink to the influent end of the Peristaltic Pump.</li>
+<li>Connect 3/16-inch diameter clear flex tubing from the effluent end of the peristaltic pump to the influent end of the reactor.</li>
+<li>Cut approximately 2.7 m of 3/16-inch diameter clear flex tubing. Connect this to the effluent (upper) end of the reactor, and lead it down into the bucket.</li>
+<li>Connect the 2 pieces of clear flex tubing to either side of the T push-to-connect such that they are oriented 180 degrees of each other.</li>
+<li>Connect the influent tube to the third side of the T push-to-connect, such that it is perpendicular to the 2 7&quot; clear flex tubing.</li>
+<li>Attach one end of the short clear flex tubing to the peristaltic pump. Attach the other end of the short clear flex tubing to the push-to-connect of the Nalgene container.</li>
+</ol>
+<h2 class="mume-header" id="procoda-method-file-not-done">ProCoDA Method File <strong>[Not Done]</strong></h2>
+
+<p>This was used to correlate the RPM of the peristaltic pump to the flow rate in mL/s. <strong>[Could you upload the method file and actually link it here?]</strong></p>
+<h3 class="mume-header" id="states">States</h3>
+
+<ul>
+<li><em>OFF</em>: The peristaltic pump is off.</li>
+<li><em>Running</em>: The peristaltic pump is running.</li>
+</ul>
+<h3 class="mume-header" id="set-points">Set Points</h3>
+
+<ul>
+<li><em>OFF</em>: This setpoint is used to turns all outputs off.</li>
+<li><em>ON</em>: This setpoint turns on the peristaltic pump on.</li>
+<li><em>PumpOutput</em>: This setpoint is used to turn on the peristaltic pump at the correct number of RPMs to achieve the desired flow rate, given the Tubing ID.</li>
+</ul>
+<h3 class="mume-header" id="variables">Variables</h3>
+
+<ul>
+<li><em>FlowRate</em>: This variable is the desired flow rate. In the subteam&apos;s reactor, this represents the fluidization velocity.</li>
+<li><em>TubingID</em>: This variable represents the ID associated with tubing being used, based on the diameter of the tubing.</li>
+</ul>
+<p>For the experiment described in the Methods section, the following values were used:</p>
+<ul>
+<li>PumpOutput: 41.1 RPM</li>
+<li>FlowRate: 2.54 mL/s</li>
+<li>Tubing ID: 18</li>
+</ul>
+<h2 class="mume-header" id="python-code">Python Code</h2>
+
+<h3 class="mume-header" id="determining-the-sand-beds-fluidization-flow">Determining the Sand Bed&apos;s Fluidization Flow</h3>
+
+<p>The subteam used the following code, copied from the file <a href="http://FluidizationVelocity.py">FluidizationVelocity.py</a> found on the subteam&apos;s <a href="https://github.com/AguaClara/Dissolved-Gas/tree/master/Code">GitHub page</a>  <strong>[link it]</strong>, to estimate the fluidization velocity and fluidization flow of the sand bed in the prototype reactor. The code is based on <a href="#Equation-1">Equation 1</a>. The code requests as input: the reactor&apos;s cross-sectional area; the kinematic viscosity of water at a particular temperature (e.g. room temperature); the sand&apos;s porosity, which the subteam experimentally determined; silica sand&apos;s density; the average diameter of the sand grains, which the subteam measured. The code outputs the velocity and flow of water required to fluidize the sand bed.</p>
+<p>The following values were used for the subteam to calculate the fluidization flow of 2.54 mL/s:</p>
+<p>Cross-sectional area of the reactor: 481.1 mm<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow></mrow><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><br>
+Porosity of the silica sand: 0.35<br>
+Density of silica sand: 2650 kg/m<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow></mrow><mn>3</mn></msup></mrow><annotation encoding="application/x-tex">^3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span> <a href="https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf">(Weber-Shirk)</a><br>
+Average diameter of the silica sand grains: 0.91 mm<br>
+Kinematic viscosity of water: 0.9344 mm<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow></mrow><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>/s <a href="https://wiki.anton-paar.com/en/water/">(Anton Paar)</a></p>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token comment"># This code assumes the user knows the porosity of the sand used in the fluidized bed. This code makes use of aide_design, a package provided by AguaClara Cornell</span>
+
+<span class="token comment"># Assumptions: All input values are real numbers.</span>
+
+<span class="token keyword">from</span> aguaclara<span class="token punctuation">.</span>play <span class="token keyword">import</span><span class="token operator">*</span>
+<span class="token keyword">import</span> math
+<span class="token keyword">import</span> numpy <span class="token keyword">as</span> nm
+
+<span class="token keyword">def</span> <span class="token function">FluidizationVelocity</span><span class="token punctuation">(</span>area_reactor<span class="token punctuation">,</span> porosity<span class="token punctuation">,</span> density_sand<span class="token punctuation">,</span> diameter<span class="token punctuation">,</span> viscosity<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">&quot;&quot;&quot;This function also takes in values of the area of the reactor, porosity of sand,
+  density of the sand, diameter of sand grains, and kinematic viscosity of water.
+
+  &gt;&gt;&gt; from aguaclara.play import*
+  &gt;&gt;&gt; FluidizationVelocity(5, 5, 5, 5, 5):
+The reactor&apos;s fluidization velocity is 8464 millimeter / second.
+The reactor&apos;s fluidization flow is 42.32 milliliter / second.
+  &quot;&quot;&quot;</span>
+    area_reactor <span class="token operator">=</span> <span class="token builtin">float</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">&quot;\nWhat is the cross sectional area of the&quot;</span> <span class="token operator">+</span> <span class="token string">&quot; fluidized bed reactor, in units of millimeters squared?\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">*</span>u<span class="token punctuation">.</span>mm<span class="token operator">**</span><span class="token number">2</span>
+    porosity <span class="token operator">=</span> <span class="token builtin">float</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">&quot;What is the porosity of the sand bed?\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    density_sand <span class="token operator">=</span> <span class="token builtin">float</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">&quot;What is the density of the sand, in units of&quot;</span> <span class="token operator">+</span> <span class="token string">&quot;kilograms per cubic meter?\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">*</span>u<span class="token punctuation">.</span>kg<span class="token operator">/</span><span class="token punctuation">(</span>u<span class="token punctuation">.</span>m<span class="token operator">**</span><span class="token number">3</span><span class="token punctuation">)</span>
+    density_water <span class="token operator">=</span> <span class="token number">997</span><span class="token operator">*</span>u<span class="token punctuation">.</span>kg<span class="token operator">/</span><span class="token punctuation">(</span>u<span class="token punctuation">.</span>m<span class="token operator">**</span><span class="token number">3</span><span class="token punctuation">)</span>
+    diameter <span class="token operator">=</span> <span class="token builtin">float</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">&quot;What is the average diameter of the sand grains,&quot;</span> <span class="token operator">+</span> <span class="token string">&quot;in units of millimeters?\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">*</span> u<span class="token punctuation">.</span>mm
+    g <span class="token operator">=</span> <span class="token number">9.8</span> <span class="token operator">*</span> u<span class="token punctuation">.</span>m<span class="token operator">/</span><span class="token punctuation">(</span>u<span class="token punctuation">.</span>s<span class="token operator">**</span><span class="token number">2</span><span class="token punctuation">)</span>
+    kozeny <span class="token operator">=</span> <span class="token number">5</span>  <span class="token comment"># This is an approx. value, suggested by Fluidization Source 4</span>
+    viscosity <span class="token operator">=</span> <span class="token builtin">float</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">&quot;What is the kinematic viscosity of water, in&quot;</span> <span class="token operator">+</span> <span class="token string">&quot;units of millimeters squared per second?\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token operator">*</span>u<span class="token punctuation">.</span>mm<span class="token operator">**</span><span class="token number">2</span><span class="token operator">/</span>u<span class="token punctuation">.</span>s
+    <span class="token comment"># The following variable definitions are based off those in the equation in</span>
+    <span class="token comment"># Fluidization Source 4.</span>
+    fluidization_velocity_FirstTerm <span class="token operator">=</span> <span class="token punctuation">(</span>porosity<span class="token operator">**</span><span class="token number">3</span> <span class="token operator">*</span> g <span class="token operator">*</span> <span class="token punctuation">(</span>diameter<span class="token punctuation">)</span><span class="token operator">**</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token punctuation">(</span><span class="token number">36</span><span class="token operator">*</span>kozeny<span class="token operator">*</span><span class="token punctuation">(</span>viscosity<span class="token punctuation">)</span><span class="token operator">*</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token operator">-</span>porosity<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    fluidization_velocity_SecondTerm <span class="token operator">=</span> <span class="token punctuation">(</span>density_sand<span class="token operator">/</span>density_water <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span>
+    fluidization_velocity <span class="token operator">=</span> fluidization_velocity_FirstTerm <span class="token operator">*</span>fluidization_velocity_SecondTerm <span class="token operator">*</span> <span class="token punctuation">(</span><span class="token number">1000</span><span class="token operator">*</span>u<span class="token punctuation">.</span>mm<span class="token punctuation">)</span><span class="token operator">/</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token operator">*</span>u<span class="token punctuation">.</span>m<span class="token punctuation">)</span>
+    fluidization_flow <span class="token operator">=</span> fluidization_velocity <span class="token operator">*</span> area_reactor <span class="token operator">*</span> <span class="token punctuation">(</span><span class="token number">0.001</span><span class="token operator">*</span>u<span class="token punctuation">.</span>mL<span class="token punctuation">)</span><span class="token operator">/</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token operator">*</span>u<span class="token punctuation">.</span>mm<span class="token operator">**</span><span class="token number">3</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;\nThe reactor&apos;s fluidization velocity is &quot;</span> <span class="token operator">+</span> <span class="token builtin">str</span><span class="token punctuation">(</span>fluidization_velocity<span class="token punctuation">)</span><span class="token operator">+</span><span class="token string">&quot;.&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;The reactor&apos;s fluidization flow is &quot;</span> <span class="token operator">+</span> <span class="token builtin">str</span><span class="token punctuation">(</span>fluidization_flow<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">&quot;.&quot;</span><span class="token punctuation">)</span>
+
+</pre><h2 class="mume-header" id="bibliography">Bibliography</h2>
+
+<p>Averill, B., &amp; Eldredge, P. (n.d.). <em>Principles of General Chemistry</em> (Vol. 1). Creative Commons. Retrieved from <a href="https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html">https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html</a></p>
+<p>Boudreau, B. P., Algar, C., Johnson, B. D., Croudace, I., Reed, A., Furukawa, Y., &#x2026; Gardiner, Bruce S. (2005, June 5). <em>Bubble growth and rise in soft sediments.</em> Retrieved September 17, 2018, from <a href="https://pubs.geoscienceworld.org/gsa/geology/article/33/6/517/103815/bubble-growth-and-rise-in-soft-sediments">https://pubs.geoscienceworld.org/gsa/geology/article/33/6/517/103815/bubble-growth-and-rise-in-soft-sediments</a></p>
+<p>Brown, G. (2000, June 22). <em>The Darcy-Weisbach Equation</em>. Retrieved from <a href="https://bae.okstate.edu/faculty-sites/Darcy/DarcyWeisbach/Darcy-WeisbachEq.htm">https://bae.okstate.edu/faculty-sites/Darcy/DarcyWeisbach/Darcy-WeisbachEq.htm</a></p>
+<p>CodeCogs.(2012, February 24). Pipe Head Loss. Retrieved from <a href="http://www.codecogs.com/library/engineering/fluid_mechanics/pipes/head_loss/pipe-head-loss.php">http://www.codecogs.com/library/engineering/fluid_mechanics/pipes/head_loss/pipe-head-loss.php</a></p>
+<p>Denn, M. (1980). Process Fluid Mechanics (pp. 72-73). Upper Saddle River, NJ: Prentice Hall PTR.</p>
+<p>Department of Chemical Engineering. (2017, February). <em>Fluidization: A Unit Operation in Chemical Engineering.</em> Gainesville, FL: University of Florida. Retrieved from <a href="http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf">http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf</a>.</p>
+<p>Han, M., Park, Y., Lee, J., &amp; Shim, J. (2002). <em>Effect of pressure on bubble size in dissolved air flotation.</em> Water Science and Technology: Water Supply, 2(5&#x2013;6), 41&#x2013;46. <a href="https://doi.org/10.2166/ws.2002.0148">https://doi.org/10.2166/ws.2002.0148</a></p>
+<p>Harrison, D., &amp; Leung, L. S. (1961, April 29). <em>Bubble Formation at an Orifice in a Fluidized Bed | Nature</em>. Retrieved September 20, 2018, from <a href="https://www.nature.com/articles/190433a0">https://www.nature.com/articles/190433a0</a></p>
+<p>Hodanbosi, C. (n.d.). <em>Fluids Pressure and Depth</em>. Retrieved from <a href="https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html">https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html</a></p>
+<p>Hyperphysics. (n.d.). <em>Surface Tension and Bubbles.</em> Retrieved from <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html">http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html</a></p>
+<p>Scardina, P... (2004). <em>Effects of Dissolved Gas Supersaturation and Bubble Formation on Water Treatment Plant Performance</em> (Unpublished doctoral dissertation). Virginia Polytechnic Institute and State University. Blacksburg, Virginia. <a href="https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1">https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1</a></p>
+<p>Schulz, P. (2004). <em>Instability and the formation of bubbles and the plugs in fluidized beds</em>, 24(1), 27. Retrieved from <a href="https://www.opuscula.agh.edu.pl/vol24/1/art/opuscula_math_2412.pdf">https://www.opuscula.agh.edu.pl/vol24/1/art/opuscula_math_2412.pdf</a></p>
+<p>Weber-Shirk, M. <em>Filtration Theory: On removing little particles with big particles</em> [PowerPoint Slides]. Retrieved from <a href="https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf">https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf</a>.</p>
+<p>Weber-Shirk, M. <em>Flow Control and Measurement</em> [PowerPoint Slides]. Retrieved from <a href="https://courses.cit.cornell.edu/cee4540/pdf/Flow%20Control%20and%20Measurement.pdf">https://courses.cit.cornell.edu/cee4540/pdf/Flow Control and Measurement.pdf</a>.</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
