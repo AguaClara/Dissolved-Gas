@@ -11,7 +11,7 @@ print(data)          # Run this to see the table of data
 print(data.columns)  # Run this to see the column labels
 time = data.iloc[:, 0]
 time = pd.to_numeric(time)
-elapsed_time = (np.array(time)-time[0])*24*60
+elapsed_time = (np.array(time)-time[0])*24
 DOeffluent = data.iloc[:, 5]
 DOeffluent = pd.to_numeric(DOeffluent)
 DOinffluent = data.iloc[:, 4]
@@ -19,9 +19,8 @@ DOinffluent = pd.to_numeric(DOinffluent)
 
 In, = plt.plot(elapsed_time, DOinffluent, 'o', color="blue")
 Out, = plt.plot(elapsed_time, DOeffluent, 'o', color="green")
-plt.title('Dissolved Oxygen Concentration vs. Time')
-plt.xlabel('Time (Mins)')
+plt.xlabel('Time (Hour)')
 plt.ylabel('Dissolved Oxygen (mg/L)')
-plt.legend((In, Out), ("DO Influent", "DO Effluent"))
+plt.legend((In, Out), ("DO In", "DO Out"))
 
-plt.savefig("Images/DOconcentrationvtime_20190412.png")
+# plt.savefig("Images/test.png")
