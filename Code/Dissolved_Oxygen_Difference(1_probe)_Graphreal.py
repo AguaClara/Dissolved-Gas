@@ -15,7 +15,7 @@ elapsed_time = (np.array(time)-time[1])*24*60
 DOinffluenteffluent = data.iloc[:, 4]
 DOinffluenteffluent = pd.to_numeric(DOinffluenteffluent)
 plt.title('DO Concentration with 1 DO Probe vs. Time')
-plt.plot(elapsed_time, DOinffluenteffluent, 'o', color="blue")
+plt.scatter(elapsed_time, DOinffluenteffluent, 1)
 plt.xlabel('Time (Mins)')
 plt.ylabel('Dissolved Oxygen (mg/L)')
 

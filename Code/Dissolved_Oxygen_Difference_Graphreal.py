@@ -17,8 +17,8 @@ DOeffluent = pd.to_numeric(DOeffluent)
 DOinffluent = data.iloc[:, 4]
 DOinffluent = pd.to_numeric(DOinffluent)
 
-In, = plt.plot(elapsed_time, DOinffluent, 'o', color="blue")
-Out, = plt.plot(elapsed_time, DOeffluent, 'o', color="green")
+In = plt.scatter(elapsed_time, DOinffluent, s=1)
+Out = plt.scatter(elapsed_time, DOeffluent, s=1)
 plt.title('Dissolved Oxygen Concentration vs. Time')
 plt.xlabel('Time (Mins)')
 plt.ylabel('Dissolved Oxygen (mg/L)')

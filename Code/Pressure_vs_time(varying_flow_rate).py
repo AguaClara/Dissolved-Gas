@@ -16,7 +16,8 @@ pressure = data.iloc[:, 1]
 pressure = pd.to_numeric(pressure)
 
 plt.title('Pressure Difference vs. Time')
-plt.plot(elapsed_time, pressure, 'o', color="blue")
+plt.scatter(elapsed_time, pressure, s=1)
+#plt.plot(elapsed_time, pressure, '*c', 'MarkerSize', 1)
 plt.xlabel('Time (Mins)')
 plt.ylabel('Pressure (cm)')
 

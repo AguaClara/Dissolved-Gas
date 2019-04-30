@@ -17,8 +17,8 @@ temperatureIn = pd.to_numeric(temperatureIn)
 temperatureOut = data.iloc[:, 2]
 temperatureOut = pd.to_numeric(temperatureOut)
 
-In, = plt.plot(elapsed_time, temperatureIn, 'o', color="blue")
-Out, = plt.plot(elapsed_time, temperatureOut, 'o', color="green")
+In = plt.scatter(elapsed_time, temperatureIn, 1)
+Out = plt.scatter(elapsed_time, temperatureOut, 1)
 plt.title('Temperature vs. Time')
 plt.xlabel('Time (Mins)')
 plt.ylabel('Temperature (C)')
