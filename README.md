@@ -14,11 +14,17 @@ Jonathan Harris (jdh345@cornell.edu)
 ### Spring 2019
 [Symposium Presentation](https://docs.google.com/presentation/d/1HRn5l7VYAZrXTzVKj2HsHC7Mff4qupUU5NLItj-NNb0/edit#slide=id.g346a079b2f_0_0)
 
+[Final Presentation | Slideshow] TBA
+
+[Final Presentation | Video] TBA
+
+[Final Report] TBA
+
 ### Fall 2018 
 [Symposium Presentation](https://docs.google.com/presentation/d/1oqcSOdyO4JxgfkK_X3Jw-1Bu3BXFlAgRmeZfy4X1oRU/edit?usp=sharing)
 
 [Final Presentation | Slideshow](https://docs.google.com/presentation/d/15AX9xSX_VZXdsxB2yab1bab3Xx3Wnr3A-YHmP6xZCP8/edit#slide=id.g4826752e6e_0_5) 
 
-[Final Presentation | YouTube Video](https://www.youtube.com/watch?v=6RM38dYTEgE&index=11&list=PLhsGtpY8ipdZTn2HPI6C2uH44ADmc0Ra6&t=0s)
+[Final Presentation | Video](https://www.youtube.com/watch?v=6RM38dYTEgE&index=11&list=PLhsGtpY8ipdZTn2HPI6C2uH44ADmc0Ra6&t=0s)
 
 [Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md)
