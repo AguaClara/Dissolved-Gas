@@ -18,7 +18,7 @@ Jonathan Harris (jdh345@cornell.edu)
 
 [Final Presentation | Video] TBA
 
-[Final Report] TBA
+[Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Report_Spring2019_DissolvedGas.md)
 
 ### Fall 2018 
 [Symposium Presentation](https://docs.google.com/presentation/d/1oqcSOdyO4JxgfkK_X3Jw-1Bu3BXFlAgRmeZfy4X1oRU/edit?usp=sharing)
