@@ -14,7 +14,7 @@ Jonathan Harris (jdh345@cornell.edu)
 ### Spring 2019
 [Symposium Presentation](https://docs.google.com/presentation/d/1HRn5l7VYAZrXTzVKj2HsHC7Mff4qupUU5NLItj-NNb0/edit#slide=id.g346a079b2f_0_0)
 
-[Final Presentation | Slideshow] TBA
+[Final Presentation | Slideshow](https://docs.google.com/presentation/d/1YtgmYafIfrr8qyIvDsrSdKtDwkKYxtXBnMFmMO2Hd6A/edit?usp=sharing)
 
 [Final Presentation | Video] TBA
 
