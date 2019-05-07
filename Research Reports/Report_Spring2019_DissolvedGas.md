@@ -230,7 +230,7 @@ The subteam considered using, as influent, heated water that already contains di
 
 </p>
 
-**Figure 5**: The above graph displays the solubility (mg / 100 g water) of five gases as a function of temperature (degrees Celsius) at a partial pressure of 1 atm [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
+**Figure 5**: The above graph displays the solubility (mg / 100 g water) of five gases as a function of temperature (C) at a partial pressure of 1 atm [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
 
 As illustrated by Figure 5, oxygen and nitrogen are less soluble in water as temperature increases. As described in the Methods section, the subteam began to evaluate the change in gas solubility at different temperatures, by evaluating differences in bubble formation.
 
@@ -242,7 +242,7 @@ $$ C = k P $$
 
 Since $P$ equates to the gas's pressure within a bubble, $P$ is relabeled as $P_b$.
 
-As shown in [Equation 7](#Equation-7), the pressure within a bubble is directly related to the bubble's radius, the liquid's surface tension, and the pressure outside the bubble [(Hyperphysics)](http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html).
+As [Equation 7](#Equation-7) shows, the pressure within a bubble is directly related to the bubble's radius, the liquid's surface tension, and the pressure outside the bubble [(Hyperphysics)](http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html).
 
 $$P_i = P_o + 4 \frac{T}{R}$$
 
@@ -303,7 +303,7 @@ The subteam looks forward to testing the prototype to confirm its functionality,
 
 ### Experimental Apparatus
 
-The Fall 2018 subteam fabricated a prototype fluidized bed reactor and assembled an accompanying system. The Spring 2019 subteam modified this system to its current form, as shown in Figure 3. The Methods section of the [Fall 2018 Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md) details the fabrication of the reactor itself, and describes procedures to determine the reactor's parameters. This included calculation of the fluidized bed's fluidization velocity, and the corresponding flow rate of influent water. The Methods and Manual sections of this report detail the accompanying system and changes made in the Spring 2019 semester.
+The Fall 2018 subteam fabricated a prototype fluidized bed reactor and assembled an accompanying system. The Spring 2019 subteam modified this system to its current form, as Figure 3 shows. The Methods section of the [Fall 2018 Final Report](https://github.com/AguaClara/Dissolved-Gas/blob/master/Research%20Reports/Final_Report.md) details the fabrication of the reactor itself, and describes procedures to determine the reactor's parameters. This included calculation of the fluidized bed's fluidization velocity, and the corresponding flow rate of influent water. The Methods and Manual sections of this report detail the accompanying system and changes made in the Spring 2019 semester.
 
 In summary: the reactor is a 0.5 m transparent PVC pipe, capped with components that allow influent and effluent connections with clear flex tubing. The reactor contains a 70 mL bed of Silica sand. Figure 6 depicts the reactor separately from the system, prior to installation of a pressure sensor.
 
@@ -346,7 +346,7 @@ The pressure regulator (Figure 8) was oriented such that the direction of water 
 
 The subteam needed a way to measure the temperature (and eventually the dissolved oxygen content) of the influent water before it entered the reactor. The subteam installed a forked flow system in which some influent water, incoming from the pressure regulator, was diverted into a separate container before reaching the peristaltic pump. The temperature of the diverted water could be measured in this container. This model was chosen to avoid inadvertently changing any properties of the influent water during measurement. Specifically: a dissolved oxygen probe consumes oxygen in the process of measuring its concentration. If a dissolved oxygen probe were used to measure dissolved oxygen content of influent water that then flowed into the reactor, the dissolved oxygen content actually present in the reactor would be lesser.
 
-To fabricate the forked flow system, a 0.75" hole was drilled near the bottom of a 500 mL Nalgene bottle. A 1.6” hole was drilled near the top of the bottle. This hole was used to insert a tapered push-to-connect into the bottle, since the push-to-connect was too large to fit through the neck of the bottle. The larger 1.6” hole was then plugged to prevent leakage. The push-to-connect was oriented such that its tapered end protruded from the hole near the bottom of the Nalgene. It was secured with a washer. The resulting apparatus, a flow accumulator, is shown in Figure 9.
+To fabricate the forked flow system, a 0.75" hole was drilled near the bottom of a 500 mL Nalgene bottle. A 1.6” hole was drilled near the top of the bottle. This hole was used to insert a tapered push-to-connect into the bottle, since the push-to-connect was too large to fit through the neck of the bottle. The larger 1.6” hole was then plugged to prevent leakage. The push-to-connect was oriented such that its tapered end protruded from the hole near the bottom of the Nalgene. It was secured with a washer. The resulting apparatus, a flow accumulator, is Figure 9 shows.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype2/FlowAccumulator1_SideBySide.jpg?raw=true" height=300>
@@ -372,7 +372,7 @@ The subteam realized that there was a difference in depth between the water in b
 
 The depth of water at equilibrium in the influent flow accumulator was approximately 15.75 cm, measured from the bottom of the 500 mL Nalgene bottle to the surface of the water when the pump was running. The subteam acquired a new 500 mL Nalgene for the effluent flow accumulator and drilled a hole the same height (15.75 cm) from the bottom of the Nalgene. The original effluent flow accumulator was discarded and the new one was connected in its place, obtaining the setup seen in Figure 3.
 
-Additionally, the subteam realized that it would need a way to visually verify that the membrane of the dissolved oxygen probes were free of bubbles before beginning experiments. The subteam used a bandsaw to remove the top of  each flow accumulator, such that the dissolved oxygen probe membrane could be viewed clearly, as shown in Figure 11 below.
+Additionally, the subteam realized that it would need a way to visually verify that the membrane of the dissolved oxygen probes were free of bubbles before beginning experiments. The subteam used a bandsaw to remove the top of  each flow accumulator, such that the dissolved oxygen probe membrane could be viewed clearly, as Figure 11 shows below.
 
 <p style="text-align: center;">
 <img src="https://raw.githubusercontent.com/AguaClara/Dissolved-Gas/master/Images/Accumulator_20190425.jpg" height=300>
@@ -454,7 +454,7 @@ The following section of the report presents a discussion of the experimental da
 ### Testing Bubble Formation Qualitatively
  **[You don't need to say this. We know you analyzed stuff. This is the analysis section.]**
 
-**Table 1**: Displays data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the exterior and interior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records can be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing).  
+**Table 1**: Displays data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the exterior and interior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records can be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing). After the March 10 experiments, all further analysis was performed using Python code.
 
 |              Trial               |    1    |    2    |    3    |    4    |    5    |    6    |
 |:--------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
@@ -466,20 +466,20 @@ The following section of the report presents a discussion of the experimental da
 |        Standard deviation (C)        |  0.42   |  0.33   |  0.19   |  1.65   |  0.36   |  0.50   |
 |    Percent standard deviation in temperature    |  1.89   |  1.65   |  1.03   |  4.98   |  1.01   |  1.35   |
 
-As shown in Figure 13, bubbles formed in the fluidized bed reactor. This demonstrated the basic feasibility of encouraging bubble growth with a fluidized bed. However, between Trials 1-3 and Trials 4-6, there were no consistent, visually assessable differences in bubble formation. Figures 12 and 13 exemplify this, and all full-length videos can be found on [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing). While the effect of temperature on gas solubility was not the focus of the subteam's work, it was an aspect the subteam considered for designing the experimental apparatus, to simulate input of supersaturated water.
+As Figure 13 shows, bubbles formed in the fluidized bed. This demonstrated the basic feasibility of encouraging bubble growth with a fluidized bed. However, between Trials 1-3 and Trials 4-6, there were no consistent, visible differences in bubble formation. Figures 12 and 13 exemplify this, and all full-length videos can be found on [this site](https://drive.google.com/drive/folders/1bybRun4xh5kzI4QvrN0ZPXhFWCMlhZhN?usp=sharing). While the effect of temperature on gas solubility was not the focus of the subteam's work, it was a concept the subteam considered leveraging to design the experimental apparatus, to simulate input of supersaturated water.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial1.gif?raw=true" height = 300>
 </p>
 
-**Figure 13**: The GIF above displays a clip from the recording of Trial 1.
+**Figure 13**: The image above displays a clip from the recording of Trial 1.
 
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/march10_trial4.gif?raw=true" height = 300>
 </p>
 
-**Figure 14**: The GIF above displays a clip from the recording of Trial 4.
+**Figure 14**: The image above displays a clip from the recording of Trial 4.
 
 Despite the approximate ten degree temperature difference between Trials 1-3 and Trials 4-6, there was no significant difference observed in the quantity or the size of bubbles generated in the fluidized bed.
 
@@ -490,21 +490,19 @@ This can potentially be explained after a quick analysis of Figure 5.
 
 </p>
 
-Recall **Figure 5** from the Literature Review section.
+Recall **Figure 5** from the Literature Review section. While Figure 5 assumes a partial pressure of 1 atm of the gas of interest, this analysis considers the qualitative principles that the figure illustrates.
 
-While Figure 5 assumes a partial pressure of 1 atm of the gas of interest, this analysis considers the qualitative principles that the Figure illustrates.
+In Figure 5, in the range of 20 to 30 C (the approximate range of experimental temperatures for Trials 1-6), the percent difference in solubility of oxygen and nitrogen (the primary components of air) is relatively small. As temperature increases from 20 to 30 C, a 50% increase in temperature, oxygen's solubility drops from approximately 4.3 to 3.5 mg / 100 g $H_2O$, an approximately 18% decrease in solubility. Such a difference in solubility may not have visible consequences for bubble formation.
 
-In Figure 5, in the range of 20 to 30 degrees C (the approximate range of experimental temperatures for Trials 1-6), the percent difference in solubility of oxygen and nitrogen (the primary components of air) is relatively small. As temperature increases from 20 to 30 degrees C, a 50% increase in temperature, oxygen's solubility drops from approximately 4.3 to 3.5 mg / 100 g $H_2O$, an approximately 18% decrease in solubility. Such a difference in solubility may not have visually assessable consequences for bubble formation.
+To observe an appreciable difference in bubble formation in the fluidized bed, a greater temperature difference between trials may have been required. For instance, over the range 10 to 40 C, oxygen's solubility shifts from approximately 5 to 3 mg / 100 g $H_2O$, a percent change of 40%. This percent change is twice that which characterized Trials 1-6, and such a difference may have provided more distinguishable results.
 
-To observe an appreciable difference in bubble formation in the fluidized bed, a greater temperature difference between experimental trials may be required. For instance, over the range 10 to 40 degrees C, oxygen's solubility shifts from approximately 5 to 3 mg / 100 g $H_2O$, a percent change of 40%. This percent change is twice that which characterized Trials 1-6, and such a difference may provide more distinguishable results.
-
-An alternative explanation is the following experimental oversight: the lack of recording the temperature of the reactor's effluent water. The temperature of water measured at the flow accumulator was irrelevant if this temperature was not approximately that of the water which passed through the reactor.
+An alternative explanation was the following experimental oversight. At the time of these experiments, only the temperature of influent water was recorded. The temperature of influent water measured at the first flow accumulator was irrelevant if this temperature was not approximately that of the water which passed through the reactor.
 
 The subteam also observed that, with the exception of Trial 6, percent standard deviation in temperature decreased as the influent water's temperature reached extremes relative to the trials' conditions. This suggested that the temperature of each trial's influent water had begun to plateau, but had not yet reached extreme values of the laboratory sink's potential temperatures.
 
 #### Testing Wider Temperature Ranges
 
-When two temperature probes were installed in the system, the temperature of the influent versus effluent water was measured to be relatively consistent across the system. For instance, as shown in Figure 15, after an adjustment period at the start of the experiment, influent and effluent temperatures reached relatively stable levels of 43 and 41 degrees C, respectively.
+When two temperature probes were installed in the system, the temperature of the influent versus effluent water was measured to be relatively consistent across the system. As Figure 15 shows, after an initial ladjustment period, influent and effluent temperatures reached relatively stable levels of 43 and 41 C, respectively.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/temperaturevtime_20190319trial3.png?raw=true" height=350>
@@ -513,39 +511,39 @@ When two temperature probes were installed in the system, the temperature of the
 
 **Figure 15**: Displays temperature (C) versus time (Mins) of the influent and effluent samples of water in the system. The graph was generated using [this Python code](https://github.com/AguaClara/Dissolved-Gas/blob/master/Code/Temperature_Difference_Graph.py).
 
-Such results gave the subteam confidence that the temperature of water passing through the fluidized bed reactor was changing appreciably and predictably between trials.
+Such results showed that the water's temperature passing through the fluidized bed was changing appreciably and predictably between trials.
 
-In the video recordings of these new trials, there was a marked difference in bubble formation between warm and cool water. Figure 16 shows bubble formation while cool water, at approximately 15oC, was pumped through the reactor. Figure 17 shows bubble formation while warm water, at approximately 35oC, was pumped through the reactor.
+In the video recordings of new trials at more extreme temperatures, there was a marked difference in bubble formation between flow of warm and cool water. Figure 16 shows bubble formation while cool water, at approximately 15 C, was pumped through the reactor. Figure 17 shows bubble formation while warm water, at approximately 35 C, was pumped through the reactor.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/Cold_Water_20190326.gif?raw=true" height=300>
 
 </p>
 
-**Figure 16**: The GIF above displays a clip from a recording of cool water (at approximately 15 degrees C) flowing through the reactor on March 26.
+**Figure 16**: The image above displays a clip from a recording of cool water (at approximately 15 C) flowing through the reactor on March 26.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Gifs/Hot_Water_20190326.gif?raw=true" height=300>
 
 </p>
 
-**Figure 17**: The GIF above displays a clip from a recording of warm water (at approximately 35 degrees C) flowing through the reactor on March 26.
+**Figure 17**: The image above displays a clip from a recording of warm water (at approximately 35 C) flowing through the reactor on March 26.
 
 
 There was markedly more bubble formation while warm water flowed through the reactor. These results justified the subteam’s experimental procedure, as introduced in the Introduction: pumping heated water through the reactor would help encourage bubble formation, mimicking the behavior of supersaturated influent water.
 
 ### Testing Dissolved Oxygen Removal Quantitatively
 
-When the subteam tested influent versus effluent concentration of dissolved oxygen, the dissolved oxygen probes measured seemingly impossible results. The effluent DO content was measured to be higher than the influent DO content. Figure 18 displays the results of one experimental trial from April 12.
+When the subteam tested influent versus effluent concentration of dissolved oxygen (i.e. DO), the dissolved oxygen probes measured seemingly impossible results. The effluent DO content was measured to be higher than the influent DO content. Figure 18 displays the results of one experimental trial from April 12.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/DOconcentrationvtime_20190412.png?raw=true" height = 350>
 
 </p>
 
-**Figure 18**: Displays dissolved oxygen concentration (mg/L) versus time (Mins) of the influent and effluent samples of water in the system. The graph was generated using [this Python code](https://github.com/AguaClara/Dissolved-Gas/blob/master/Code/Dissolved_Oxygen_Difference_Graphreal.py).
+**Figure 18**: The graph above displays dissolved oxygen concentration (mg / L) versus time (Mins) of the influent and effluent samples of water in the system. The graph was generated using [this Python code](https://github.com/AguaClara/Dissolved-Gas/blob/master/Code/Dissolved_Oxygen_Difference_Graphreal.py).
 
-Barring the possibility of a leak, this result should have been impossible, since no dissolved oxygen should have entered the system between the inlet and outlet. However, the subteam then considered that oxygen bubbles may have formed on the membranes of the DO probes, and thus skewed the measurement results. As shown in Figure 19, bubbles were found on the membranes.
+Barring the possibility of a leak, this result should have been impossible, since no oxygen should have entered the system between the inlet and outlet. However, the subteam considered that oxygen bubbles may have formed on the membranes of the DO probes and skewed the probes' measurements. As Figure 19 shows, bubbles were found on the membranes.
 
 
 <p style="text-align: center;">
@@ -553,39 +551,46 @@ Barring the possibility of a leak, this result should have been impossible, sinc
 
 </p>
 
-**Figure 19**: The above photograph shows bubbles (circled in red) that had formed on the membranes of the DO probes.
+**Figure 19**: The above photograph shows bubbles (circled in red) that had formed on the membranes of a DO probe.
 
-Bubbles present on the probe membranes likely influenced experimental results; the dissolved oxygen probes would interpret the bubbles as being areas of high concentration of oxygen. To avoid problems due to bubble accumulation on the probe membranes, the subteam decided to open the tops of the flow accumulators, such that the membranes would be visible and the subteam could manually keep them clear of air bubbles.
+Bubbles present on the probe membranes likely influenced experimental results. The probes probably interpreted the bubbles as areas of high concentration of oxygen. To avoid problems due to bubble accumulation on the probe membranes, the subteam to opened the tops of the flow accumulators, such that the membranes would be visible and the subteam could manually keep them clear of air bubbles.
 
 ### Testing Dissolved Oxygen Probe Functionality
-After measuring seemingly impossible dissolved oxygen concentrations across the system, the subteam checked the voltage output of each DO probe while exposed only to air. One probe output -0.17 V, while the other output -0.05 V. According to specifications provided by Dr. Weber-Shirk, this indicated that the second probe was malfunctioning, as it should have output -0.17 V while exposed only to air. This apparent malfunctioning of one of the dissolved oxygen probes suggested another contributing factor to the strange experimental measurements.
+To continue troubleshooting due to the apparently impossible experimental results concerning the change of DO content across the system, the subteam checked the voltage output of each DO probe while exposed only to air. One probe output -0.17 V, while the other output -0.05 V. According to specifications provided by Dr. Weber-Shirk, this indicated that the second probe was malfunctioning, as it should have output -0.17 V while exposed only to air. This result suggested another contributing factor to the strange experimental measurements.
 
 ### Testing Dissolved Oxygen Content with Only One Probe
-When the subteam used the remaining functional probe to test influent versus effluent dissolved oxygen content, the impossible results persisted, though to a smaller degree. Figure 20 displays these results.
+When the subteam used the remaining functional probe to test influent versus effluent DO content, the impossible results persisted, though to a smaller degree. Figure 20 shows these results.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/DOconcentrationvtime_20190423.png?raw=true" height = 350>
 
 </p>
 
-**Figure 20**: Displays dissolved oxygen concentration (mg/L) versus time (Mins) in the samples of water from the system. Influent was measured from 0 to 1.5 minutes; effluent was measured from 1.5 minutes onward. The graph was generated using [this Python code](https://github.com/AguaClara/Dissolved-Gas/blob/master/Code/Dissolved_Oxygen_Difference(1_probe)\_Graphreal.py).
+**Figure 20**: The above graph displays dissolved oxygen concentration (mg/L) versus time (Mins) in the samples of water from the system. Influent was measured from 0 to 1.5 minutes; effluent was measured from 1.5 minutes onward. The graph was generated using [this Python code](https://github.com/AguaClara/Dissolved-Gas/blob/master/Code/Dissolved_Oxygen_Difference(1_probe)\_Graphreal.py).
 
-The subteam hypothesized that the persisting issues may have arisen from the issues concerning the pressure within the reactor, which the next section of the report discusses.
+The subteam hypothesized that the persisting issues may have arisen from issues concerning the pressure within the reactor, which the next section of the report discusses.
 
 ### Testing Pressure Sensor Consistency
 
-The pressure difference between the interior and exterior of the reactor was not measured to be a consistent value. The subteam expected that the pressure difference between the interior and exterior of the reactor would be positive. As in, the interior of the reactor would be at a lower pressure than the atmospheric pressure, so as to encourage bubble growth (as discussed in the Analysis of Literature section). However, the subteam found that with increasing flow rates, the pressure difference would decrease and even become negative. Figure 21 displays this trend.
+The pressure difference between the interior and exterior of the reactor was not measured to be a consistent value. The subteam had expected that the pressure difference between the interior and exterior of the reactor would be positive. As in, the interior of the reactor would be at a lower pressure than the atmospheric pressure, so as to encourage bubble growth (as discussed in the Analysis of Literature section). However, the subteam found that with increasing flow rates, the pressure difference decreased and became negative. Figure 21 displays this trend.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/pressurevtime_20190423.png?raw=true" height = 350>
 
 </p>
 
-**Figure 21**: Displays the pressure difference (cm) across the reactor's surface versus time (Mins) while flow rate was manually varied. The graph was generated using [this Python code](https://github.com/AguaClara/Dissolved-Gas/blob/master/Code/Pressure_vs_time(varying_flow_rate).py).
+**Figure 21**: The above graph displays the pressure difference (cm) across the reactor's surface versus time (Mins) while flow rate increased. The graph was generated using [this Python code](https://github.com/AguaClara/Dissolved-Gas/blob/master/Code/Pressure_vs_time(varying_flow_rate).py).
 
-While the pressure difference was relatively consistent at any given flow rate (as visible in the step-like shape of the graph), the pressure difference was relatively dependent on changing flow rates.
+While the pressure difference was relatively consistent at any given flow rate (as visible in the graph's step-like shape), the pressure difference was clearly dependent on flow rate.
 
-The subteam hypothesized that the negation of the pressure difference was due to increasing head loss in the effluent tubing as flow rate increased. As shown in [Equation 5](#Equation-5), head loss increases with flow rate. As shown in [Equation 9](#Equation-9), increasing head loss leads to greater solubility of gas, which is the opposite effect that the subteam intends. The subteam had not considered the effect of the flow rate on the head loss, and thus on the pressure within the reactor. This was an experimental oversight that the subteam soon planned to remedy.
+The subteam hypothesized that this dependence was due to increasing head loss in the effluent tubing as flow rate increased. As [Equation 5](#Equation-5) shows, head loss increases with flow rate. Recalling that the pressure sensor measures $P_{atm} - P_r$ (i.e. the reactor's internal pressure subtracted from atmospheric pressure),  [Equation 8](#Equation-8) may be rearranged to show:
+
+####Equation 10
+
+$$P_{atm} - P_r = \rho g \Delta h - \rho g h_f$$
+
+
+As [Equation 10](#Equation-9) shows, increasing head loss (i.e. $h_f$) leads a decreased measured pressure difference. This relationship explained the data shown in Figure 21. The subteam had not considered the effect of the flow rate on the head loss, or its effect on the pressure within the reactor. This was an experimental oversight. The Conclusions section addresses the subteam's solution to this mistake.
 
 ## Conclusions
 The experimental procedure of using heated water was demonstrated to be valid. Hotter water seemed to encourage more bubble growth than cold water, and thus seemed an adequate experimental substitute for room-temperature supersaturated water. Videos demonstrated that the reactor encouraged bubble growth, and that temperature remained relatively consistent across the apparatus. Together, these aspects built a strong case for continuing experiments with this reactor prototype.
@@ -704,7 +709,7 @@ The experiments are really low maintenance and easy to wrap up.
 ### Fabrication Manual
 
 #### Materials required
-1. PVC pipe of approximately 0.5 m length and 1 in. diameter, whose ends are labeled with opposing colors of tape, as shown in Figure 6. This is described further in the Measuring Pipe Dimensions section of the Manual.
+1. PVC pipe of approximately 0.5 m length and 1 in. diameter, whose ends are labeled with opposing colors of tape, as Figure 6 shows. This is described further in the Measuring Pipe Dimensions section of the Manual.
 2. A fine wire mesh
 3. Approximately 70 mL of silica sand, measured with a graduated cylinder.
 4. Circular hose clamps
