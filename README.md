@@ -2,10 +2,10 @@
 
 We aim to design a system that removes excess dissolved gas from influent water prior to entry into an AguaClara water treatment plant. You can learn more about the subteam's work on our Wiki page, or through our Presentations and Reports linked below. 
 
-## Research Advisor
+## Spring 2019 Research Advisor
 Jonathan Harris (jdh345@cornell.edu)
 
-## Current Members 
+## Spring 2019 Members 
 - Saul Bernaber (sb883@cornell.edu)
 - Thomas Bradford (tsb49@cornell.edu)
 - Emily Wood (ew465@cornell.edu)
