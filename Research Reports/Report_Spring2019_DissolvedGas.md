@@ -2,16 +2,8 @@
 #### Saul Bernaber, Thomas Bradford, Emily Wood
 #### 10 May 2019
 
-**[Sidney: Hello friends! i will be commenting throughout your report in these bolded brackets.]**
-
-**[I see that you guys have created a new file. PLEASE DO NOT DELETE GRADER COMMENTS IN YOUR SUBMISSIONS. We need to be able to refer back to them to see that you have properly addressed them. After we see that you have addressed them, we will delete the comments ourselves. In the future, we would greatly appreciate it if you didn't start a new file but continuously worked on one file.]**
-
-**[Overall: Good job! Your writing is always superb. I would say that you need to improve on using your figures effectively throughout your report. It's hard to follow your report through when I have to jump around to find the correct figure you are referring to. Be consistent in linking (or not linking) sections of your report. Try to go back and add comments to your Python code.]**
-
 ## Abstract
 Excess dissolved air in a treatment plant’s influent water decreases the plant's functionality. The Spring 2019 Dissolved Gas subteam continued research to design a gravity-powered apparatus to extract excess gas from influent water prior to entry into a plant. The Spring 2019 subteam began to experimentally evaluate the prototype fabricated by the Fall 2018 subteam: a small-scale prototype incorporating a fluidized bed reactor. Given qualitative success, the subteam tested the prototype's effectiveness by measuring change in dissolved oxygen concentration across the apparatus. In future semesters, the subteam will continue to troubleshoot currently malfunctioning aspects of the prototype, and to iterate improvements to work toward a prototype for application in an AguaClara plant.
-
-**[Please use past tense to refer to current semester and prior semester work.]**
 
 ## Table of Contents
 
@@ -320,7 +312,7 @@ The design of the system surrounding the reactor is as follows: from the water s
 
 As stated in the Literature Review section, the subteam considered using heated water to act as supersaturated influent water, since water that is saturated with air, once heated, becomes supersaturated [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html).
 
-Water then flowed out of the pressure regulator, through clear flex tubing, and forked into two streams: one flowed into a flow accumulator containing a temperature probe, and the other flowed into a peristaltic pump. Water flowing through the peristaltic pump continued through a tube system and into the fluidized bed reactor. The reactor's sand bed was fluidized by the influent water, which traveled at no slower than the sand’s fluidization velocity. This corresponded to a flow rate of 2.54 mL/s, as calculated using the [Python code](###Determining-the-Sand-Bed's-Fluidization-Flow) given in the Manual **[Where did this come from? Could you link or reference? Also, it shows up as a link in the markdown file.]**. The influent water's flow rate was controlled manually via the peristaltic pump. As supersaturated water flowed through the reactor, excess air particles in the water would ideally accumulate on the sand grains and form bubbles. Such bubbles then departed from their nucleation sites, flowed upward out of the reactor (through the effluent tubing), and flowed into a second flow accumulator, from which effluent then flowed into a bucket. While effluent water flowed out of the reactor, a pressure sensor connected to ProCoDA recorded the pressure difference between the reactor's interior and the outside atmosphere. Temperature probes were placed in each of the flow accumulators, and dissolved oxygen probes were eventually placed in each of the flow accumulators. The flow accumulator into which effluent water emptied acted as the open-faced vent for air bubbles to escape into the atmosphere. Figure 7 below shows the system.
+Water then flowed out of the pressure regulator, through clear flex tubing, and forked into two streams: one flowed into a flow accumulator containing a temperature probe, and the other flowed into a peristaltic pump. Water flowing through the peristaltic pump continued through a tube system and into the fluidized bed reactor. The reactor's sand bed was fluidized by the influent water, which traveled at no slower than the sand’s fluidization velocity. This corresponded to a flow rate of 2.54 mL/s, as calculated using the [Python code](###Determining-the-Sand-Bed's-Fluidization-Flow) given in the Manual. The influent water's flow rate was controlled manually via the peristaltic pump. As supersaturated water flowed through the reactor, excess air particles in the water would ideally accumulate on the sand grains and form bubbles. Such bubbles then departed from their nucleation sites, flowed upward out of the reactor (through the effluent tubing), and flowed into a second flow accumulator, from which effluent then flowed into a bucket. While effluent water flowed out of the reactor, a pressure sensor connected to ProCoDA recorded the pressure difference between the reactor's interior and the outside atmosphere. Temperature probes were placed in each of the flow accumulators, and dissolved oxygen probes were eventually placed in each of the flow accumulators. The flow accumulator into which effluent water emptied acted as the open-faced vent for air bubbles to escape into the atmosphere. Figure 7 below shows the system.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Schematic_20190427.jpg?raw=true" height = 450>
@@ -340,7 +332,7 @@ The pressure regulator (Figure 8) was oriented such that the direction of water 
 
 </p>
 
-**Figure 8**: The above photograph depicts the pressure regulator installed prior to the peristaltic pump. Water (purple arrow)**[Is the influent not entering from left to right?]** enters the regulator from the sink, and passes through to continue to the peristaltic pump and flow accumulator.
+**Figure 8**: The above photograph depicts the pressure regulator installed prior to the peristaltic pump. Water (purple arrow) enters the regulator from the sink, and passes through to continue to the peristaltic pump and flow accumulator.
 
 #### Forked Flow System Installation
 
@@ -360,7 +352,6 @@ Two pieces of clear flex tubing were then connected to either side of a T push-t
 
 **Figure 10**: The above is a bird's-eye view of the portion of the apparatus in which flow diverts between the flow accumulator and the peristaltic pump.
 
-**[Instead of explaining everything first and then plopping some images below the explanation for the reader to figure out, could you weave the image into your explanation to make it more seamless? Use your figures effectively.]**
 
 #### Flow Accumulator Modifications
 
@@ -399,8 +390,6 @@ The subteam hypothesized that a decrease in pressure inside the reactor would de
 To install the pressure sensor, the reactor was first emptied of sand and water. The PVC pipe comprising the reactor was tapped with a 1/4" 18NPT pipe tap about 70 cm from the influent end of the reactor. A 1/4" push-to-connect was wrapped with Teflon tape and threaded into the tapped aperture to form a water-tight seal.
 
 The negative end of the pressure sensor was inserted into a piece of 1/4" hard tubing. The connection between the hard tubing and the pressure sensor was sealed with medium clear PVC cement. The other end of the hard tubing was inserted into the 1/4" push-to-connect. The pressure sensor was then plugged into the ProCoDA box at the subteam's work station, such that pressure data could be collected via ProCoDA.
-
-**[It's really weird because it seems like you refer to your figures prematurely and then they pop up later in the report and don't refer to them in the text that the figure is actually buried in. If you need those figures earlier, put them earlier. If you want to keep them where they are, could you make them useful where they are put?]**
 
 #### Dissolved Oxygen Probe Installation
 
@@ -455,8 +444,6 @@ The following section of the report presents a discussion of the experimental da
 ## Results and Analysis
 
 ### Testing Bubble Formation Qualitatively
- **[You don't need to say this. We know you analyzed stuff. This is the analysis section.]**
-
 **Table 1**: Displays data collected during Trials 1 through 6 of the experiments performed on March 10. This includes: experiment duration (s), average pressure difference between the exterior and interior of the reactor (Pa), the average temperature of influent water (C), and corresponding standard deviations. Full data records can be found on [this site](https://docs.google.com/spreadsheets/d/1TsF6WTH7_1kZF3rtxQfxWHmNm25GDSTorC64Gjq5S7U/edit?usp=sharing). After the March 10 experiments, all further analysis was performed using Python code.
 
 |              Trial               |    1    |    2    |    3    |    4    |    5    |    6    |
@@ -625,8 +612,6 @@ The subteam must also consider the end goal of scaling up the prototype. The pro
 
 The subteam looks forward to further experimentation and iteration to analyze and improve the system, and to eventually develop a practical reactor.
 
-**[Sometimes when you mention other sections in your report, you link them and other times you don't. Either way, could you keep it consistent?]**
-
 # Manual
 
 ### Special Components
@@ -781,7 +766,7 @@ Note: The second hole was made in order to insert the push-to-connect inside the
 
 ## ProCoDA Method File
 
-This was used to correlate the RPM of the peristaltic pump to the flow rate in mL/s. **[Could you upload the method file and actually link it here?]**
+This was used to correlate the RPM of the peristaltic pump to the flow rate in mL/s.  
 
 You can find the ProCodA Method file in [this link](https://github.com/AguaClara/Dissolved-Gas/blob/master/ProCodA%20Method%20File.pcm).
 
