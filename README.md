@@ -2,6 +2,18 @@
 
 We aim to design a system that removes excess dissolved gas from influent water prior to entry into an AguaClara water treatment plant. You can learn more about the subteam's work on our Wiki page, or through our Presentations and Reports linked below. 
 
+## Fall 2019 Research Advisor
+Barbara Oramah (bio4@cornell.edu)
+
+## Fall 2019 Members 
+- Ronya Strom (rs2472@cornell.edu)
+- Iratxe López de Subijana (il283@cornell.edu)
+- Nandika Nair (nn84@cornell.edu)
+
+## Reports and Presentations
+[Symposium Presentation] (https://docs.google.com/presentation/d/11PH_QPIXEXC_VmlbMWzFEgmGfqddTo1cZnWxunRBUl0/edit#slide=id.g707cdbacf2_9_0)
+
+### Spring 2019
 ## Spring 2019 Research Advisor
 Jonathan Harris (jdh345@cornell.edu)
 
