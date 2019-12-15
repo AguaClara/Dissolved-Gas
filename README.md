@@ -13,8 +13,7 @@ Barbara Oramah (bio4@cornell.edu)
 ## Reports and Presentations
 [Symposium Presentation](https://docs.google.com/presentation/d/11PH_QPIXEXC_VmlbMWzFEgmGfqddTo1cZnWxunRBUl0/edit#slide=id.g707cdbacf2_9_0)
 
-[Final Report]
-(https://colab.research.google.com/drive/1_aGnxBxT9k9NGISukKSmBVtNdy2YiWvW)
+[Final Report](https://colab.research.google.com/drive/1_aGnxBxT9k9NGISukKSmBVtNdy2YiWvW)
 
 ### Spring 2019
 ## Spring 2019 Research Advisor
